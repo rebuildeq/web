@@ -1,2 +1,3 @@
-# web
-RebuildEQ Website
+# rebuildeq.com
+
+Originally ran `firebase init hosting:github`
