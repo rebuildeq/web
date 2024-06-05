@@ -1,7 +1,7 @@
 html,body { height: 100%; margin: 0; padding: 0; }
 html {overflow-y: scroll;}
 body {
-	/*background: #333 url("images/builds/bg/background.jpg") no-repeat fixed center center;*/
+	/*background: #333 url("/builds/images/builds/bg/background.jpg") no-repeat fixed center center;*/
 	background-size: cover;
 	/*color: #eee;*/
 	/*font: 15pt/17pt Homenaje, Impact, sans-serif;*/
@@ -115,12 +115,12 @@ body.choicePage .wrapper {
 	height: 80px;
 }
 
-.green .gray { background: url("images/builds/border/skill_bg_green_gray.png") transparent; }
-.blue .gray { background: url("images/builds/border/skill_bg_blue_gray.png") transparent; }
-.red .gray { background: url("images/builds/border/skill_bg_red_gray.png") transparent; }
-.green .color { background: url("images/builds/border/skill_bg_green.png") transparent; }
-.blue .color { background: url("images/builds/border/skill_bg_blue.png") transparent; }
-.red .color { background: url("images/builds/border/skill_bg_red.png") transparent; }
+.green .gray { background: url("/builds/images/builds/border/skill_bg_green_gray.png") transparent; }
+.blue .gray { background: url("/builds/images/builds/border/skill_bg_blue_gray.png") transparent; }
+.red .gray { background: url("/builds/images/builds/border/skill_bg_red_gray.png") transparent; }
+.green .color { background: url("/builds/images/builds/border/skill_bg_green.png") transparent; }
+.blue .color { background: url("/builds/images/builds/border/skill_bg_blue.png") transparent; }
+.red .color { background: url("/builds/images/builds/border/skill_bg_red.png") transparent; }
 
 .skill {
 	padding: 3px;
@@ -142,9 +142,10 @@ body.choicePage .wrapper {
 	height: 21px;
 	font-size: 11px;
 	line-height: 21px;
-	bottom: 0; right: 0;
+	bottom: -13px;
+	right: 6px;
 	padding: 0 2px;
-	background: url("images/builds/icons/points_overlay.png") transparent;
+	background: url("/builds/images/builds/icons/points_overlay.png") transparent;
 	color: white;
 }
 .skill.partial .points { color: #F80; }
@@ -295,7 +296,7 @@ img.portrait {
 
 }
 .classactive {
-  	 background: url('images/classicons/clsborder.png') no-repeat center;
+  	 background: url('/builds/images/classicons/clsborder.png') no-repeat center;
   	 width:48px;
 }
 

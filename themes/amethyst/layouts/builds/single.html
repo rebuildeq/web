@@ -1,0 +1,81 @@
+{{ define "main" }}
+
+{{$buildsCSS := resources.Get "/builds/builds.css" | resources.ToCSS (dict "outputStyle" "compressed") | resources.Fingerprint "md5" | resources.Minify  }}
+<link href="{{$buildsCSS.Permalink}}" rel="stylesheet" type="text/css">
+
+<section id="pricing" class="dark">
+	<div class="row" style="margin-top:60px;">
+		<div class="row">
+			<div id="class-list" class="form-group">
+				<a id="class-8"><img class="classicon" src="/builds/images/classicons/brd.png" /></a>
+				<a id="class-2"><img class="classicon" src="/builds/images/classicons/clr.png" /></a>
+				<a id="class-6"><img class="classicon" src="/builds/images/classicons/dru.png" /></a>
+				<a id="class-14"><img class="classicon" src="/builds/images/classicons/enc.png" /></a>
+				<a id="class-13"><img class="classicon" src="/builds/images/classicons/mag.png" /></a>
+				<a id="class-7"><img class="classicon" src="/builds/images/classicons/mnk.png" /></a>
+				<a id="class-11"><img class="classicon" src="/builds/images/classicons/nec.png" /></a>
+				<a id="class-3"><img class="classicon" src="/builds/images/classicons/pal.png" /></a>
+				<a id="class-4"><img class="classicon" src="/builds/images/classicons/rng.png" /></a>
+				<a id="class-9"><img class="classicon" src="/builds/images/classicons/rog.png" /></a>
+				<a id="class-5"><img class="classicon" src="/builds/images/classicons/shd.png" /></a>
+				<a id="class-10"><img class="classicon" src="/builds/images/classicons/shm.png" /></a>
+				<a id="class-1"><img class="classicon" src="/builds/images/classicons/war.png" /></a>
+				<a id="class-12"><img class="classicon" src="/builds/images/classicons/wiz.png" /></a>
+			</div>
+		</div>
+
+		<div class="row">
+			<p>
+			<div id="class-description"></div>
+			<br>
+			Points Spent: <span class="charLevel">0</span>
+			</p>
+		</div>
+
+		<div class="row">
+
+			{{/*<img id="monogram" unselectable="on" class="portrait" src="/builds/images/monograms/5.gif" style="left: 30%;margin-left: -30%;">*/}}
+			<div class="treeCollection">
+				<div class="treewrapper green">
+					<div class="bglayer gray"></div>
+					<div class="bglayer color" style="height: 80px;"></div>
+					<div class="tree" id="tree-1">
+					</div>
+				</div>
+
+				<div class="treewrapper blue">
+					<div class="bglayer gray"></div>
+					<div class="bglayer color" style="height: 80px;"></div>
+					<div class="tree" id="tree-2">
+					</div>
+				</div>
+
+				<div class="treewrapper red">
+					<div class="bglayer gray"></div>
+					<div class="bglayer color" style="height: 80px;"></div>
+					<div class="tree" id="tree-3" unselectable="on">
+					</div>
+				</div>
+			</div>
+
+			<div class="row" style="text-align: left;">
+				<div style="text-align: center;"><label class="control-label" style="color: white">
+						<div id="class-name"></div> Skill List
+					</label><br></div>
+				<ul id="build-list">
+				</ul>
+			</div>
+
+		</div>
+	</div>
+</section>
+
+<script>
+		var currentClassID = {{ if .Params.ClassID }}{{ .Params.ClassID }}{{else}}2{{end}}
+</script>
+{{ $buildDBJS := resources.Get "/builds/js/build_db.js" | resources.Fingerprint "md5" }}
+<script defer src="{{ $buildDBJS.Permalink }}" integrity="{{ $buildDBJS.Data.Integrity }}"></script>
+{{ $buildJS := resources.Get "/builds/js/build.js" |  resources.Fingerprint "md5" }}
+<script defer src="{{ $buildJS.Permalink }}" integrity="{{ $buildJS.Data.Integrity }}"></script>
+
+{{ end }}

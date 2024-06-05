@@ -3,7 +3,6 @@ let lastTouched
 let touchtimer
 let isLocked = false
 let classLevel = 0
-let currentClassID = 0
 
 function setClass(classID) {
 	console.log("Setting class to "+classID)
@@ -92,12 +91,12 @@ function setClass(classID) {
 	}
 	titleElement.innerHTML = classInfo.get("name")
 
-	let monogramElement = document.getElementById("monogram")
-	if (!monogramElement) {
-		console.log("Monogram element not found")
-		return
-	}
-	monogramElement.innerHTML = classInfo.get("monogram")
+	// let monogramElement = document.getElementById("monogram")
+	// if (!monogramElement) {
+	// 	console.log("Monogram element not found")
+	// 	return
+	// }
+	// monogramElement.innerHTML = classInfo.get("monogram")
 
 	currentClassID = classID
 }
@@ -380,4 +379,5 @@ document.addEventListener("DOMContentLoaded", function() {
 	updateStats()
 })
 
-setClass(2)
+
+setClass(currentClassID)
