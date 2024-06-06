@@ -2,12 +2,9 @@ let skillMouseDownBegin
 let lastTouched
 let skillTouchTimer
 let isLocked = false
-let classLevel = 0
 let classClickCooldown = (new Date()).getTime()+500
 
-
 function setClass(classID) {
-	console.log("Setting class to "+classID)
 	currentClassID = 0
 	let classInfo = classInfos.get(classID)
 	if (!classInfo) {
@@ -20,8 +17,13 @@ function setClass(classID) {
 		return
 	}
 
+	let classListElement = document.getElementById("class-list")
+	if (!classListElement) {
+		console.log("Class list element not found")
+		return
+	}
 
-	Array.from(document.querySelectorAll('#class-list.a')).forEach(classButton => {
+	Array.from(classListElement.querySelectorAll('span')).forEach(classButton => {
 		let classButtonID = parseInt(classButton.getAttribute("data-class"))
 
 		let classIcon = classButton.querySelector("img")
@@ -30,6 +32,7 @@ function setClass(classID) {
 			return
 		}
 
+		console.log("Checking class ID: "+classButtonID)
 		if (classButtonID === classID) {
 			classButton.classList.add("classicon-active")
 		}
@@ -109,6 +112,10 @@ function setClass(classID) {
 	window.history.pushState({}, "", url)
 
 	currentClassID = classID
+
+	subscribeToEvents()
+
+	console.log("Class is now "+classInfo.get("name"))
 }
 
 
@@ -150,25 +157,28 @@ function handleSkillMouseUp(event) {
 }
 
 function checkLongTouch(fromTimer) {
-	if (lastTouched !== null) {
-		if (fromTimer === true) {
-			updatePoints(lastTouched, -1)
-			updatePoints(lastTouched, -1)
-			updatePoints(lastTouched, -1)
-			updatePoints(lastTouched, -1)
-			updatePoints(lastTouched, -1)
-		} else {
-			updatePoints(lastTouched, 1)
-		}
-		lastTouched = null
+	if (!lastTouched) {
+		console.log("No last touched")
+		return
 	}
+	if (fromTimer !== true) {
+		updatePoints(lastTouched, 1)
+		return
+	}
+	updatePoints(lastTouched, -1)
+	updatePoints(lastTouched, -1)
+	updatePoints(lastTouched, -1)
+	updatePoints(lastTouched, -1)
+	updatePoints(lastTouched, -1)
 }
 
 function updatePoints(skillHandle, change) {
 	if (isLocked) {
+		console.log("Locked")
 		return
 	}
 	if (currentClassID == 0) {
+		console.log("No class selected")
 		return
 	}
 	tree = skillHandle.closest(".tree")
@@ -197,23 +207,24 @@ function updatePoints(skillHandle, change) {
 	}
 	buildIndex = parseInt(buildIndex.substring(6))
 	if (buildIndex < 0 || buildIndex > 53) {
+		console.log("Out of range build index")
 		return
 	}
 
 	if (change == -1 && !isTest) { //ignore right clicks
+		console.log("Ignoring right click")
 		return
 	}
 
-	if (typeof classLevel == 'number' && grandTotal >= classLevel) { //stop spending once they hit max
+	if (typeof maxLevel == 'number' && grandTotal >= maxLevel) { //stop spending once they hit max
+		console.log("Max level reached")
 		return
 	}
 
 	let charPointsElement = document.querySelector("span.charPointsLeft")
-	if (!charPointsElement) {
-		console.log("Char points element not found")
-		return
+	if (charPointsElement) {
+		charPointsElement.textContent = (maxLevel - grandTotal)
 	}
-	charPointsElement.textContent = (classLevel - grandTotal)
 
 	if (change > 0) {
 		if (points < max && treeTotal >= 5 * thisLevel && charLevel < 60) {
@@ -237,7 +248,7 @@ function updatePoints(skillHandle, change) {
 			}
 		}
 	}
-	console.log(change+","+points+","+max)
+	console.log("Changed "+change+","+points+","+max)
 
 	if (!isTest && points <= max) { //Request change to server
 		isLocked = true
@@ -327,12 +338,10 @@ function updateStats() {
 	grandTotal += parseInt(document.querySelector("#tree-2 span.totalPoints").textContent)
 	grandTotal += parseInt(document.querySelector("#tree-3 span.totalPoints").textContent)
 	let charPointsElement = document.querySelector("span.charPointsLeft")
-	if (!charPointsElement) {
-		console.log("UpdateStats Char points element not found")
-		return
+	if (charPointsElement) {
+		charPointsElement.textContent = (maxLevel - grandTotal)
 	}
 
-	charPointsElement.textContent = (classLevel - grandTotal)
 }
 
 function loadHash(hash) {
@@ -379,8 +388,8 @@ function getHashFromParams() {
 }
 
 
+function subscribeToEvents() {
 
-document.addEventListener("DOMContentLoaded", function() {
 	if (typeof initialHash === 'string' || typeof initialHash === 'number') {
 		loadHash(initialHash)
 	} else if (getHashFromParams()) {
@@ -416,7 +425,7 @@ document.addEventListener("DOMContentLoaded", function() {
 		updateTree(tree)
 	})
 	updateStats()
-})
+}
 
 
 setClass(currentClassID)

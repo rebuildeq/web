@@ -78,6 +78,7 @@
 <script>
 		var currentClassID = {{ if .Params.ClassID }}{{ .Params.ClassID }}{{else}}2{{end}}
 		var isTest = true
+		var maxLevel = 60
 </script>
 {{ $buildDBJS := resources.Get "/builds/js/build_db.js" | resources.Fingerprint "md5" }}
 <script src="{{ $buildDBJS.Permalink }}" integrity="{{ $buildDBJS.Data.Integrity }}"></script>

@@ -10,7 +10,7 @@ document.addEventListener("DOMContentLoaded", function() {
 
     for (let i = 0; i < links.length; i++) {
         let linkName = links[i];
-        console.log("searching for", linkName);
+        //console.log("searching for", linkName);
         let elementLinks = document.getElementsByClassName(linkName+"-link");
 
         for (let j = 0; j < elementLinks.length; j++) {
@@ -24,8 +24,8 @@ document.addEventListener("DOMContentLoaded", function() {
             description.setAttribute("style", "visibility: hidden;");
             elementLink.appendChild(description);
 
-            
-            
+
+
             elementLink.addEventListener("mouseover", (e) => {
                 console.log("hovered in");
                 let description = elementLink.getElementsByClassName(linkName+"-description")[0]
