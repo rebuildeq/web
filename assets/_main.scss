@@ -285,7 +285,7 @@ body[dir="rtl"] .book-menu {
 .markdown {
   transition: 0.2s ease-in-out;
   transition-property: transform, margin, opacity, visibility;
-  will-change: transform, margin, opacity;
+  will-change: transform !important, margin, opacity;
 }
 
 @media screen and (max-width: $mobile-breakpoint) {

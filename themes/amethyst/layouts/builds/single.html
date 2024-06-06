@@ -1,28 +1,33 @@
 {{ define "main" }}
+<article class="markdown">
+
 
 {{$buildsCSS := resources.Get "/builds/builds.css" | resources.ToCSS (dict "outputStyle" "compressed") | resources.Fingerprint "md5" | resources.Minify  }}
 <link href="{{$buildsCSS.Permalink}}" rel="stylesheet" type="text/css">
 
 <section id="pricing" class="dark">
-	<div class="row" style="margin-top:60px;">
+	<div class="row" style="margin-top:0px;">
 		<div class="row">
 			<div id="class-list" class="form-group">
-				<a id="class-8"><img class="classicon" src="/builds/images/classicons/brd.png" /></a>
-				<a id="class-2"><img class="classicon" src="/builds/images/classicons/clr.png" /></a>
-				<a id="class-6"><img class="classicon" src="/builds/images/classicons/dru.png" /></a>
-				<a id="class-14"><img class="classicon" src="/builds/images/classicons/enc.png" /></a>
-				<a id="class-13"><img class="classicon" src="/builds/images/classicons/mag.png" /></a>
-				<a id="class-7"><img class="classicon" src="/builds/images/classicons/mnk.png" /></a>
-				<a id="class-11"><img class="classicon" src="/builds/images/classicons/nec.png" /></a>
-				<a id="class-3"><img class="classicon" src="/builds/images/classicons/pal.png" /></a>
-				<a id="class-4"><img class="classicon" src="/builds/images/classicons/rng.png" /></a>
-				<a id="class-9"><img class="classicon" src="/builds/images/classicons/rog.png" /></a>
-				<a id="class-5"><img class="classicon" src="/builds/images/classicons/shd.png" /></a>
-				<a id="class-10"><img class="classicon" src="/builds/images/classicons/shm.png" /></a>
-				<a id="class-1"><img class="classicon" src="/builds/images/classicons/war.png" /></a>
-				<a id="class-12"><img class="classicon" src="/builds/images/classicons/wiz.png" /></a>
+				<span id="class-8" class="class-button"><img class="classicon" src="/builds/images/classicons/brd.png" /></span>
+				<span id="class-15" class="class-button"><img class="classicon" src="/builds/images/classicons/bst.png" /></span>
+				<span id="class-16" class="class-button"><img class="classicon" src="/builds/images/classicons/ber.png" /></span>
+				<span id="class-2" class="class-button"><img class="classicon" src="/builds/images/classicons/clr.png" /></span>
+				<span id="class-6" class="class-button"><img class="classicon" src="/builds/images/classicons/dru.png" /></span>
+				<span id="class-14" class="class-button"><img class="classicon" src="/builds/images/classicons/enc.png" /></span>
+				<span id="class-13" class="class-button"><img class="classicon" src="/builds/images/classicons/mag.png" /></span>
+				<span id="class-7" class="class-button"><img class="classicon" src="/builds/images/classicons/mnk.png" /></span>
+				<span id="class-11" class="class-button"><img class="classicon" src="/builds/images/classicons/nec.png" /></span>
+				<span id="class-3" class="class-button"><img class="classicon" src="/builds/images/classicons/pal.png" /></span>
+				<span id="class-4" class="class-button"><img class="classicon" src="/builds/images/classicons/rng.png" /></span>
+				<span id="class-9" class="class-button"><img class="classicon" src="/builds/images/classicons/rog.png" /></span>
+				<span id="class-5" class="class-button"><img class="classicon" src="/builds/images/classicons/shd.png" /></span>
+				<span id="class-10" class="class-button"><img class="classicon" src="/builds/images/classicons/shm.png" /></span>
+				<span id="class-1" class="class-button"><img class="classicon" src="/builds/images/classicons/war.png" /></span>
+				<span id="class-12" class="class-button"><img class="classicon" src="/builds/images/classicons/wiz.png" /></span>
 			</div>
 		</div>
+		<h1 class="title">{{ partial "docs/title.html" . }}</h1>
 
 		<div class="row">
 			<p>
@@ -72,10 +77,13 @@
 
 <script>
 		var currentClassID = {{ if .Params.ClassID }}{{ .Params.ClassID }}{{else}}2{{end}}
+		var isTest = true
 </script>
 {{ $buildDBJS := resources.Get "/builds/js/build_db.js" | resources.Fingerprint "md5" }}
-<script defer src="{{ $buildDBJS.Permalink }}" integrity="{{ $buildDBJS.Data.Integrity }}"></script>
+<script src="{{ $buildDBJS.Permalink }}" integrity="{{ $buildDBJS.Data.Integrity }}"></script>
 {{ $buildJS := resources.Get "/builds/js/build.js" |  resources.Fingerprint "md5" }}
-<script defer src="{{ $buildJS.Permalink }}" integrity="{{ $buildJS.Data.Integrity }}"></script>
+<script src="{{ $buildJS.Permalink }}" integrity="{{ $buildJS.Data.Integrity }}"></script>
 
+
+</article>
 {{ end }}

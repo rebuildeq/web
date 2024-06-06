@@ -1,8 +1,10 @@
-let mousedownbegin
+let skillMouseDownBegin
 let lastTouched
-let touchtimer
+let skillTouchTimer
 let isLocked = false
 let classLevel = 0
+let classClickCooldown = (new Date()).getTime()+500
+
 
 function setClass(classID) {
 	console.log("Setting class to "+classID)
@@ -98,27 +100,38 @@ function setClass(classID) {
 	// }
 	// monogramElement.innerHTML = classInfo.get("monogram")
 
+	baseURL = window.location.href
+	// remove all data after builds/
+	baseURL = baseURL.replace(/\/builds\/[^\/]+\/?/g, "/builds/")
+	baseURL += classInfo.get("short")+"/"
+
+	let url = new URL(baseURL)
+	window.history.pushState({}, "", url)
+
 	currentClassID = classID
 }
 
 
-function handleClassMouseDown(event) {
+function handleClassClick(event) {
 	event.preventDefault()
-	setClass(parseInt(event.currentTarget.getAttribute("data-class")))
+	if (classClickCooldown > (new Date()).getTime()) {
+		return
+	}
+	classID = event.currentTarget.getAttribute("id")
+	classID = classID.replace("class-","")
+	setClass(parseInt(classID))
+	classClickCooldown = (new Date()).getTime()+500
 }
 
-function handleClassMouseUp(event) {
-	event.preventDefault()
-}
 
 function handleSkillMouseDown(event) {
 	event.preventDefault()
 	switch (event.which) {
 		case 1: //left mouse button
-			clearTimeout(touchtimer)
-			mousedownbegin = (new Date()).getTime()
+			clearTimeout(skillTouchTimer)
+			skillMouseDownBegin = (new Date()).getTime()
 			lastTouched = event.currentTarget
-			touchtimer = setTimeout(() => checkLongTouch(true), 500)
+			skillTouchTimer = setTimeout(() => checkLongTouch(true), 500)
 			break
 	}
 }
@@ -127,7 +140,7 @@ function handleSkillMouseUp(event) {
 	event.preventDefault()
 	switch (event.which) {
 		case 1: //left mouse button
-			clearTimeout(touchtimer)
+			clearTimeout(skillTouchTimer)
 			checkLongTouch(false)
 			break
 		case 3: //right mouse button
@@ -158,17 +171,25 @@ function updatePoints(skillHandle, change) {
 	if (currentClassID == 0) {
 		return
 	}
-	const tree = skillHandle.closest(".tree")
-	const thisLevel = parseInt(skillHandle.parentElement.getAttribute("data-level"))
-	const invested = parseInt(skillHandle.parentElement.getAttribute("data-invested"))
-	const tierTotal = parseInt(skillHandle.parentElement.getAttribute("data-total"))
-	const treeTotal = parseInt(tree.querySelector("#totalPoints").textContent)
+	tree = skillHandle.closest(".tree")
+	if (!tree) {
+		console.log("Tree not found")
+		return
+	}
+	thisLevel = parseInt(skillHandle.parentElement.getAttribute("data-level"))
+	invested = parseInt(skillHandle.parentElement.getAttribute("data-invested"))
+	tierTotal = parseInt(skillHandle.parentElement.getAttribute("data-total"))
+	let totalPointsElement = tree.querySelector("#totalPoints")
+	treeTotal = 0
+	if (totalPointsElement) {
+		treeTotal = parseInt(totalPointsElement.textContent)
+	}
 	let points = parseInt(skillHandle.getAttribute("data-points"))
-	const max = parseInt(skillHandle.getAttribute("data-max"))
-	let grandTotal = parseInt(document.querySelector("#tree-1 span.totalPoints").textContent)
+	max = parseInt(skillHandle.getAttribute("data-max"))
+	grandTotal = parseInt(document.querySelector("#tree-1 span.totalPoints").textContent)
 	grandTotal += parseInt(document.querySelector("#tree-2 span.totalPoints").textContent)
 	grandTotal += parseInt(document.querySelector("#tree-3 span.totalPoints").textContent)
-	const charLevel = parseInt(document.querySelector("span.charLevel").textContent)
+	charLevel = parseInt(document.querySelector("span.charLevel").textContent)
 	let buildIndex = skillHandle.id
 	if (buildIndex.length < 6) {
 		console.log("Invalid build index")
@@ -187,7 +208,12 @@ function updatePoints(skillHandle, change) {
 		return
 	}
 
-	document.querySelector("span.charPointsLeft").textContent = (classLevel - grandTotal)
+	let charPointsElement = document.querySelector("span.charPointsLeft")
+	if (!charPointsElement) {
+		console.log("Char points element not found")
+		return
+	}
+	charPointsElement.textContent = (classLevel - grandTotal)
 
 	if (change > 0) {
 		if (points < max && treeTotal >= 5 * thisLevel && charLevel < 60) {
@@ -300,7 +326,13 @@ function updateStats() {
 	let grandTotal = parseInt(document.querySelector("#tree-1 span.totalPoints").textContent)
 	grandTotal += parseInt(document.querySelector("#tree-2 span.totalPoints").textContent)
 	grandTotal += parseInt(document.querySelector("#tree-3 span.totalPoints").textContent)
-	document.querySelector("span.charPointsLeft").textContent = (classLevel - grandTotal)
+	let charPointsElement = document.querySelector("span.charPointsLeft")
+	if (!charPointsElement) {
+		console.log("UpdateStats Char points element not found")
+		return
+	}
+
+	charPointsElement.textContent = (classLevel - grandTotal)
 }
 
 function loadHash(hash) {
@@ -354,10 +386,17 @@ document.addEventListener("DOMContentLoaded", function() {
 	} else if (getHashFromParams()) {
 		// Handle case where hash params are present
 	}
+	classListElement = document.getElementById("class-list")
+	if (!classListElement) {
+		console.log("Class list element not found")
+		return
+	}
 
-	Array.from(document.querySelectorAll('#class-list.a')).forEach(skill => {
-		skill.addEventListener('mousedown', handleClassMouseDown)
-		skill.addEventListener('mouseup', handleClassMouseUp)
+	Array.from(classListElement.querySelectorAll('span')).forEach(classButton => {
+		if (!classButton.classList.contains("class-button")) {
+			return
+		}
+		classButton.addEventListener('click', handleClassClick)
 	})
 
 

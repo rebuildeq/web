@@ -7,7 +7,9 @@ body {
 	/*font: 15pt/17pt Homenaje, Impact, sans-serif;*/
 	cursor: default;
 }
-
+.markdown h1 {
+	margin-top: 0;
+}
 #pricing {
 	text-align: center;
 }
