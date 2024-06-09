@@ -3,6 +3,7 @@ let lastTouched
 let skillTouchTimer
 let isLocked = false
 let classClickCooldown = (new Date()).getTime()+500
+let maxCharLevel = 60
 
 function setClass(classID) {
 	currentClassID = 0
@@ -186,20 +187,20 @@ function updatePoints(skillHandle, change) {
 		console.log("Tree not found")
 		return
 	}
-	thisLevel = parseInt(skillHandle.parentElement.getAttribute("data-level"))
+	treeLevel = parseInt(skillHandle.parentElement.getAttribute("data-level"))
 	invested = parseInt(skillHandle.parentElement.getAttribute("data-invested"))
 	tierTotal = parseInt(skillHandle.parentElement.getAttribute("data-total"))
-	let totalPointsElement = tree.querySelector("#totalPoints")
+	let totalPointsElement = tree.querySelector(".totalPoints")
 	treeTotal = 0
 	if (totalPointsElement) {
 		treeTotal = parseInt(totalPointsElement.textContent)
 	}
-	let points = parseInt(skillHandle.getAttribute("data-points"))
-	max = parseInt(skillHandle.getAttribute("data-max"))
-	grandTotal = parseInt(document.querySelector("#tree-1 span.totalPoints").textContent)
+	let dataPoints = parseInt(skillHandle.getAttribute("data-points"))
+	let max = parseInt(skillHandle.getAttribute("data-max"))
+	let grandTotal = parseInt(document.querySelector("#tree-1 span.totalPoints").textContent)
 	grandTotal += parseInt(document.querySelector("#tree-2 span.totalPoints").textContent)
 	grandTotal += parseInt(document.querySelector("#tree-3 span.totalPoints").textContent)
-	charLevel = parseInt(document.querySelector("span.charLevel").textContent)
+	let charLevel = parseInt(document.querySelector("span.charLevel").textContent)
 	let buildIndex = skillHandle.id
 	if (buildIndex.length < 6) {
 		console.log("Invalid build index")
@@ -227,61 +228,67 @@ function updatePoints(skillHandle, change) {
 	}
 
 	if (change > 0) {
-		if (points < max && treeTotal >= 5 * thisLevel && charLevel < 60) {
-			points++
+		if (dataPoints < max && treeTotal >= 5 * treeLevel && charLevel < maxCharLevel) {
+			dataPoints++
 		}
 	} else {
-		if (points > 0) {
+		if (dataPoints > 0) {
 			let ok = true
 			Array.from(tree.querySelectorAll("div.tier")).forEach(tier => {
-				const level = parseInt(tier.getAttribute("data-level"))
-				const total = parseInt(tier.getAttribute("data-total")) - (level == thisLevel ? 1 : 0)
-				const invested = parseInt(tier.getAttribute("data-invested")) - (level > thisLevel ? 1 : 0)
+				let iterTreelevel = parseInt(tier.getAttribute("data-level"))
+				let total = parseInt(tier.getAttribute("data-total")) - (iterTreelevel == treeLevel ? 1 : 0)
+				let invested = parseInt(tier.getAttribute("data-invested")) - (iterTreelevel > treeLevel ? 1 : 0)
 				ok &= (
-					(level == thisLevel && total == 0 && treeTotal >= invested + total) ||
-					(level != thisLevel && total == 0) ||
-					(total > 0 && (level * 5 <= invested))
+					(iterTreelevel == treeLevel && total == 0 && treeTotal >= invested + total) ||
+					(iterTreelevel != treeLevel && total == 0) ||
+					(total > 0 && (iterTreelevel * 5 <= invested))
 				)
+				console.log("Tier "+iterTreelevel+" total:"+total+" invested:"+invested+" ok:"+ok)
 			})
 			if (ok) {
-				points--
+				dataPoints--
 			}
 		}
 	}
-	console.log("Changed "+change+","+points+","+max)
-
-	if (!isTest && points <= max) { //Request change to server
-		isLocked = true
-		const session = "" // Add the session variable appropriately
-		fetch("/rest/builds/update", {
-			method: "POST",
-			headers: {
-				"Content-Type": "application/x-www-form-urlencoded"
-			},
-			body: `session=${session}&buildIndex=${buildIndex}`
-		})
-		.then(response => response.json())
-		.then(result => {
-			if (result.Status == 1) {
-				console.log("Success:"+result)
-				skillHandle.setAttribute("data-points", points)
-				updateTree(tree)
-				updateStats()
-			} else {
-				console.log("Failure:"+result)
-				console.log(result.Message)
-			}
-			isLocked = false
-		})
-		.catch(error => {
-			console.log("Error:"+error)
-			isLocked = false
-		})
-	} else {
-		skillHandle.setAttribute("data-points", points)
+	console.log("Changed "+change+","+dataPoints+","+max)
+	console.log("Total Spent: "+grandTotal)
+	if (isTest) {
+		skillHandle.setAttribute("data-points", dataPoints)
 		updateTree(tree)
 		updateStats()
+		return
 	}
+
+	if (dataPoints > max) {
+		console.log("Max points reached")
+		return
+	}
+	isLocked = true
+	const session = "" // Add the session variable appropriately
+	fetch("/rest/builds/update", {
+		method: "POST",
+		headers: {
+			"Content-Type": "application/x-www-form-urlencoded"
+		},
+		body: `session=${session}&buildIndex=${buildIndex}`
+	})
+	.then(response => response.json())
+	.then(result => {
+		if (result.Status == 1) {
+			console.log("Success:"+result)
+			skillHandle.setAttribute("data-points", dataPoints)
+			updateTree(tree)
+			updateStats()
+		} else {
+			console.log("Failure:"+result)
+			console.log(result.Message)
+		}
+		isLocked = false
+	})
+	.catch(error => {
+		console.log("Error:"+error)
+		isLocked = false
+	})
 }
 
 function updateTree(treeHandle) {
