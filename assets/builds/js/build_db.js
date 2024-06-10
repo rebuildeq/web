@@ -202,7 +202,7 @@ function initBuilds() {
     clr = new Map()
     clr.set(0, new Build( // tree 1 row 1 left
         title = "Believe",
-        description = "The cleric gains a 300 mod proc that deals (level * 0.75 * <em data-base='0.2'>0.2</em>) magic damage<span class='perLevel'> per rank</span>, and half the damage is returned as health back to the cleric.",
+        description = "All melee attacks gain a 300 mod proc that deals (level * 0.75 * <em data-base='0.2'>0.2</em>) magic damage<span class='perLevel'> per rank</span>, and half the damage is returned as health back to the cleric.",
         icon = "/builds/icons/rb-clr-believe.png"
     ))
 
@@ -833,9 +833,9 @@ function initBuilds() {
     let dru = new Map()
 
     dru.set(0, new Build( // tree 1 row 1 left
-        title = "Entrap",
-        description = "Grants the Entrap AA, snaring the target. Mana cost increases across levels. <br>Rank 1 Snares by 41%-96%, 0 resist adjustment, 0.4% mana cost reduction.<br>Rank 2 Snares by 57%-121%, -50 resist adjustment, 0.8% mana cost reduction.<br>Rank 3 Snares by 57%-141%, -50 resist adjustment, 1.2% mana cost reduction.<br>Rank 4 Snares by 57%-141%, -85 resist adjustment, 1.6% mana cost reduction.<br>Rank 5 Snares by 57%-141%, -85 resist adjustment, 3.2% mana cost reduction.<br>",
-        icon = "/builds/icons/rb-dru-entrap.png"
+        title = "Spiritual Awakening",
+        description = "All melee attacks gain a 300 mod proc that deals (level * 1.5 * <em data-base='0.2'>0.2</em>) magic damage and restores <em data-base='2'>2</em> mana from the target<span class='perLevel'> per rank</span>.",
+        icon = "/builds/icons/rb-dru-spiritualawakening.png"
     ))
 
     dru.set(2, new Build( // tree 1 row 1 right
@@ -882,7 +882,7 @@ function initBuilds() {
 
     dru.set(18, new Build( // tree 2 row 1 left
         title = "Regeneration",
-        description = "Grants the druid an innate hp regeneration of Level * 0.2 hitpoints (minimum 2) per tick, a self only damage shield of 2, as well as any duration regeneration spells casted by the druid give 20% additional hitpoint regeneration per tick while in the same zone as the druid per rank.",
+        description = "Grants the druid an innate hp regeneration of Level * <em data-base='0.2'>0.2</em> hitpoints (minimum 2) per tick, a self only damage shield of 2, as well as any duration regeneration spells casted by the druid give 20% additional hitpoint regeneration per tick while in the same zone as the druid per rank.",
         icon = "/builds/icons/rb-dru-regeneration.png"
     ))
 
@@ -905,9 +905,9 @@ function initBuilds() {
     ))
 
     dru.set(26, new Build( // tree 2 row 3 right
-        title = "Spiritual Awakening",
-        description = "The druid gains a 300 mod proc that deals (level * 1.5 * 0.2) magic damage and melee hits tap 1 mana from the target.",
-        icon = "/builds/icons/rb-dru-spiritualawakening.png"
+        title = "Entrap",
+        description = "Grants the Entrap AA, snaring the target. Mana cost increases across levels. <br>Rank 1 Snares by 41%-96%, 0 resist adjustment, 0.4% mana cost reduction.<br>Rank 2 Snares by 57%-121%, -50 resist adjustment, 0.8% mana cost reduction.<br>Rank 3 Snares by 57%-141%, -50 resist adjustment, 1.2% mana cost reduction.<br>Rank 4 Snares by 57%-141%, -85 resist adjustment, 1.6% mana cost reduction.<br>Rank 5 Snares by 57%-141%, -85 resist adjustment, 3.2% mana cost reduction.<br>",
+        icon = "/builds/icons/rb-dru-entrap.png"
     ))
 
     dru.set(28, new Build( // tree 2 row 4 middle
@@ -995,7 +995,7 @@ function initBuilds() {
 
     mnk.set(0, new Build( // tree 1 row 1 left
         title = "Intensified Training",
-        description = "The monk gains a 300 mod proc that deals (level * 1.25 * 0.2) magic damage per rank.",
+        description = "The monk gains a 300 mod proc that deals (level * 1.25 * <em data-base='0.2'>0.2</em>) magic damage per rank.",
         icon = "/builds/icons/rb-mnk-intensifiedtraining.png"
     ))
 
@@ -1202,7 +1202,7 @@ function initBuilds() {
 
     brd.set(18, new Build( // tree 2 row 1 left
         title = "Jonthon's Whistle",
-        description = "Grants the bard a passive 300 mod proc that deals (level * 2 * 0.2) magic damage.",
+        description = "Grants the bard a passive 300 mod proc that deals (level * 2 * <em data-base='0.2'>0.2</em>) magic damage.",
         icon = "/builds/icons/rb-brd-jonathonswhistle.png"
     ))
 
@@ -1314,7 +1314,7 @@ function initBuilds() {
 
     rog.set(0, new Build( // tree 1 row 1 left
         title = "Appraisal",
-        description = "The rogue gains a 400 mod proc that deals (level * 3 * 0.2) magic damage as well as a fleeting fury buff.",
+        description = "The rogue gains a 400 mod proc that deals (level * 3 * <em data-base='0.2'>0.2</em>) magic damage as well as a fleeting fury buff.",
         icon = "/builds/icons/rb-rog-appraisal.png"
     ))
 
@@ -1368,7 +1368,7 @@ function initBuilds() {
 
     rog.set(20, new Build( // tree 2 row 1 right
         title = "Jarring Stab",
-        description = "When the rogue successfully backstabs an enemy, all enemies that are hated by the rogue have a reduction of (0.2 * damage) hate per rank.",
+        description = "When the rogue successfully backstabs an enemy, all enemies that are hated by the rogue have a reduction of (<em data-base='0.2'>0.2</em> * damage) hate per rank.",
         icon = "/builds/icons/rb-rog-jarringstab.png"
     ))
 
@@ -1569,7 +1569,7 @@ function initBuilds() {
 
     shm.set(36, new Build( // tree 3 row 1 left
         title = "Fury",
-        description = "The shaman gains a 400 mod proc that deals (level * 1.5 * 0.2) magic damage.",
+        description = "The shaman gains a 400 mod proc that deals (level * 1.5 * <em data-base='0.2'>0.2</em>) magic damage.",
         icon = "/builds/icons/rb-shm-fury.png"
     ))
 
@@ -1680,7 +1680,7 @@ function initBuilds() {
 
     nec.set(18, new Build( // tree 2 row 1 left
         title = "Shroud of Death",
-        description = "Your pet gains a 400 mod proc DD that deals (level * 0.2) magic damage and if Spirit Focus is trained and a focus target is set, a recourse heal for 100% of damage dealt is given per rank.",
+        description = "Your pet gains a 400 mod proc DD that deals (level * <em data-base='0.2'>0.2</em>) magic damage and if Spirit Focus is trained and a focus target is set, a recourse heal for 100% of damage dealt is given per rank.",
         icon = "/builds/icons/rb-todo.png"
     ))
 
@@ -2166,13 +2166,13 @@ function initBuilds() {
 
     enc.set(20, new Build( // tree 2 row 1 right
         title = "Tash",
-        description = "While an enemy is tashed, other group members are granted a 300 mod (enemy level * 0.2) damage proc while attacking per rank.",
+        description = "While an enemy is tashed, other group members are granted a 300 mod (enemy level * <em data-base='0.2'>0.2</em>) damage proc while attacking per rank.",
         icon = "/builds/icons/rb-enc-tash.png"
     ))
 
     enc.set(22, new Build( // tree 2 row 2 middle
         title = "Backfire",
-        description = "Wandering Mind, Scryer's Bypass, and Torment of Argli now have the backfire effect. If an enemy successfully channels a spell, they are interrupted, this spell effect is removed, and the enemy takes (enemy level * 25 * 0.2) damage per rank.",
+        description = "Wandering Mind, Scryer's Bypass, and Torment of Argli now have the backfire effect. If an enemy successfully channels a spell, they are interrupted, this spell effect is removed, and the enemy takes (enemy level * 25 * <em data-base='0.2'>0.2</em>) damage per rank.",
         icon = "/builds/icons/rb-enc-backfire.png"
     ))
 
@@ -2238,7 +2238,7 @@ function initBuilds() {
 
     enc.set(46, new Build( // tree 3 row 4 middle
         title = "Bad Moon",
-        description = "While grouped with an enchanter, all allies gain an innate 100 proc that deals a (level * 0.2) lifetap per rank",
+        description = "While grouped with an enchanter, all allies gain an innate 100 proc that deals a (level * <em data-base='0.2'>0.2</em>) lifetap per rank",
         icon = "/builds/icons/rb-enc-badmoon.png"
     ))
 
@@ -2250,7 +2250,7 @@ function initBuilds() {
 
     enc.set(52, new Build( // tree 3 row 6 middle
         title = "Reclaim",
-        description = "When you tell your pet to leave, you will gain (mana * 0.2) of back of it's mana cost with ratio of current to max hitpoints per rank",
+        description = "When you tell your pet to leave, you will gain (mana * <em data-base='0.2'>0.2</em>) of back of it's mana cost with ratio of current to max hitpoints per rank",
         icon = "/builds/icons/rb-enc-reclaim.png"
     ))
 
