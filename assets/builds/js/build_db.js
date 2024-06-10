@@ -1791,9 +1791,9 @@ function initBuilds() {
     let wiz = new Map()
 
     wiz.set(0, new Build( // tree 1 row 1 left
-        title = "Elemental Fury",
-        description = "Increases the damage of all direct damage spells by 1%<span class='perLevel'> per rank</span>.",
-        icon = "/builds/icons/rb-todo.png"
+        title = "Weave",
+        description = "When you cast two different single target DD spells that are within 10 levels of your current level, a bonus (level * <em data-base='10'>10</em>) damage spell is applied to target<span class='perLevel'> per rank</span>.",
+        icon = "/builds/icons/rb-wiz-weave.png"
     ))
 
     wiz.set(2, new Build( // tree 1 row 1 right
