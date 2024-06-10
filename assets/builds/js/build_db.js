@@ -202,7 +202,7 @@ function initBuilds() {
     clr = new Map()
     clr.set(0, new Build( // tree 1 row 1 left
         title = "Believe",
-        description = "The cleric gains a 300 mod proc that deals (level * 0.75 * 0.2) magic damage, and half the damage is health back to the cleric.",
+        description = "The cleric gains a 300 mod proc that deals (level * 0.75 * <em data-base='0.2'>0.2</em>) magic damage<span class='perLevel'> per rank</span>, and half the damage is returned as health back to the cleric.",
         icon = "/builds/icons/rb-clr-believe.png"
     ))
 
