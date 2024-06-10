@@ -1472,7 +1472,7 @@ function initBuilds() {
     let shm = new Map()
 
     shm.set(0, new Build( // tree 1 row 1 left
-        title = "SpiritualInfusion",
+        title = "Spiritual Infusion",
         description = "All melee attacks gain a 300 mod proc that deals (level * 1.5 * <em data-base='0.2'>0.2</em>) magic damage and restores <em data-base='2'>2</em> mana from the target<span class='perLevel'> per rank</span>.",
         icon = "/builds/icons/rb-shm-spiritualinfusion.png"
     ))
