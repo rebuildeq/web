@@ -1568,6 +1568,9 @@ function initBuilds() {
     ))
 
     shm.set(36, new Build( // tree 3 row 1 left
+        title = "Spirit of Speed",
+        description = "Spirit of Wolf lasts 20% longer<span class='perLevel'> per rank</span>.",
+        icon = "/builds/icons/rb-shm-spiritofspeed.png"
     ))
 
     shm.set(38, new Build( // tree 3 row 1 right
