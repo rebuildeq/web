@@ -360,7 +360,7 @@ function initBuilds() {
 
     pal.set(0, new Build( // tree 1 row 1 left
         title = "Rodcet's Gift",
-        description = "Single target healing spells now spread to allies within 10m of the healed target, healing them for 2% the original heal amount per rank.",
+        description = "Single target healing spells now spread to allies within <em data-base='10'>10</em>m of the healed target, healing them for <em data-base='2'>2</em>% the original heal amount<span class='perLevel'> per rank</span>.",
         icon = "/builds/icons/rb-pal-rodcetsgift.png"
     ))
 
