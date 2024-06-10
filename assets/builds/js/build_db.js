@@ -69,13 +69,13 @@ function initBuilds() {
 
     war.set(8, new Build( // tree 1 row 3 right
         "Battle Frenzy",
-        "Increases your attack speed by 2% per rank.",
+        "Increases your attack speed by 2%<span class='perLevel'> per rank</span>.",
         "/builds/icons/rb-todo.png"
     ))
 
     war.set(10, new Build( // tree 1 row 4 middle
         "Endurance",
-        "Increases your stamina by 5% per rank.",
+        "Increases your stamina by 5%<span class='perLevel'> per rank</span>.",
         "/builds/icons/rb-todo.png"
     ))
 
@@ -93,19 +93,19 @@ function initBuilds() {
 
     war.set(18, new Build( // tree 2 row 1 left
         "Battle Hardened",
-        "Increases your armor by 3% per rank.",
+        "Increases your armor by 3%<span class='perLevel'> per rank</span>.",
         "/builds/icons/rb-todo.png"
     ))
 
     war.set(20, new Build( // tree 2 row 1 right
         "Weapon Mastery",
-        "Increases your weapon damage by 2% per rank.",
+        "Increases your weapon damage by 2%<span class='perLevel'> per rank</span>.",
         "/builds/icons/rb-todo.png"
     ))
 
     war.set(22, new Build( // tree 2 row 2 middle
         "Resilience",
-        "Reduces the duration of crowd control effects on you by 5% per rank.",
+        "Reduces the duration of crowd control effects on you by 5%<span class='perLevel'> per rank</span>.",
         "/builds/icons/rb-todo.png"
     ))
 
@@ -117,13 +117,13 @@ function initBuilds() {
 
     war.set(26, new Build( // tree 2 row 3 right
         "Unyielding",
-        "Increases your chance to resist debuffs by 2% per rank.",
+        "Increases your chance to resist debuffs by 2%<span class='perLevel'> per rank</span>.",
         "/builds/icons/rb-todo.png"
     ))
 
     war.set(28, new Build( // tree 2 row 4 middle
         "Iron Will",
-        "Increases your maximum health by 2% per rank.",
+        "Increases your maximum health by 2%<span class='perLevel'> per rank</span>.",
         "/builds/icons/rb-todo.png"
     ))
 
@@ -135,19 +135,19 @@ function initBuilds() {
 
     war.set(34, new Build( // tree 2 row 6 middle
         "Determination",
-        "Increases your chance to resist fear effects by 5% per rank.",
+        "Increases your chance to resist fear effects by 5%<span class='perLevel'> per rank</span>.",
         "/builds/icons/rb-todo.png"
     ))
 
     war.set(36, new Build( // tree 3 row 1 left
         "Heroic Strike",
-        "Increases the critical hit chance of your attacks by 2% per rank.",
+        "Increases the critical hit chance of your attacks by 2%<span class='perLevel'> per rank</span>.",
         "/builds/icons/rb-todo.png"
     ))
 
     war.set(38, new Build( // tree 3 row 1 right
         "Tactical Mastery",
-        "Increases your threat generation by 3% per rank.",
+        "Increases your threat generation by 3%<span class='perLevel'> per rank</span>.",
         "/builds/icons/rb-todo.png"
     ))
 
@@ -159,7 +159,7 @@ function initBuilds() {
 
     war.set(42, new Build( // tree 3 row 3 left
         "Shield Slam",
-        "Increases the damage of your shield slam ability by 5% per rank.",
+        "Increases the damage of your shield slam ability by 5%<span class='perLevel'> per rank</span>.",
         "/builds/icons/rb-todo.png"
     ))
 
@@ -171,7 +171,7 @@ function initBuilds() {
 
     war.set(46, new Build( // tree 3 row 4 middle
         "Indomitable",
-        "Reduces the duration of stun effects on you by 5% per rank.",
+        "Reduces the duration of stun effects on you by 5%<span class='perLevel'> per rank</span>.",
         "/builds/icons/rb-todo.png"
     ))
 
@@ -208,20 +208,20 @@ function initBuilds() {
 
     clr.set(2, new Build( // tree 1 row 1 right
         title = "Ward of Vie",
-        description = "All ward spells last an additional 20% more maximum hitpoints per rank.",
+        description = "All ward spells last an additional 20% more maximum hitpoints<span class='perLevel'> per rank</span>.",
         icon = "/builds/icons/rb-clr-wardofvie.png"
     ))
 
     clr.set(4, new Build( // tree 1 row 2 middle
         title = "Harken the Gods",
-        description = "Yaulp now gives increased accuracy, attack, and mana regen per rank.",
+        description = "Yaulp now gives increased accuracy, attack, and mana regen<span class='perLevel'> per rank</span>.",
         icon = "/builds/icons/rb-clr-harkenthegods.png"
     ))
 
 
     clr.set(6, new Build( // tree 1 row 3 left
         title = "Blessing of Haste",
-        description = "All spell haste spells are 20% more effective on you per rank.",
+        description = "All spell haste spells are 20% more effective on you<span class='perLevel'> per rank</span>.",
         icon = "/builds/icons/rb-clr-blessingofhaste.png"
     ))
 
@@ -239,25 +239,25 @@ function initBuilds() {
 
     clr.set(13, new Build( // tree 1 row 5 middle
         title = "Augmented Retribution",
-        description = "The cleric gains a 100 mod proc that deals a smite-like spell per rank.",
+        description = "The cleric gains a 100 mod proc that deals a smite-like spell<span class='perLevel'> per rank</span>.",
         icon = "/builds/icons/rb-clr-augmentedretribution.png"
     ))
 
     clr.set(16, new Build( // tree 1 row 6 middle
         title = "Divine Avatar",
-        description = "Passively grants a 10% increased chance to dodge as well as the Divine Avatar AA, allowing the cleric many statistic bonuses and longer duration per rank.",
+        description = "Passively grants a 10% increased chance to dodge as well as the Divine Avatar AA, allowing the cleric many statistic bonuses and longer duration<span class='perLevel'> per rank</span>.",
         icon = "/builds/icons/rb-clr-divineavatar.png"
     ))
 
     clr.set(18, new Build( // tree 2 row 1 left
         title = "Instill Life",
-        description = "When an ally is healed, there is a 2% chance to heal for a bonus of 2% the target's max health per rank.",
+        description = "When an ally is healed, there is a 2% chance to heal for a bonus of 2% the target's max health<span class='perLevel'> per rank</span>.",
         icon = "/builds/icons/rb-clr-instilllife.png"
     ))
 
     clr.set(20, new Build( // tree 2 row 1 right
         title = "Divine Bash",
-        description = "When the cleric uses bash, they heal for 4% of the cleric's max hp per rank to a group member with lowest health per rank. This does not heal the cleric.",
+        description = "When the cleric uses bash, they heal for 4% of the cleric's max hp per rank to a group member with lowest<span class='perLevel'> per rank</span>. This does not heal the cleric.",
         icon = "/builds/icons/rb-clr-divinebash.png"
     ))
 
@@ -269,25 +269,25 @@ function initBuilds() {
 
     clr.set(24, new Build( // tree 2 row 3 left
         title = "Celestial Regeneration",
-        description = "Grants the Celestial Regeneration AA, restoring 36 hitpoints and 2 mana for 8 ticks per rank.",
+        description = "Grants the Celestial Regeneration AA, restoring 36 hitpoints and 2 mana for 8 ticks<span class='perLevel'> per rank</span>.",
         icon = "/builds/icons/rb-clr-celestialbreeze.png"
     ))
 
     clr.set(26, new Build( // tree 2 row 3 right
         title = "Divine Arbitration",
-        description = "Grants the Divine Arbitration AA, balancing the damage each member of your group has taken, with a cooldown reduction of 30 seconds per rank.",
+        description = "Grants the Divine Arbitration AA, balancing the damage each member of your group has taken, with a cooldown reduction of 30 seconds<span class='perLevel'> per rank</span>.",
         icon = "/builds/icons/rb-clr-divinearbitration.png"
     ))
 
     clr.set(28, new Build( // tree 2 row 4 middle
         title = "Divine Resurrection",
-        description = "Grants the Divine Resurrection AA, reviving a fallen player. With a base of 24 hours, lowers cooldown by 4 hours per rank.",
+        description = "Grants the Divine Resurrection AA, reviving a fallen player. With a base of 24 hours, lowers cooldown by 4 hours<span class='perLevel'> per rank</span>.",
         icon = "/builds/icons/rb-clr-divineressurection.png"
     ))
 
     clr.set(31, new Build( // tree 2 row 5 middle
         title = "Promise",
-        description = "All heals done by the cleric now have a 2% chance to have the mana cost reduced by 10% mana per rank.",
+        description = "All heals done by the cleric now have a 2% chance to have the mana cost reduced by 10% mana<span class='perLevel'> per rank</span>.",
         icon = "/builds/icons/rb-clr-promise.png"
     ))
 
@@ -299,7 +299,7 @@ function initBuilds() {
 
     clr.set(36, new Build( // tree 3 row 1 left
         title = "Strike",
-        description = "Increases the damage of all direct damage spells by 2% per rank.",
+        description = "Increases the damage of all direct damage spells by 2%<span class='perLevel'> per rank</span>.",
         icon = "/builds/icons/rb-clr-strike.png"
     ))
 
@@ -311,7 +311,7 @@ function initBuilds() {
 
     clr.set(40, new Build( // tree 3 row 2 middle
         title = "Fist of the Gods",
-        description = "Grants 1 bane damage versus undead per rank.",
+        description = "Grants 1 bane damage versus undead<span class='perLevel'> per rank</span>.",
         icon = "/builds/icons/rb-clr-fistofthegods.png"
     ))
 
@@ -329,19 +329,19 @@ function initBuilds() {
 
     clr.set(46, new Build( // tree 3 row 4 middle
         title = "Exquisite Benediction",
-        description = "While meleeing an undead creature, increases proc chance of all build procs by 20 per rank.",
+        description = "While meleeing an undead creature, increases proc chance of all build procs by 20<span class='perLevel'> per rank</span>.",
         icon = "/builds/icons/rb-clr-exquisitebenediction.png"
     ))
 
     clr.set(49, new Build( // tree 3 row 5 middle
         title = "Mark of Retribution",
-        description = "Increases the damage of Mark of Retribution by 20% per rank.",
+        description = "Increases the damage of Mark of Retribution by 20%<span class='perLevel'> per rank</span>.",
         icon = "/builds/icons/rb-clr-markofretribution.png"
     ))
 
     clr.set(52, new Build( // tree 3 row 6 middle
         title = "Death Pact",
-        description = "Healing an ally with a single target spell gives them a 0 to 1 tick duration random death pact buff per rank.",
+        description = "Healing an ally with a single target spell gives them a 0 to 1 tick duration random death pact buff<span class='perLevel'> per rank</span>.",
         icon = "/builds/icons/rb-clr-avatarsboon.png"
     ))
     builds.set(classCleric, clr)
@@ -366,19 +366,19 @@ function initBuilds() {
 
     pal.set(2, new Build( // tree 1 row 1 right
         title = "Hand of Piety",
-        description = "Grants the Hand of Piety AA, allowing the user to heal the group for 2% of their max health per rank.",
+        description = "Grants the Hand of Piety AA, allowing the user to heal the group for 2% of their max health<span class='perLevel'> per rank</span>.",
         icon = "/builds/icons/rb-pal-handofpiety.png"
     ))
 
     pal.set(4, new Build( // tree 1 row 2 middle
         title = "Instill Purpose",
-        description = "Divine Purpose and Breath of Tunare now grant 20% more hitpoint regeneration per rank.",
+        description = "Divine Purpose and Breath of Tunare now grant 20% more hitpoint regeneration<span class='perLevel'> per rank</span>.",
         icon = "/builds/icons/rb-pal-instillpurpose.png"
     ))
 
     pal.set(6, new Build( // tree 1 row 3 left
         title = "Refreshing Breeze",
-        description = "All healing except Hand of Piety give healed targets 0.5% of amount healed as mana per rank. Does not work when healing yourself.",
+        description = "All healing except Hand of Piety give healed targets 0.5% of amount healed as<span class='perLevel'> per rank</span>. Does not work when healing yourself.",
         icon = "/builds/icons/rb-pal-refreshingbreeze.png"
     ))
 
@@ -390,61 +390,61 @@ function initBuilds() {
 
     pal.set(10, new Build( // tree 1 row 4 middle
         title = "Soul Cleansing",
-        description = "Cleansing heal over time spells now have a 2% chance to cure an ailment per rank.",
+        description = "Cleansing heal over time spells now have a 2% chance to cure an ailment<span class='perLevel'> per rank</span>.",
         icon = "/builds/icons/rb-pal-soulcleansing.png"
     ))
 
     pal.set(13, new Build( // tree 1 row 5 middle
         title = "Wave of Marr",
-        description = "All wave-based group spells cost 10% less mana to cast per rank.",
+        description = "All wave-based group spells cost 10% less mana to cast<span class='perLevel'> per rank</span>.",
         icon = "/builds/icons/rb-pal-waveofmarr.png"
     ))
 
     pal.set(16, new Build( // tree 1 row 6 middle
         title = "Ward of Tunare",
-        description = "Passively grants the Paladin a 6% bonus when healed by other allies per rank.",
+        description = "Passively grants the Paladin a 6% bonus when healed by other allies<span class='perLevel'> per rank</span>.",
         icon = "/builds/icons/rb-pal-wardoftunare.png"
     ))
 
     pal.set(18, new Build( // tree 2 row 1 left
         title = "Shield of Nife",
-        description = "Grants an Undead-only damage shield that deals 7 damage per rank.",
+        description = "Grants an Undead-only damage shield that deals 7 damage<span class='perLevel'> per rank</span>.",
         icon = "/builds/icons/rb-pal-shieldofnife.png"
     ))
 
     pal.set(20, new Build( // tree 2 row 1 right
         title = "Armor of Faith",
-        description = "Damage taken from Undead is reduced by 2.5% per rank.",
+        description = "Damage taken from Undead is reduced by 2.5%<span class='perLevel'> per rank</span>.",
         icon = "/builds/icons/rb-pal-armoroffaith.png"
     ))
 
     pal.set(22, new Build( // tree 2 row 2 middle
         title = "Purification",
-        description = "Grants the Purification AA, curing 1 detrimental effect on the paladin per rank.",
+        description = "Grants the Purification AA, curing 1 detrimental effect on the paladin<span class='perLevel'> per rank</span>.",
         icon = "/builds/icons/rb-pal-purification.png"
     ))
 
     pal.set(24, new Build( // tree 2 row 3 left
         title = "Holy Servant",
-        description = "When a group member within 2m is attacked, 2.5% of the dealt damage is redirected to the paladin and is reduced by 2% per rank.",
+        description = "When a group member within 2m is attacked, 2.5% of the dealt damage is redirected to the paladin and is reduced by 2%<span class='perLevel'> per rank</span>.",
         icon = "/builds/icons/rb-pal-holyservant.png"
     ))
 
     pal.set(26, new Build( // tree 2 row 3 right
         title = "Divine Stun",
-        description = "Grants the Divine Stun AA, causing a target to be stunned and marked with divine anger. Any time the Paladin casts a heal spell on a group member, the marked enemy gains an additional 200 hatred per rank.",
+        description = "Grants the Divine Stun AA, causing a target to be stunned and marked with divine anger. Any time the Paladin casts a heal spell on a group member, the marked enemy gains an additional 200 hatred<span class='perLevel'> per rank</span>.",
         icon = "/builds/icons/rb-pal-divinestun.png"
     ))
 
     pal.set(28, new Build( // tree 2 row 4 middle
         title = "Act of Valor",
-        description = "Grants the Act of Valor AA, summoning a squire that will dutifully assist the Paladin, casting stuns and healing themself. Each rank increases his stats and power by 20% efficiency per rank.",
+        description = "Grants the Act of Valor AA, summoning a squire that will dutifully assist the Paladin, casting stuns and healing themself. Each rank increases his stats and power by 20% efficiency<span class='perLevel'> per rank</span>.",
         icon = "/builds/icons/rb-pal-actofvalor.png"
     ))
 
     pal.set(31, new Build( // tree 2 row 5 middle
         title = "Elixir of Might",
-        description = "Instrument of Nife and Divine Might proc effects now heal the Paladin for 10% of damage dealt as well as gain 2 mana per rank.",
+        description = "Instrument of Nife and Divine Might proc effects now heal the Paladin for 10% of damage dealt as well as gain 2 mana<span class='perLevel'> per rank</span>.",
         icon = "/builds/icons/rb-pal-elixirofmight.png"
     ))
 
@@ -456,49 +456,49 @@ function initBuilds() {
 
     pal.set(36, new Build( // tree 3 row 1 left
         title = "Zealot's Fervor",
-        description = "When a heal is cast by the paladin on another character, up to 1 nearby enemies of the target are dealt 1% of the healing as damage per rank.",
+        description = "When a heal is cast by the paladin on another character, up to 1 nearby enemies of the target are dealt 1% of the healing as damage<span class='perLevel'> per rank</span>.",
         icon = "/builds/icons/rb-pal-zealotsfervor.png"
     ))
 
     pal.set(38, new Build( // tree 3 row 1 right
         title = "Knight's Advantage",
-        description = "2 handed weapons deal an additional 5% damage per rank.",
+        description = "2 handed weapons deal an additional 5% damage<span class='perLevel'> per rank</span>.",
         icon = "/builds/icons/rb-pal-knightsadvantage.png"
     ))
 
     pal.set(40, new Build( // tree 3 row 2 middle
         title = "Chosen",
-        description = "All self proc buffs deal 25% more damage per rank.",
+        description = "All self proc buffs deal 25% more damage<span class='perLevel'> per rank</span>.",
         icon = "/builds/icons/rb-pal-chosen.png"
     ))
 
     pal.set(42, new Build( // tree 3 row 3 left
         title = "Purpose of Marr",
-        description = "Valor of Marr now grants 10% additional attack speed per rank.",
+        description = "Valor of Marr now grants 10% additional attack speed<span class='perLevel'> per rank</span>.",
         icon = "/builds/icons/rb-pal-purposeofmarr.png"
     ))
 
     pal.set(44, new Build( // tree 3 row 3 right
         title = "Flame of Light",
-        description = "Flame of Light now deals an additional 20% damage per rank.",
+        description = "Flame of Light now deals an additional 20% damage<span class='perLevel'> per rank</span>.",
         icon = "/builds/icons/rb-pal-flameoflight.png"
     ))
 
     pal.set(46, new Build( // tree 3 row 4 middle
         title = "Dismiss Evil",
-        description = "When attacking an evil creature, gives a 1% chance to critical hit per rank.",
+        description = "When attacking an evil creature, gives a 1% chance to critical hit<span class='perLevel'> per rank</span>.",
         icon = "/builds/icons/rb-pal-dismissevil.png"
     ))
 
     pal.set(49, new Build( // tree 3 row 5 middle
         title = "Frail",
-        description = "Stun spells also cripple the target for 0 to 1 ticks per rank.",
+        description = "Stun spells also cripple the target for 0 to 1 ticks<span class='perLevel'> per rank</span>.",
         icon = "/builds/icons/rb-pal-frail.png"
     ))
 
     pal.set(52, new Build( // tree 3 row 6 middle
         title = "Slayer",
-        description = "Grants an ability to cleanse the target, similar to Slay Undead, but works on ALL creature types, up to the level of the paladin, with a 100 mod proc per rank.",
+        description = "Grants an ability to cleanse the target, similar to Slay Undead, but works on ALL creature types, up to the level of the paladin, with a 100 mod proc<span class='perLevel'> per rank</span>.",
         icon = "/builds/icons/rb-pal-slayer.png"
     ))
     builds.set(classPaladin, pal)
@@ -559,19 +559,19 @@ function initBuilds() {
 
     rng.set(16, new Build( // tree 1 row 6 middle
         title = "Evasion",
-        description = "Grants the Evasion AA, increasing the ranger's dodge chance by 5% per rank.",
+        description = "Grants the Evasion AA, increasing the ranger's dodge chance by 5%<span class='perLevel'> per rank</span>.",
         icon = "/builds/icons/rb-todo.png"
     ))
 
     rng.set(18, new Build( // tree 2 row 1 left
         title = "Critical Strike",
-        description = "Grants the Critical Strike AA, increasing the ranger's critical hit chance by 5% per rank.",
+        description = "Grants the Critical Strike AA, increasing the ranger's critical hit chance by 5%<span class='perLevel'> per rank</span>.",
         icon = "/builds/icons/rb-todo.png"
     ))
 
     rng.set(20, new Build( // tree 2 row 1 right
         title = "Rapid Shot",
-        description = "Grants the Rapid Shot AA, increasing the ranger's attack speed by 5% per rank.",
+        description = "Grants the Rapid Shot AA, increasing the ranger's attack speed by 5%<span class='perLevel'> per rank</span>.",
         icon = "/builds/icons/rb-todo.png"
     ))
 
@@ -583,7 +583,7 @@ function initBuilds() {
 
     rng.set(24, new Build( // tree 2 row 3 left
         title = "Archery Mastery",
-        description = "Grants the Archery Mastery AA, increasing the ranger's bow and crossbow damage by 10% per rank.",
+        description = "Grants the Archery Mastery AA, increasing the ranger's bow and crossbow damage by 10%<span class='perLevel'> per rank</span>.",
         icon = "/builds/icons/rb-todo.png"
     ))
 
@@ -619,19 +619,19 @@ function initBuilds() {
 
     rng.set(38, new Build( // tree 3 row 1 right
         title = "Evasion Mastery",
-        description = "Grants the Evasion Mastery AA, increasing the ranger's dodge chance by 10% per rank.",
+        description = "Grants the Evasion Mastery AA, increasing the ranger's dodge chance by 10%<span class='perLevel'> per rank</span>.",
         icon = "/builds/icons/rb-todo.png"
     ))
 
     rng.set(40, new Build( // tree 3 row 2 middle
         title = "Critical Strike Mastery",
-        description = "Grants the Critical Strike Mastery AA, increasing the ranger's critical hit chance by 10% per rank.",
+        description = "Grants the Critical Strike Mastery AA, increasing the ranger's critical hit chance by 10%<span class='perLevel'> per rank</span>.",
         icon = "/builds/icons/rb-todo.png"
     ))
 
     rng.set(42, new Build( // tree 3 row 3 left
         title = "Rapid Shot Mastery",
-        description = "Grants the Rapid Shot Mastery AA, increasing the ranger's attack speed by 10% per rank.",
+        description = "Grants the Rapid Shot Mastery AA, increasing the ranger's attack speed by 10%<span class='perLevel'> per rank</span>.",
         icon = "/builds/icons/rb-todo.png"
     ))
 
@@ -643,7 +643,7 @@ function initBuilds() {
 
     rng.set(46, new Build( // tree 3 row 4 middle
         title = "Archery Grand Mastery",
-        description = "Grants the Archery Grand Mastery AA, increasing the ranger's bow and crossbow damage by 15% per rank.",
+        description = "Grants the Archery Grand Mastery AA, increasing the ranger's bow and crossbow damage by 15%<span class='perLevel'> per rank</span>.",
         icon = "/builds/icons/rb-todo.png"
     ))
 
@@ -688,31 +688,31 @@ function initBuilds() {
 
     shd.set(4, new Build( // tree 1 row 2 middle
         title = "Hungering Aura",
-        description = "Improves lifetaps casted by Leech Touch or Innate Procs by 5% healing for each enemy attacking you with a maximum of 1 enemies or group size, whichever is lower per rank.",
+        description = "Improves lifetaps casted by Leech Touch or Innate Procs by 5% healing for each enemy attacking you with a maximum of 1 enemies or group size, whichever is lower<span class='perLevel'> per rank</span>.",
         icon = "/builds/icons/rb-shd-hungeringaura.png"
     ))
 
     shd.set(6, new Build( // tree 1 row 3 left
         title = "Steadfast Servant",
-        description = "Grants the Steadfast Servant AA, summoning a pet at 20% effectiveness per rank.",
+        description = "Grants the Steadfast Servant AA, summoning a pet at 20% effectiveness<span class='perLevel'> per rank</span>.",
         icon = "/builds/icons/rb-shd-steadfastservant.png"
     ))
 
     shd.set(8, new Build( // tree 1 row 3 right
         title = "Zevfeer's Feast",
-        description = "While in a group, you and your allies gain (group size * level * 0.028) mana regen per tick, capped at maximum group size 3 per rank.",
+        description = "While in a group, you and your allies gain (group size * level * 0.028) mana regen per tick, capped at maximum group size 3<span class='perLevel'> per rank</span>.",
         icon = "/builds/icons/rb-shd-zevfeersfeast.png"
     ))
 
     shd.set(10, new Build( // tree 1 row 4 middle
         title = "Sworn Enemy",
-        description = "When you use taunt, you mark a target as your sworn enemy. For the next 3 ticks, any spell damage dealt to target causes (mana * 0.5) hate per rank.",
+        description = "When you use taunt, you mark a target as your sworn enemy. For the next 3 ticks, any spell damage dealt to target causes (mana * 0.5) hate<span class='perLevel'> per rank</span>.",
         icon = "/builds/icons/rb-shd-swornenemy.png"
     ))
 
     shd.set(13, new Build( // tree 1 row 5 middle
         title = "Banshee's Mirror",
-        description = "Passively grants the Shadow Knight a 6% bonus when healed by other allies per rank.",
+        description = "Passively grants the Shadow Knight a 6% bonus when healed by other allies<span class='perLevel'> per rank</span>.",
         icon = "/builds/icons/rb-shd-bansheesmirror.png"
     ))
 
@@ -724,13 +724,13 @@ function initBuilds() {
 
     shd.set(18, new Build( // tree 2 row 1 left
         title = "Festering Spear",
-        description = "Improve spear type spells by (level * 1) bonus damage per rank. Also gives a 1% chance to cause quad damage.",
+        description = "Improve spear type spells by (level * 1) bonus<span class='perLevel'> per rank</span>. Also gives a 1% chance to cause quad damage.",
         icon = "/builds/icons/rb-shd-festeringspear.png"
     ))
 
     shd.set(20, new Build( // tree 2 row 1 right
         title = "Festering Wound",
-        description = "Improves DoT damage by 1% for each ally in group per rank.",
+        description = "Improves DoT damage by 1% for each ally in group<span class='perLevel'> per rank</span>.",
         icon = "/builds/icons/rb-shd-festeringwound.png"
     ))
 
@@ -742,61 +742,61 @@ function initBuilds() {
 
     shd.set(24, new Build( // tree 2 row 3 left
         title = "Lingering Pain",
-        description = "All direct damage spells cause a DoT effect for 0 to 1 ticks per rank.",
+        description = "All direct damage spells cause a DoT effect for 0 to 1 ticks<span class='perLevel'> per rank</span>.",
         icon = "/builds/icons/rb-shd-lingeringpain.png"
     ))
 
     shd.set(26, new Build( // tree 2 row 3 right
         title = "Blood Oath",
-        description = "Grants the Blood Oath AA, causing the target to be affected by a DoT that heals the caster for 2% of the damage dealt per rank.",
+        description = "Grants the Blood Oath AA, causing the target to be affected by a DoT that heals the caster for 2% of the damage dealt<span class='perLevel'> per rank</span>.",
         icon = "/builds/icons/rb-shd-bloodoath.png"
     ))
 
     shd.set(28, new Build( // tree 2 row 4 middle
         title = "Gift of Urash",
-        description = "Increases all skill damage by 5% per rank.",
+        description = "Increases all skill damage by 5%<span class='perLevel'> per rank</span>.",
         icon = "/builds/icons/rb-shd-giftofurash.png"
     ))
 
     shd.set(31, new Build( // tree 2 row 5 middle
         title = "Unholy Focus",
-        description = "Enables use of the #focus command, transferring lifetaps to the focused ally for 4% of the recourse given per rank.",
+        description = "Enables use of the #focus command, transferring lifetaps to the focused ally for 4% of the recourse given<span class='perLevel'> per rank</span>.",
         icon = "/builds/icons/rb-shd-unholyfocus.png"
     ))
 
     shd.set(34, new Build( // tree 2 row 6 middle
         title = "Bash of Death",
-        description = "When you bash a target that is equal to your level or lower and the enemy is at 10% or less total health you deal an additional (level * 1) per rank.",
+        description = "When you bash a target that is equal to your level or lower and the enemy is at 10% or less total health you deal an additional (level * 1)<span class='perLevel'> per rank</span>.",
         icon = "/builds/icons/rb-shd-bashofdeath.png"
     ))
 
     shd.set(36, new Build( // tree 3 row 1 left
         title = "Embrace Death",
-        description = "Grants you the Death Peace AA, giving the ability to feign death as well as heal you for 1% of missing health per rank.",
+        description = "Grants you the Death Peace AA, giving the ability to feign death as well as heal you for 1% of missing health<span class='perLevel'> per rank</span>.",
         icon = "/builds/icons/rb-shd-embracedeath.png"
     ))
 
     shd.set(38, new Build( // tree 3 row 1 right
         title = "Darkness",
-        description = "Darkness-based and Terror spells now cause 40% more hate per rank.",
+        description = "Darkness-based and Terror spells now cause 40% more hate<span class='perLevel'> per rank</span>.",
         icon = "/builds/icons/rb-shd-darkness.png"
     ))
 
     shd.set(40, new Build( // tree 3 row 2 middle
         title = "Empathetic Soul",
-        description = "Improves Dark Empathy by granting an additional 40 hitpoints healed and 0.5% max mana per rank.",
+        description = "Improves Dark Empathy by granting an additional 40 hitpoints healed and 0.5% max mana<span class='perLevel'> per rank</span>.",
         icon = "/builds/icons/rb-shd-empatheticsoul.png"
     ))
 
     shd.set(42, new Build( // tree 3 row 3 left
         title = "Embrace Shadow",
-        description = "Each time you feign death, you are instantly be invisible to both living and undead creatures for 1 tick per rank.",
+        description = "Each time you feign death, you are instantly be invisible to both living and undead creatures for 1 tick<span class='perLevel'> per rank</span>.",
         icon = "/builds/icons/rb-shd-embraceshadow.png"
     ))
 
     shd.set(44, new Build( // tree 3 row 3 right
         title = "Siphon of Death",
-        description = "Vampiric Embrace, Scream of Death and Shroud of Death now also grant a mana tap for 5% of damage dealt per rank.",
+        description = "Vampiric Embrace, Scream of Death and Shroud of Death now also grant a mana tap for 5% of damage dealt<span class='perLevel'> per rank</span>.",
         icon = "/builds/icons/rb-shd-siphonofdeath.png"
     ))
 
@@ -808,7 +808,7 @@ function initBuilds() {
 
     shd.set(49, new Build( // tree 3 row 5 middle
         title = "Mental Resistance",
-        description = "Gives a 2% chance to resist stun effects per rank.",
+        description = "Gives a 2% chance to resist stun effects<span class='perLevel'> per rank</span>.",
         icon = "/builds/icons/rb-shd-mentalresistance.png"
     ))
 
@@ -840,7 +840,7 @@ function initBuilds() {
 
     dru.set(2, new Build( // tree 1 row 1 right
         title = "One With Nature",
-        description = "Grants a passive where each time you are hit, 2% of the damage is converted into mana per rank.",
+        description = "Grants a passive where each time you are hit, 2% of the damage is converted into mana<span class='perLevel'> per rank</span>.",
         icon = "/builds/icons/rb-dru-treeform.png"
     ))
 
@@ -882,19 +882,19 @@ function initBuilds() {
 
     dru.set(18, new Build( // tree 2 row 1 left
         title = "Regeneration",
-        description = "Grants the druid an innate hp regeneration of Level * <em data-base='0.2'>0.2</em> hitpoints (minimum 2) per tick, a self only damage shield of 2, as well as any duration regeneration spells casted by the druid give 20% additional hitpoint regeneration per tick while in the same zone as the druid per rank.",
+        description = "Grants the druid an innate hp regeneration of Level * <em data-base='0.2'>0.2</em> hitpoints (minimum 2) per tick, a self only damage shield of 2, as well as any duration regeneration spells casted by the druid give 20% additional hitpoint regeneration per tick while in the same zone as the druid<span class='perLevel'> per rank</span>.",
         icon = "/builds/icons/rb-dru-regeneration.png"
     ))
 
     dru.set(20, new Build( // tree 2 row 1 right
         title = "Convergence of Spirits",
-        description = "Grants the Convergence of Spirits AA, giving a heal over time that heals for 0.5% of the target's max health per tick for 6 seconds. This also causes normal heals to be boosted by 5% per rank.",
+        description = "Grants the Convergence of Spirits AA, giving a heal over time that heals for 0.5% of the target's max health per tick for 6 seconds. This also causes normal heals to be boosted by 5%<span class='perLevel'> per rank</span>.",
         icon = "/builds/icons/rb-dru-convergenceofspirits.png"
     ))
 
     dru.set(22, new Build( // tree 2 row 2 middle
         title = "Lifeflow",
-        description = "While an ally has Covergence of Spirits or Nature's Boon buff on them, they are granted a 1% death save chance, healing when triggered for 8000 hitpoints per rank.",
+        description = "While an ally has Covergence of Spirits or Nature's Boon buff on them, they are granted a 1% death save chance, healing when triggered for 8000 hitpoints<span class='perLevel'> per rank</span>.",
         icon = "/builds/icons/rb-dru-lifeflow.png"
     ))
 
@@ -912,19 +912,19 @@ function initBuilds() {
 
     dru.set(28, new Build( // tree 2 row 4 middle
         title = "Nature's Boon",
-        description = "Grants the Nature's Boon AA, where the target receives a buff that lasts 84 seconds, duration reduced by 12 seconds due to rank. When the buff fades, the target is healed for 20% of the druid's max mana. If Nature's Boon is removed early, it will heal for a portion based on duration buff lasted. This also causes normal heals to be boosted by 5% per rank.",
+        description = "Grants the Nature's Boon AA, where the target receives a buff that lasts 84 seconds, duration reduced by 12 seconds due to rank. When the buff fades, the target is healed for 20% of the druid's max mana. If Nature's Boon is removed early, it will heal for a portion based on duration buff lasted. This also causes normal heals to be boosted by 5%<span class='perLevel'> per rank</span>.",
         icon = "/builds/icons/rb-dru-naturesboon.png"
     ))
 
     dru.set(31, new Build( // tree 2 row 5 middle
         title = "Nature's Whisper",
-        description = "While a target is affected by Nature's Boon or Convergence of Spirits, the druid as well as the target regain 2% of any healing done from these spells as mana per rank.",
+        description = "While a target is affected by Nature's Boon or Convergence of Spirits, the druid as well as the target regain 2% of any healing done from these spells as mana<span class='perLevel'> per rank</span>.",
         icon = "/builds/icons/rb-dru-natureswhisper.png"
     ))
 
     dru.set(34, new Build( // tree 2 row 6 middle
         title = "Nature's Guardian",
-        description = "Grants the Nature's Guardian AA, where 3% of the caster's max mana is infused by nature and can be transferred to a target or to the caster per rank.",
+        description = "Grants the Nature's Guardian AA, where 3% of the caster's max mana is infused by nature and can be transferred to a target or to the caster<span class='perLevel'> per rank</span>.",
         icon = "/builds/icons/rb-dru-naturesguardian.png"
     ))
 
@@ -936,13 +936,13 @@ function initBuilds() {
 
     dru.set(38, new Build( // tree 3 row 1 right
         title = "Lingering Pain",
-        description = "When a direct spell is casted, a 0 to 1 tick duration DoT will also affect the target if the spell casted was obtained within 15 levels of your current level per rank.",
+        description = "When a direct spell is casted, a 0 to 1 tick duration DoT will also affect the target if the spell casted was obtained within 15 levels of your current level<span class='perLevel'> per rank</span>.",
         icon = "/builds/icons/rb-dru-lingeringpain.png"
     ))
 
     dru.set(40, new Build( // tree 3 row 2 middle
         title = "Focused Swarm",
-        description = "When standing nearby a mob, DoTs now deal 1% more damage for each ally in group. This damage bonus reduces by 10% for every 20m you're away from an enemy per rank.",
+        description = "When standing nearby a mob, DoTs now deal 1% more damage for each ally in group. This damage bonus reduces by 10% for every 20m you're away from an enemy<span class='perLevel'> per rank</span>.",
         icon = "/builds/icons/rb-dru-focusedswarm.png"
     ))
 
@@ -960,13 +960,13 @@ function initBuilds() {
 
     dru.set(46, new Build( // tree 3 row 4 middle
         title = "Stinging Affliction",
-        description = "DoTs and Direct Damage spells have a 1% chance to critical hit per rank.",
+        description = "DoTs and Direct Damage spells have a 1% chance to critical hit<span class='perLevel'> per rank</span>.",
         icon = "/builds/icons/rb-dru-stingingaffliction.png"
     ))
 
     dru.set(49, new Build( // tree 3 row 5 middle
         title = "Deep Roots",
-        description = "When a root wears off, there is a 3% chance the target will be snared if it is not already per rank.",
+        description = "When a root wears off, there is a 3% chance the target will be snared if it is not already<span class='perLevel'> per rank</span>.",
         icon = "/builds/icons/rb-dru-deeproots.png"
     ))
 
@@ -995,25 +995,25 @@ function initBuilds() {
 
     mnk.set(0, new Build( // tree 1 row 1 left
         title = "Intensified Training",
-        description = "The monk gains a 300 mod proc that deals (level * 1.25 * <em data-base='0.2'>0.2</em>) magic damage per rank.",
+        description = "All melee attacks gain a 300 mod proc that deals (level * 1.25 * <em data-base='0.2'>0.2</em>) magic damage<span class='perLevel'> per rank</span>.",
         icon = "/builds/icons/rb-mnk-intensifiedtraining.png"
     ))
 
     mnk.set(2, new Build( // tree 1 row 1 right
         title = "Familiarity",
-        description = "Every time a special attack lands on an enemy, the monk gains 2 armor against the target per rank.",
+        description = "Every time a special attack lands on an enemy, the monk gains 2 armor against the target<span class='perLevel'> per rank</span>.",
         icon = "/builds/icons/rb-mnk-familiarity.png"
     ))
 
     mnk.set(4, new Build( // tree 1 row 2 middle
         title = "Block",
-        description = "Increases block by 2% per rank.",
+        description = "Increases block by 2%<span class='perLevel'> per rank</span>.",
         icon = "/builds/icons/rb-mnk-block.png"
     ))
 
     mnk.set(6, new Build( // tree 1 row 3 left
         title = "Relentless Training",
-        description = "Increases damage of Tiger Claw, Eagle Strike, Tail Whip and other special attacks by 10% per rank.",
+        description = "Increases damage of Tiger Claw, Eagle Strike, Tail Whip and other special attacks by 10%<span class='perLevel'> per rank</span>.",
         icon = "/builds/icons/rb-mnk-relentlesstraining.png"
     ))
 
@@ -1043,25 +1043,25 @@ function initBuilds() {
 
     mnk.set(18, new Build( // tree 2 row 1 left
         title = "Partial Mending",
-        description = "When mend fails, the monk still heals for 10% of the mending amount per rank.",
+        description = "When mend fails, the monk still heals for 10% of the mending amount<span class='perLevel'> per rank</span>.",
         icon = "/builds/icons/rb-mnk-partialmending.png"
     ))
 
     mnk.set(20, new Build( // tree 2 row 1 right
         title = "Inner Chakra",
-        description = "Heals received while using feign death, including mend, heal for an additional 4% per rank.",
+        description = "Heals received while using feign death, including mend, heal for an additional 4%<span class='perLevel'> per rank</span>.",
         icon = "/builds/icons/rb-mnk-innerchakra.png"
     ))
 
     mnk.set(22, new Build( // tree 2 row 2 middle
         title = "Channel Chakra",
-        description = "While your health is less than 10%, and no enemy is actively attacking you, your normal melee attacks lifetap for 2% damage per rank.",
+        description = "While your health is less than 10%, and no enemy is actively attacking you, your normal melee attacks lifetap for 2% damage<span class='perLevel'> per rank</span>.",
         icon = "/builds/icons/rb-mnk-channelchakra.png"
     ))
 
     mnk.set(24, new Build( // tree 2 row 3 left
         title = "Mending Aura",
-        description = "When you use Mend, you now heal the rest of the group within 5 meters for 20% the mend heal amount per rank.",
+        description = "When you use Mend, you now heal the rest of the group within 5 meters for 20% the mend heal amount<span class='perLevel'> per rank</span>.",
         icon = "/builds/icons/rb-mnk-mendingaura.png"
     ))
 
@@ -1073,67 +1073,67 @@ function initBuilds() {
 
     mnk.set(28, new Build( // tree 2 row 4 middle
         title = "Improved Mend",
-        description = "When you use Mend, you heal an additional 5% to 10% hitpoints per rank.",
+        description = "When you use Mend, you heal an additional 5% to 10% hitpoints<span class='perLevel'> per rank</span>.",
         icon = "/builds/icons/rb-mnk-improvedmend.png"
     ))
 
     mnk.set(31, new Build( // tree 2 row 5 middle
         title = "Purify Body",
-        description = "Grants the Purify Body AA, curing 1 detrimental effect on the monk per rank.",
+        description = "Grants the Purify Body AA, curing 1 detrimental effect on the monk<span class='perLevel'> per rank</span>.",
         icon = "/builds/icons/rb-mnk-purifybody.png"
     ))
 
     mnk.set(34, new Build( // tree 2 row 6 middle
         title = "Tranquility",
-        description = "When you are not affected by negative effects, not under feign death, nor are engaged by an enemy, and in a full group, you regenerate 2% of your total missing health per tick per rank. Lesser group sizes give reduced healing.",
+        description = "When you are not affected by negative effects, not under feign death, nor are engaged by an enemy, and in a full group, you regenerate 2% of your total missing health per<span class='perLevel'> per rank</span>. Lesser group sizes give reduced healing.",
         icon = "/builds/icons/rb-mnk-tranquility.png"
     ))
 
     mnk.set(36, new Build( // tree 3 row 1 left
         title = "Agile Feet",
-        description = "Increases your chance to resist snares by 2% per rank.",
+        description = "Increases your chance to resist snares by 2%<span class='perLevel'> per rank</span>.",
         icon = "/builds/icons/rb-mnk-agilefeet.png"
     ))
 
     mnk.set(38, new Build( // tree 3 row 1 right
         title = "Cowardly Stance",
-        description = "Increases your movement speed by up to 10% based on missing health. Does not stack with movement buffs per rank.",
+        description = "Increases your movement speed by up to 10% based on missing health. Does not stack with movement buffs<span class='perLevel'> per rank</span>.",
         icon = "/builds/icons/rb-mnk-cowardlystance.png"
     ))
 
     mnk.set(40, new Build( // tree 3 row 2 middle
         title = "Thunderfoot",
-        description = "Grants a passive spell block that returns when used after (level - 6) seconds per rank.",
+        description = "Grants a passive spell block that returns when used after (level - 6) seconds<span class='perLevel'> per rank</span>.",
         icon = "/builds/icons/rb-mnk-thunderfoot.png"
     ))
 
     mnk.set(42, new Build( // tree 3 row 3 left
         title = "Stoic Mind",
-        description = "While your health is not below 2%, your resistance to spells is increased by 3% per rank.",
+        description = "While your health is not below 2%, your resistance to spells is increased by 3%<span class='perLevel'> per rank</span>.",
         icon = "/builds/icons/rb-mnk-stoicmind.png"
     ))
 
     mnk.set(44, new Build( // tree 3 row 3 right
         title = "Grounded Essence",
-        description = "Gives a 2% to resist an attempt at being summoned by an enemy per rank.",
+        description = "Gives a 2% to resist an attempt at being summoned by an enemy<span class='perLevel'> per rank</span>.",
         icon = "/builds/icons/rb-mnk-groundedessence.png"
     ))
 
     mnk.set(46, new Build( // tree 3 row 4 middle
         title = "Slow Heart Rate",
-        description = "When you feign death with health below 2%, your feign death will cause all enemies to immediately forget you per rank.",
+        description = "When you feign death with health below 2%, your feign death will cause all enemies to immediately forget you<span class='perLevel'> per rank</span>.",
         icon = "/builds/icons/rb-mnk-slowheartrate.png"
     ))
 
     mnk.set(49, new Build( // tree 3 row 5 middle
         title = "Mirror",
-        description = "While your health is at 99% or higher, your chance to evade attacks is increased by 2% per rank.",
+        description = "While your health is at 99% or higher, your chance to evade attacks is increased by 2%<span class='perLevel'> per rank</span>.",
         icon = "/builds/icons/rb-mnk-mirror.png"
     ))
 
     mnk.set(52, new Build( // tree 3 row 6 middle
         title = "Moving Mountains",
-        description = "When you use the throw stone ability against an enemy lower level than you, you now knockback the enemy 1m per rank.",
+        description = "When you use the throw stone ability against an enemy lower level than you, you now knockback the enemy 1m<span class='perLevel'> per rank</span>.",
         icon = "/builds/icons/rb-mnk-movingmountains.png"
     ))
 
@@ -1153,44 +1153,44 @@ function initBuilds() {
     let brd = new Map()
 
     brd.set(0, new Build( // tree 1 row 1 left
-        title = "Elemental Harmony",
-        description = "Resistant songs (lvl 9) now grant an additional 10 resistance to each resistance type per rank.",
-        icon = "/builds/icons/rb-brd-elementalharmony.png"
+        title = "Training of Zek",
+        description = "Increase melee damage by <em data-base='20'>20</em>%<span class='perLevel'> per rank</span>.",
+        icon = "/builds/icons/rb-brd-trainingofzek.png"
     ))
 
     brd.set(2, new Build( // tree 1 row 1 right
         title = "Healing Treble",
-        description = "Healing effects on songs (lvl 6) are 10% more effective per rank.",
+        description = "Healing effects on songs (lvl 6) are 10% more effective<span class='perLevel'> per rank</span>.",
         icon = "/builds/icons/rb-brd-healingtreble.png"
     ))
 
     brd.set(4, new Build( // tree 1 row 2 middle
         title = "Psalm of Norrath",
-        description = "Damage shield effects on songs (lvl 25) are 20% more effective per rank.",
+        description = "Damage shield effects on songs (lvl 25) are 20% more effective<span class='perLevel'> per rank</span>.",
         icon = "/builds/icons/rb-brd-psalmofnorrath.png"
     ))
 
     brd.set(6, new Build( // tree 1 row 3 left
         title = "Cassindra's Chorus",
-        description = "Mana effects on songs (lvl 20) are 26% more effective per rank.",
+        description = "Mana effects on songs (lvl 20) are 26% more effective<span class='perLevel'> per rank</span>.",
         icon = "/builds/icons/rb-brd-cassindraschorus.png"
     ))
 
     brd.set(8, new Build( // tree 1 row 3 right
         title = "Shield of Songs",
-        description = "Rune effects on songs (lvl 49) are 20% more effective per rank.",
+        description = "Rune effects on songs (lvl 49) are 20% more effective<span class='perLevel'> per rank</span>.",
         icon = "/builds/icons/rb-brd-shieldofsongs.png"
     ))
 
     brd.set(10, new Build( // tree 1 row 4 middle
         title = "Katta's Concord",
-        description = "Katta's Song of Sword (lvl 39) now also gives a 100 proc chance to those with the buff that deals (level * 0.4) damage per rank.",
+        description = "Katta's Song of Sword (lvl 39) now also gives a 100 proc chance to those with the buff that deals (level * 0.4) damage<span class='perLevel'> per rank</span>.",
         icon = "/builds/icons/rb-brd-kattasconcord.png"
     ))
 
     brd.set(13, new Build( // tree 1 row 5 middle
         title = "Cassindra's Secret",
-        description = "Enhances Cassindra's Elegy (lvl 44) to also give 3 mana per rank.",
+        description = "Enhances Cassindra's Elegy (lvl 44) to also give 3 mana<span class='perLevel'> per rank</span>.",
         icon = "/builds/icons/rb-brd-rizlonaspurpose.png"
     ))
 
@@ -1208,26 +1208,26 @@ function initBuilds() {
 
     brd.set(20, new Build( // tree 2 row 1 right
         title = "Offhand Attack",
-        description = "All offhand attacks (lvl 17) have 5% additional chance to hit per rank.",
+        description = "All offhand attacks (lvl 17) have 5% additional chance to hit<span class='perLevel'> per rank</span>.",
         icon = "/builds/icons/rb-brd-offhandattack.png"
     ))
 
     brd.set(22, new Build( // tree 2 row 2 middle
         title = "Innate Songblade",
-        description = "Increases chance to hit and damage by 2% per rank.",
+        description = "Increases chance to hit and damage by 2%<span class='perLevel'> per rank</span>.",
         icon = "/builds/icons/rb-brd-innatesongblade.png"
     ))
 
     brd.set(24, new Build( // tree 2 row 3 left
-        title = "Warsong of Zek",
-        description = "Increases bard's melee damage by 2% per rank.",
-        icon = "/builds/icons/rb-brd-warsongofzek.png"
+        title = "Elemental Harmony",
+        description = "Resistant songs (lvl 9) now grant an additional 10 resistance to each resistance type<span class='perLevel'> per rank</span>.",
+        icon = "/builds/icons/rb-brd-elementalharmony.png"
     ))
 
 
     brd.set(26, new Build( // tree 2 row 3 right
         title = "Dance of Blades",
-        description = "Grants the Dance of Blades AA, increasing chance to dual wield and double attack as well as proc Bladewhirl at 20% effectiveness per rank.",
+        description = "Grants the Dance of Blades AA, increasing chance to dual wield and double attack as well as proc Bladewhirl at 20% effectiveness<span class='perLevel'> per rank</span>.",
         icon = "/builds/icons/rb-brd-danceofblades.png"
     ))
 
@@ -1239,7 +1239,7 @@ function initBuilds() {
 
     brd.set(31, new Build( // tree 2 row 5 middle
         title = "Harmonic Affinity",
-        description = "Increases proc chance modifier by 5% per rank.",
+        description = "Increases proc chance modifier by 5%<span class='perLevel'> per rank</span>.",
         icon = "/builds/icons/rb-brd-harmonicaffinity.png"
     ))
 
@@ -1251,49 +1251,49 @@ function initBuilds() {
 
     brd.set(36, new Build( // tree 3 row 1 left
         title = "Chant Cycle",
-        description = "Chants with DoT effects now deal 1% more damage per ally in group per rank.",
+        description = "Chants with DoT effects now deal 1% more damage per ally in group<span class='perLevel'> per rank</span>.",
         icon = "/builds/icons/rb-brd-chantcycle.png"
     ))
 
     brd.set(38, new Build( // tree 3 row 1 right
         title = "Boastful Bellow",
-        description = "Grants the Boastful Bellow AA which causes damage and briefly stuns the enemy, and lowers the reuse time by 2 seconds per rank.",
+        description = "Grants the Boastful Bellow AA which causes damage and briefly stuns the enemy, and lowers the reuse time by 2 seconds<span class='perLevel'> per rank</span>.",
         icon = "/builds/icons/rb-brd-boastfulbellow.png"
     ))
 
     brd.set(40, new Build( // tree 3 row 2 middle
         title = "Selo's Crescendo",
-        description = "Selo's movement songs now work indoors while you are equal or below level 12 per rank.",
+        description = "Selo's movement songs now work indoors while you are equal or below level 12<span class='perLevel'> per rank</span>.",
         icon = "/builds/icons/rb-brd-seloscrescendo.png"
     ))
 
     brd.set(42, new Build( // tree 3 row 3 left
         title = "Soothing Melody",
-        description = "When the bard uses a song with a healing effect on themselves, reduces hate of their target by (heal amount * 2) per rank.",
+        description = "When the bard uses a song with a healing effect on themselves, reduces hate of their target by (heal amount * 2)<span class='perLevel'> per rank</span>.",
         icon = "/builds/icons/rb-brd-shieldofnotes.png"
     ))
 
     brd.set(44, new Build( // tree 3 row 3 right
         title = "Shout",
-        description = "Increases range of PB AE songs by 20% per rank.",
+        description = "Increases range of PB AE songs by 20%<span class='perLevel'> per rank</span>.",
         icon = "/builds/icons/rb-brd-shout.png"
     ))
 
     brd.set(46, new Build( // tree 3 row 4 middle
         title = "Siren's Song",
-        description = "Charm songs (lvl 27) now cost 10% less mana per rank.",
+        description = "Charm songs (lvl 27) now cost 10% less mana<span class='perLevel'> per rank</span>.",
         icon = "/builds/icons/rb-brd-songofstone.png"
     ))
 
     brd.set(49, new Build( // tree 3 row 5 middle
         title = "Lingering Twilight",
-        description = "Mesmerizing songs last 0.6 ticks longer per rank.",
+        description = "Mesmerizing songs last 0.6 ticks longer<span class='perLevel'> per rank</span>.",
         icon = "/builds/icons/rb-brd-lingeringtwilight.png"
     ))
 
     brd.set(52, new Build( // tree 3 row 6 middle
         title = "Fading Memories",
-        description = "Grants the Fading Memories AA, allowing you to escape all aggressions towards you, By default this costs 50% of your max mana, reduced by 5% per rank.",
+        description = "Grants the Fading Memories AA, allowing you to escape all aggressions towards you, By default this costs 50% of your max mana, reduced by 5%<span class='perLevel'> per rank</span>.",
         icon = "/builds/icons/rb-brd-fadingmemories.png"
     ))
 
@@ -1320,25 +1320,25 @@ function initBuilds() {
 
     rog.set(2, new Build( // tree 1 row 1 right
         title = "Killing Spree",
-        description = "Each time a creature is successfully killed, the rogue gains a killing spree counter. For a limited time, attacks deal an additional 5% damage per counter, with a cap of 2 counters per rank.",
+        description = "Each time a creature is successfully killed, the rogue gains a killing spree counter. For a limited time, attacks deal an additional 5% damage per counter, with a cap of 2 counters<span class='perLevel'> per rank</span>.",
         icon = "/builds/icons/rb-rog-killingspree.png"
     ))
 
     rog.set(4, new Build( // tree 1 row 2 middle
         title = "Thief's Eyes",
-        description = "Increases accuracy by 2% with all skills per rank.",
+        description = "Increases accuracy by 2% with all skills<span class='perLevel'> per rank</span>.",
         icon = "/builds/icons/rb-rog-thiefseyes.png"
     ))
 
     rog.set(6, new Build( // tree 1 row 3 left
         title = "Sinister Strikes",
-        description = "Increases offhand damage bonus by 10% per rank.",
+        description = "Increases offhand damage bonus by 10%<span class='perLevel'> per rank</span>.",
         icon = "/builds/icons/rb-rog-sinisterstrikes.png"
     ))
 
     rog.set(8, new Build( // tree 1 row 3 right
         title = "Sneak Attack",
-        description = "If a rogue is sneaking and uses a backstab while an enemy is greater than 70% hp, improves chance to hit with a backstab by 2000% and critical chance increases by 10% per rank.",
+        description = "If a rogue is sneaking and uses a backstab while an enemy is greater than 70% hp, improves chance to hit with a backstab by 2000% and critical chance increases by 10%<span class='perLevel'> per rank</span>.",
         icon = "/builds/icons/rb-rog-sneakattack.png"
     ))
 
@@ -1350,7 +1350,7 @@ function initBuilds() {
 
     rog.set(13, new Build( // tree 1 row 5 middle
         title = "Vital Organs",
-        description = "The base damage for Backstab increases by 10% per rank.",
+        description = "The base damage for Backstab increases by 10%<span class='perLevel'> per rank</span>.",
         icon = "/builds/icons/rb-rog-vitalorgans.png"
     ))
 
@@ -1368,13 +1368,13 @@ function initBuilds() {
 
     rog.set(20, new Build( // tree 2 row 1 right
         title = "Jarring Stab",
-        description = "When the rogue successfully backstabs an enemy, all enemies that are hated by the rogue have a reduction of (<em data-base='0.2'>0.2</em> * damage) hate per rank.",
+        description = "When the rogue successfully backstabs an enemy, all enemies that are hated by the rogue have a reduction of (<em data-base='0.2'>0.2</em> * damage) hate<span class='perLevel'> per rank</span>.",
         icon = "/builds/icons/rb-rog-jarringstab.png"
     ))
 
     rog.set(22, new Build( // tree 2 row 2 middle
         title = "Untapped Potential",
-        description = "While in a group, you and your allies gain (group size * level * 0.019) mana regen per tick, capped at maximum group size 3 per rank.",
+        description = "While in a group, you and your allies gain (group size * level * 0.019) mana regen per tick, capped at maximum group size 3<span class='perLevel'> per rank</span>.",
         icon = "/builds/icons/rb-rog-untappedpotential.png"
     ))
 
@@ -1404,55 +1404,55 @@ function initBuilds() {
 
     rog.set(34, new Build( // tree 2 row 6 middle
         title = "Escape",
-        description = "Grants the Escape AA, allowing the rogue to escape combat instantly for 50% of your endurance bar. Endurance cost is reduced by 10% per rank.",
+        description = "Grants the Escape AA, allowing the rogue to escape combat instantly for 50% of your endurance bar. Endurance cost is reduced by 10%<span class='perLevel'> per rank</span>.",
         icon = "/builds/icons/rb-rog-escape.png"
     ))
 
     rog.set(36, new Build( // tree 3 row 1 left
         title = "Sleight of Strength",
-        description = "When the rogue successfully pick pockets, they gain a random beneficial buff for 0 to 1 ticks per rank.",
+        description = "When the rogue successfully pick pockets, they gain a random beneficial buff for 0 to 1 ticks<span class='perLevel'> per rank</span>.",
         icon = "/builds/icons/rb-rog-sleightofstrength.png"
     ))
 
     rog.set(38, new Build( // tree 3 row 1 right
         title = "Haggle",
-        description = "When a rogue sells or buys items, the price is improved by 2% per rank.",
+        description = "When a rogue sells or buys items, the price is improved by 2%<span class='perLevel'> per rank</span>.",
         icon = "/builds/icons/rb-rog-haggle.png"
     ))
 
     rog.set(40, new Build( // tree 3 row 2 middle
         title = "Hidden Stash",
-        description = "When a rogue pickpockets, they dive deeper into the enemy's pockets to discover a hidden stash of coin per rank.",
+        description = "When a rogue pickpockets, they dive deeper into the enemy's pockets to discover a hidden stash of coin<span class='perLevel'> per rank</span>.",
         icon = "/builds/icons/rb-rog-hiddenstash.png"
     ))
 
     rog.set(42, new Build( // tree 3 row 3 left
         title = "Throwing Precision",
-        description = "Increases the minimum damage of throwing daggers by 10% per rank.",
+        description = "Increases the minimum damage of throwing daggers by 10%<span class='perLevel'> per rank</span>.",
         icon = "/builds/icons/rb-rog-throwingprecision.png"
     ))
 
     rog.set(44, new Build( // tree 3 row 3 right
         title = "Mugging Shot",
-        description = "Adds a special proc based on the offhand wielded by the rogue, has a 100 proc rate per rank.<br>Mace: Lowers aggro by 50 hate and interrupts foe.<br>	Sword: Deals 5 damage. Dagger: Drains mana by 100 and deals 2 damage.",
+        description = "Adds a special proc based on the offhand wielded by the rogue, has a 100 proc rate<span class='perLevel'> per rank</span>.<br>Mace: Lowers aggro by 50 hate and interrupts foe.<br>	Sword: Deals 5 damage. Dagger: Drains mana by 100 and deals 2 damage.",
         icon = "/builds/icons/rb-rog-muggingshot.png"
     ))
 
     rog.set(46, new Build( // tree 3 row 4 middle
         title = "Deadly Dagger",
-        description = "Increases the maximum damage of throwing daggers by 20% per rank.",
+        description = "Increases the maximum damage of throwing daggers by 20%<span class='perLevel'> per rank</span>.",
         icon = "/builds/icons/rb-rog-deadlydagger.png"
     ))
 
     rog.set(49, new Build( // tree 3 row 5 middle
         title = "Thieves' Affinity",
-        description = "Increases proc chance of innate and card weapon procs by 2.5% per rank.",
+        description = "Increases proc chance of innate and card weapon procs by 2.5%<span class='perLevel'> per rank</span>.",
         icon = "/builds/icons/rb-rog-thievesaffinity.png"
     ))
 
     rog.set(52, new Build( // tree 3 row 6 middle
         title = "Hidden Dagger",
-        description = "If an enemy is not engaged, and is hit by a dagger thrown by a rogue sneaking, it will break sneak, and has a 15% chance to not be social per rank.",
+        description = "If an enemy is not engaged, and is hit by a dagger thrown by a rogue sneaking, it will break sneak, and has a 15% chance to not be social<span class='perLevel'> per rank</span>.",
         icon = "/builds/icons/rb-rog-hiddendagger.png"
     ))
 
@@ -1473,13 +1473,13 @@ function initBuilds() {
 
     shm.set(0, new Build( // tree 1 row 1 left
         title = "Spirit of Speed",
-        description = "Spirit of Wolf lasts 20% longer per rank.",
+        description = "Spirit of Wolf lasts 20% longer<span class='perLevel'> per rank</span>.",
         icon = "/builds/icons/rb-shm-spiritofspeed.png"
     ))
 
     shm.set(2, new Build( // tree 1 row 1 right
         title = "Purify Soul",
-        description = "Grants the Purify Soul AA, which cures target of disease, poison, as well as gives a 10% chance to heal the target by 1% max HP per tick regen per rank.",
+        description = "Grants the Purify Soul AA, which cures target of disease, poison, as well as gives a 10% chance to heal the target by 1% max HP per tick regen<span class='perLevel'> per rank</span>.",
         icon = "/builds/icons/rb-shm-purifysoul.png"
     ))
 
@@ -1491,25 +1491,25 @@ function initBuilds() {
 
     shm.set(6, new Build( // tree 1 row 3 left
         title = "Extended Haste",
-        description = "Improves attack speed spells used by the caster by increasing their duration by 30% per rank.",
+        description = "Improves attack speed spells used by the caster by increasing their duration by 30%<span class='perLevel'> per rank</span>.",
         icon = "/builds/icons/rb-shm-extendedhaste.png"
     ))
 
     shm.set(8, new Build( // tree 1 row 3 right
         title = "Spiritual Healing",
-        description = "Heals to allies also heal the shaman 5% health per rank.",
+        description = "Heals to allies also heal the shaman 5% health<span class='perLevel'> per rank</span>.",
         icon = "/builds/icons/rb-shm-spiritualhealing.png"
     ))
 
     shm.set(10, new Build( // tree 1 row 4 middle
         title = "Covenant of Spirit",
-        description = "Grants the Covenent of Spirit AA, which imbues divine intervention on the target with a 2% death save success per rank.<b>NOT IMPLEMENTED</b>",
+        description = "Grants the Covenent of Spirit AA, which imbues divine intervention on the target with a 2% death save success<span class='perLevel'> per rank</span>.<b>NOT IMPLEMENTED</b>",
         icon = "/builds/icons/rb-shm-covenantofspirit.png"
     ))
 
     shm.set(13, new Build( // tree 1 row 5 middle
         title = "Reinforce Torpor",
-        description = "Stoicism and Torpor heal for an additional 10% per rank.",
+        description = "Stoicism and Torpor heal for an additional 10%<span class='perLevel'> per rank</span>.",
         icon = "/builds/icons/rb-shm-reinforcetorpor.png"
     ))
 
@@ -1521,49 +1521,49 @@ function initBuilds() {
 
     shm.set(18, new Build( // tree 2 row 1 left
         title = "Cannibalize",
-        description = "Grants the Cannibalization AA, causing 5% current HP loss in exchange for mana at 10% per rank.",
+        description = "Grants the Cannibalization AA, causing 5% current HP loss in exchange for mana at 10%<span class='perLevel'> per rank</span>.",
         icon = "/builds/icons/rb-shm-cannibalize.png"
     ))
 
     shm.set(20, new Build( // tree 2 row 1 right
         title = "Spirit Call",
-        description = "Grants the Spirit Call AA, summoning a racial pet with 10% effectiveness per rank.",
+        description = "Grants the Spirit Call AA, summoning a racial pet with 10% effectiveness<span class='perLevel'> per rank</span>.",
         icon = "/builds/icons/rb-shm-spiritcall.png"
     ))
 
     shm.set(22, new Build( // tree 2 row 2 middle
         title = "Virulent Paralysis",
-        description = "Grants the Virulent Paralysis AA, causing a target to be immobilized. Each rank increases duration by 6 seconds per rank.",
+        description = "Grants the Virulent Paralysis AA, causing a target to be immobilized. Each rank increases duration by 6 seconds<span class='perLevel'> per rank</span>.",
         icon = "/builds/icons/rb-shm-virulentparalysis.png"
     ))
 
     shm.set(24, new Build( // tree 2 row 3 left
         title = "Poison",
-        description = "All poison-based DoTs now deal 1% additional damage per ally in group per rank.",
+        description = "All poison-based DoTs now deal 1% additional damage per ally in group<span class='perLevel'> per rank</span>.",
         icon = "/builds/icons/rb-shm-poison.png"
     ))
 
     shm.set(26, new Build( // tree 2 row 3 right
         title = "Extended Turgur",
-        description = "Increases duration of slow by 5% as well as penetrates magic defense by 5% per rank.",
+        description = "Increases duration of slow by 5% as well as penetrates magic defense by 5%<span class='perLevel'> per rank</span>.",
         icon = "/builds/icons/rb-shm-extendedturgur.png"
     ))
 
     shm.set(28, new Build( // tree 2 row 4 middle
         title = "Ancient Wrath",
-        description = "All direct damage spells now deal 7.5% more damage as well as 1% chance to critical hit per rank.",
+        description = "All direct damage spells now deal 7.5% more damage as well as 1% chance to critical hit<span class='perLevel'> per rank</span>.",
         icon = "/builds/icons/rb-shm-ancientwrath.png"
     ))
 
     shm.set(31, new Build( // tree 2 row 5 middle
         title = "Turgur's Echo",
-        description = "When a slow-based spell is resisted, the spell will try to land again with 2 less resistance per rank.",
+        description = "When a slow-based spell is resisted, the spell will try to land again with 2 less resistance<span class='perLevel'> per rank</span>.",
         icon = "/builds/icons/rb-shm-turgursecho.png"
     ))
 
     shm.set(34, new Build( // tree 2 row 6 middle
         title = "Spiritual Channeling",
-        description = "While this ability is active, all spells cost HP rather than mana. Cooldown of reuse is reduced by 6seconds per rank.",
+        description = "While this ability is active, all spells cost HP rather than mana. Cooldown of reuse is reduced by 6seconds<span class='perLevel'> per rank</span>.",
         icon = "/builds/icons/rb-shm-spiritualchanneling.png"
     ))
 
@@ -1575,19 +1575,19 @@ function initBuilds() {
 
     shm.set(38, new Build( // tree 3 row 1 right
         title = "Rabid Bear",
-        description = "Grants the Rabid Bear AA, granting 2% attack speed and the tainted bite proc line with 20% effectiveness per rank.",
+        description = "Grants the Rabid Bear AA, granting 2% attack speed and the tainted bite proc line with 20% effectiveness<span class='perLevel'> per rank</span>.",
         icon = "/builds/icons/rb-shm-rabidbear.png"
     ))
 
     shm.set(40, new Build( // tree 3 row 2 middle
         title = "Ancestral Guard",
-        description = "Grants the Ancestral Guard AA, granting 2% evasion per rank.",
+        description = "Grants the Ancestral Guard AA, granting 2% evasion<span class='perLevel'> per rank</span>.",
         icon = "/builds/icons/rb-shm-ancestralguard.png"
     ))
 
     shm.set(42, new Build( // tree 3 row 3 left
         title = "Call of the Ancients",
-        description = "Grants the Call of the Ancients AA, summoning a spirit that deals (level * 1.5 * 1) damage per hit for 60 seconds (maximum level * 12 *1) damage per rank.",
+        description = "Grants the Call of the Ancients AA, summoning a spirit that deals (level * 1.5 * 1) damage per hit for 60 seconds (maximum level * 12 *1) damage<span class='perLevel'> per rank</span>.",
         icon = "/builds/icons/rb-shm-calloftheancients.png"
     ))
 
@@ -1599,19 +1599,19 @@ function initBuilds() {
 
     shm.set(46, new Build( // tree 3 row 4 middle
         title = "Mark of Sloth",
-        description = "On each attack, grants a chance to trigger a sloth effect, causing the next direct damage spell to deal 5% bonus damage per rank.",
+        description = "On each attack, grants a chance to trigger a sloth effect, causing the next direct damage spell to deal 5% bonus damage<span class='perLevel'> per rank</span>.",
         icon = "/builds/icons/rb-shm-markofsloth.png"
     ))
 
     shm.set(49, new Build( // tree 3 row 5 middle
         title = "Feral Swipe",
-        description = "Grants the Feral Swipe AA, giving a bonus attack ability with 5% effectiveness per rank.",
+        description = "Grants the Feral Swipe AA, giving a bonus attack ability with 5% effectiveness<span class='perLevel'> per rank</span>.",
         icon = "/builds/icons/rb-shm-feralswipe.png"
     ))
 
     shm.set(52, new Build( // tree 3 row 6 middle
         title = "Paragon of Spirit",
-        description = "Grants the Paragon of Spirit AA, giving a mana and hp regen ability 20% effectiveness per rank.",
+        description = "Grants the Paragon of Spirit AA, giving a mana and hp regen ability 20% effectiveness<span class='perLevel'> per rank</span>.",
         icon = "/builds/icons/rb-shm-paragonofspirit.png"
     ))
 
@@ -1632,19 +1632,19 @@ function initBuilds() {
 
     nec.set(0, new Build( // tree 1 row 1 left
         title = "Corruption",
-        description = "DoT damage is increased by 1% per ally in group per rank.",
+        description = "DoT damage is increased by 1% per ally in group<span class='perLevel'> per rank</span>.",
         icon = "/builds/icons/rb-todo.png"
     ))
 
     nec.set(2, new Build( // tree 1 row 1 right
         title = "Cavorting Bones",
-        description = "Empowers your pet to dynamically level with you at 20% effectiveness per rank. At 59+, the pet will be a spectre.",
+        description = "Empowers your pet to dynamically level with you at 20%<span class='perLevel'> per rank</span>. At 59+, the pet will be a spectre.",
         icon = "/builds/icons/rb-todo.png"
     ))
 
     nec.set(4, new Build( // tree 1 row 2 middle
         title = "Shocking Bolt",
-        description = "When a poison-based DoT with bolt in it's name (or venom of the snake) lands on an enemy, the instant damage is increased by 5% per rank. It also has a 1% chance to hit for quad damage.",
+        description = "When a poison-based DoT with bolt in it's name (or venom of the snake) lands on an enemy, the instant damage is increased by<span class='perLevel'> per rank</span>. It also has a 1% chance to hit for quad damage.",
         icon = "/builds/icons/rb-todo.png"
     ))
 
@@ -1656,43 +1656,43 @@ function initBuilds() {
 
     nec.set(8, new Build( // tree 1 row 3 right
         title = "Lingering Curse",
-        description = "Increases DoT duration by 1 tick per rank, the duration is lowered the closer the enemy is to your level. Minimum 1 tick per rank.",
+        description = "Increases DoT duration by 1 tick per rank, the duration is lowered the closer the enemy is to your level. Minimum 1 tick<span class='perLevel'> per rank</span>.",
         icon = "/builds/icons/rb-todo.png"
     ))
 
     nec.set(10, new Build( // tree 1 row 4 middle
         title = "Decay",
-        description = "While a DoT affects an enemy, mana is returned to the necromancer at a rate of 1% of cost per tick per rank.",
+        description = "While a DoT affects an enemy, mana is returned to the necromancer at a rate of 1% of cost per tick<span class='perLevel'> per rank</span>.",
         icon = "/builds/icons/rb-todo.png"
     ))
 
     nec.set(13, new Build( // tree 1 row 5 middle
         title = "Splurt",
-        description = "Splurt now deals 10% more damage per rank.",
+        description = "Splurt now deals 10% more damage<span class='perLevel'> per rank</span>.",
         icon = "/builds/icons/rb-todo.png"
     ))
 
     nec.set(16, new Build( // tree 1 row 6 middle
         title = "Venom Strike",
-        description = "Poison-based direct damage spells such as Torbas line of spells, now have a 1% chance to also apply a poison damage over time per rank.",
+        description = "Poison-based direct damage spells such as Torbas line of spells, now have a 1% chance to also apply a poison damage over time<span class='perLevel'> per rank</span>.",
         icon = "/builds/icons/rb-todo.png"
     ))
 
     nec.set(18, new Build( // tree 2 row 1 left
         title = "Shroud of Death",
-        description = "Your pet gains a 400 mod proc DD that deals (level * <em data-base='0.2'>0.2</em>) magic damage and if Spirit Focus is trained and a focus target is set, a recourse heal for 100% of damage dealt is given per rank.",
+        description = "Your pet gains a 400 mod proc DD that deals (level * <em data-base='0.2'>0.2</em>) magic damage and if Spirit Focus is trained and a focus target is set, a recourse heal for 100% of damage dealt is given<span class='perLevel'> per rank</span>.",
         icon = "/builds/icons/rb-todo.png"
     ))
 
     nec.set(20, new Build( // tree 2 row 1 right
         title = "Life Burn",
-        description = "Unlocks the Life Burn AA, dealing 2% of the necromancer's current health in damage to the target per rank.",
+        description = "Unlocks the Life Burn AA, dealing 2% of the necromancer's current health in damage to the target<span class='perLevel'> per rank</span>.",
         icon = "/builds/icons/rb-todo.png"
     ))
 
     nec.set(22, new Build( // tree 2 row 2 middle
         title = "Pact of Hate",
-        description = "Dark Pact line spells now regenerate an additional 10% mana based on damage dealt per rank.",
+        description = "Dark Pact line spells now regenerate an additional 10% mana based on damage dealt<span class='perLevel'> per rank</span>.",
         icon = "/builds/icons/rb-todo.png"
     ))
 
@@ -1710,7 +1710,7 @@ function initBuilds() {
 
     nec.set(28, new Build( // tree 2 row 4 middle
         title = "Spirit Focus",
-        description = "Enables use of the #focus command, transferring recourses such as life taps to the focused ally for 16% of the recourse given per rank.",
+        description = "Enables use of the #focus command, transferring recourses such as life taps to the focused ally for 16% of the recourse given<span class='perLevel'> per rank</span>.",
         icon = "/builds/icons/rb-todo.png"
     ))
 
@@ -1728,49 +1728,49 @@ function initBuilds() {
 
     nec.set(36, new Build( // tree 3 row 1 left
         title = "Soul Siphon",
-        description = "Grants the Soul Siphon AA, causing a target to be drained of 10% of their current mana and health per rank.",
+        description = "Grants the Soul Siphon AA, causing a target to be drained of 10% of their current mana and health<span class='perLevel'> per rank</span>.",
         icon = "/builds/icons/rb-todo.png"
     ))
 
     nec.set(38, new Build( // tree 3 row 1 right
         title = "Soul Leech",
-        description = "Grants the Soul Leech AA, causing a target to be drained of 10% of their current mana and health per rank.",
+        description = "Grants the Soul Leech AA, causing a target to be drained of 10% of their current mana and health<span class='perLevel'> per rank</span>.",
         icon = "/builds/icons/rb-todo.png"
     ))
 
     nec.set(40, new Build( // tree 3 row 2 middle
         title = "Soul Bind",
-        description = "Grants the Soul Bind AA, causing a target to be drained of 10% of their current mana and health per rank.",
+        description = "Grants the Soul Bind AA, causing a target to be drained of 10% of their current mana and health<span class='perLevel'> per rank</span>.",
         icon = "/builds/icons/rb-todo.png"
     ))
 
     nec.set(42, new Build( // tree 3 row 3 left
         title = "Soul Drain",
-        description = "Grants the Soul Drain AA, causing a target to be drained of 10% of their current mana and health per rank.",
+        description = "Grants the Soul Drain AA, causing a target to be drained of 10% of their current mana and health<span class='perLevel'> per rank</span>.",
         icon = "/builds/icons/rb-todo.png"
     ))
 
     nec.set(44, new Build( // tree 3 row 3 right
         title = "Soul Harvest",
-        description = "Grants the Soul Harvest AA, causing a target to be drained of 10% of their current mana and health per rank.",
+        description = "Grants the Soul Harvest AA, causing a target to be drained of 10% of their current mana and health<span class='perLevel'> per rank</span>.",
         icon = "/builds/icons/rb-todo.png"
     ))
 
     nec.set(46, new Build( // tree 3 row 4 middle
         title = "Soul Reap",
-        description = "Grants the Soul Reap AA, causing a target to be drained of 10% of their current mana and health per rank.",
+        description = "Grants the Soul Reap AA, causing a target to be drained of 10% of their current mana and health<span class='perLevel'> per rank</span>.",
         icon = "/builds/icons/rb-todo.png"
     ))
 
     nec.set(49, new Build( // tree 3 row 5 middle
         title = "Soul Suck",
-        description = "Grants the Soul Suck AA, causing a target to be drained of 10% of their current mana and health per rank.",
+        description = "Grants the Soul Suck AA, causing a target to be drained of 10% of their current mana and health<span class='perLevel'> per rank</span>.",
         icon = "/builds/icons/rb-todo.png"
     ))
 
     nec.set(52, new Build( // tree 3 row 6 middle
         title = "Soul Tap",
-        description = "Grants the Soul Tap AA, causing a target to be drained of 10% of their current mana and health per rank.",
+        description = "Grants the Soul Tap AA, causing a target to be drained of 10% of their current mana and health<span class='perLevel'> per rank</span>.",
         icon = "/builds/icons/rb-todo.png"
     ))
 
@@ -1792,147 +1792,147 @@ function initBuilds() {
 
     wiz.set(0, new Build( // tree 1 row 1 left
         title = "Elemental Fury",
-        description = "Increases the damage of all direct damage spells by 1% per rank.",
+        description = "Increases the damage of all direct damage spells by 1%<span class='perLevel'> per rank</span>.",
         icon = "/builds/icons/rb-todo.png"
     ))
 
     wiz.set(2, new Build( // tree 1 row 1 right
         title = "Elemental Mastery",
-        description = "Increases the critical chance of all direct damage spells by 1% per rank.",
+        description = "Increases the critical chance of all direct damage spells by 1%<span class='perLevel'> per rank</span>.",
         icon = "/builds/icons/rb-todo.png"
     ))
 
     wiz.set(4, new Build( // tree 1 row 2 middle
         title = "Elemental Precision",
-        description = "Increases the critical damage of all direct damage spells by 1% per rank.",
+        description = "Increases the critical damage of all direct damage spells by 1%<span class='perLevel'> per rank</span>.",
         icon = "/builds/icons/rb-todo.png"
     ))
 
     wiz.set(6, new Build( // tree 1 row 3 left
         title = "Elemental Focus",
-        description = "Increases the chance to resist spell interruption by 1% per rank.",
+        description = "Increases the chance to resist spell interruption by 1%<span class='perLevel'> per rank</span>.",
         icon = "/builds/icons/rb-todo.png"
     ))
 
     wiz.set(8, new Build( // tree 1 row 3 right
         title = "Elemental Power",
-        description = "Increases the damage of all DoTs by 1% per rank.",
+        description = "Increases the damage of all DoTs by 1%<span class='perLevel'> per rank</span>.",
         icon = "/builds/icons/rb-todo.png"
     ))
 
     wiz.set(10, new Build( // tree 1 row 4 middle
         title = "Elemental Wrath",
-        description = "Increases the critical chance of all DoTs by 1% per rank.",
+        description = "Increases the critical chance of all DoTs by 1%<span class='perLevel'> per rank</span>.",
         icon = "/builds/icons/rb-todo.png"
     ))
 
     wiz.set(13, new Build( // tree 1 row 5 middle
         title = "Elemental Rage",
 
-        description = "Increases the critical damage of all DoTs by 1% per rank.",
+        description = "Increases the critical damage of all DoTs by 1%<span class='perLevel'> per rank</span>.",
         icon = "/builds/icons/rb-todo.png"
     ))
 
     wiz.set(16, new Build( // tree 1 row 6 middle
         title = "Elemental Fury",
-        description = "Increases the damage of all direct damage spells by 1% per rank.",
+        description = "Increases the damage of all direct damage spells by 1%<span class='perLevel'> per rank</span>.",
         icon = "/builds/icons/rb-todo.png"
     ))
 
     wiz.set(18, new Build( // tree 2 row 1 left
         title = "Elemental Mastery",
-        description = "Increases the critical chance of all direct damage spells by 1% per rank.",
+        description = "Increases the critical chance of all direct damage spells by 1%<span class='perLevel'> per rank</span>.",
         icon = "/builds/icons/rb-todo.png"
     ))
 
     wiz.set(20, new Build( // tree 2 row 1 right
         title = "Elemental Precision",
-        description = "Increases the critical damage of all direct damage spells by 1% per rank.",
+        description = "Increases the critical damage of all direct damage spells by 1%<span class='perLevel'> per rank</span>.",
         icon = "/builds/icons/rb-todo.png"
     ))
 
     wiz.set(22, new Build( // tree 2 row 2 middle
         title = "Elemental Focus",
-        description = "Increases the chance to resist spell interruption by 1% per rank.",
+        description = "Increases the chance to resist spell interruption by 1%<span class='perLevel'> per rank</span>.",
         icon = "/builds/icons/rb-todo.png"
     ))
 
     wiz.set(24, new Build( // tree 2 row 3 left
         title = "Elemental Power",
-        description = "Increases the damage of all DoTs by 1% per rank.",
+        description = "Increases the damage of all DoTs by 1%<span class='perLevel'> per rank</span>.",
         icon = "/builds/icons/rb-todo.png"
     ))
 
     wiz.set(26, new Build( // tree 2 row 3 right
         title = "Elemental Wrath",
-        description = "Increases the critical chance of all DoTs by 1% per rank.",
+        description = "Increases the critical chance of all DoTs by 1%<span class='perLevel'> per rank</span>.",
         icon = "/builds/icons/rb-todo.png"
     ))
 
     wiz.set(28, new Build( // tree 2 row 4 middle
         title = "Elemental Rage",
-        description = "Increases the critical damage of all DoTs by 1% per rank.",
+        description = "Increases the critical damage of all DoTs by 1%<span class='perLevel'> per rank</span>.",
         icon = "/builds/icons/rb-todo.png"
     ))
 
     wiz.set(31, new Build( // tree 2 row 5 middle
         title = "Elemental Fury",
-        description = "Increases the damage of all direct damage spells by 1% per rank.",
+        description = "Increases the damage of all direct damage spells by 1%<span class='perLevel'> per rank</span>.",
         icon = "/builds/icons/rb-todo.png"
     ))
 
     wiz.set(34, new Build( // tree 2 row 6 middle
         title = "Elemental Mastery",
-        description = "Increases the critical chance of all direct damage spells by 1% per rank.",
+        description = "Increases the critical chance of all direct damage spells by 1%<span class='perLevel'> per rank</span>.",
         icon = "/builds/icons/rb-todo.png"
     ))
 
     wiz.set(36, new Build( // tree 3 row 1 left
         title = "Elemental Precision",
-        description = "Increases the critical damage of all direct damage spells by 1% per rank.",
+        description = "Increases the critical damage of all direct damage spells by 1%<span class='perLevel'> per rank</span>.",
         icon = "/builds/icons/rb-todo.png"
     ))
 
     wiz.set(38, new Build( // tree 3 row 1 right
         title = "Elemental Focus",
-        description = "Increases the chance to resist spell interruption by 1% per rank.",
+        description = "Increases the chance to resist spell interruption by 1%<span class='perLevel'> per rank</span>.",
         icon = "/builds/icons/rb-todo.png"
     ))
 
 
     wiz.set(40, new Build( // tree 3 row 2 middle
         title = "Elemental Power",
-        description = "Increases the damage of all DoTs by 1% per rank.",
+        description = "Increases the damage of all DoTs by 1%<span class='perLevel'> per rank</span>.",
         icon = "/builds/icons/rb-todo.png"
     ))
 
     wiz.set(42, new Build( // tree 3 row 3 left
         title = "Elemental Wrath",
-        description = "Increases the critical chance of all DoTs by 1% per rank.",
+        description = "Increases the critical chance of all DoTs by 1%<span class='perLevel'> per rank</span>.",
         icon = "/builds/icons/rb-todo.png"
     ))
 
     wiz.set(44, new Build( // tree 3 row 3 right
         title = "Elemental Rage",
-        description = "Increases the critical damage of all DoTs by 1% per rank.",
+        description = "Increases the critical damage of all DoTs by 1%<span class='perLevel'> per rank</span>.",
         icon = "/builds/icons/rb-todo.png"
     ))
 
     wiz.set(46, new Build( // tree 3 row 4 middle
         title = "Elemental Fury",
-        description = "Increases the damage of all direct damage spells by 1% per rank.",
+        description = "Increases the damage of all direct damage spells by 1%<span class='perLevel'> per rank</span>.",
         icon = "/builds/icons/rb-todo.png"
     ))
 
     wiz.set(49, new Build( // tree 3 row 5 middle
         title = "Elemental Mastery",
-        description = "Increases the critical chance of all direct damage spells by 1% per rank.",
+        description = "Increases the critical chance of all direct damage spells by 1%<span class='perLevel'> per rank</span>.",
         icon = "/builds/icons/rb-todo.png"
     ))
 
     wiz.set(52, new Build( // tree 3 row 6 middle
         title = "Elemental Precision",
-        description = "Increases the critical damage of all direct damage spells by 1% per rank.",
+        description = "Increases the critical damage of all direct damage spells by 1%<span class='perLevel'> per rank</span>.",
         icon = "/builds/icons/rb-todo.png"
     ))
 
@@ -1959,25 +1959,25 @@ function initBuilds() {
 
     mag.set(2, new Build( // tree 1 row 1 right
         title = "Quick Summoning",
-        description = "Reduces the cast time of pet summoning spells by 10% per rank.",
+        description = "Reduces the cast time of pet summoning spells by 10%<span class='perLevel'> per rank</span>.",
         icon = "/builds/icons/rb-mag-quicksummoning.png"
     ))
 
     mag.set(4, new Build( // tree 1 row 2 middle
         title = "Improved Reclaim Energy",
-        description = "Increases the amount of mana returned by Reclaim Energy by 5% per rank.",
+        description = "Increases the amount of mana returned by Reclaim Energy by 5%<span class='perLevel'> per rank</span>.",
         icon = "/builds/icons/rb-mag-improvedreclaimenergy.png"
     ))
 
     mag.set(6, new Build( // tree 1 row 3 left
         title = "Modulation Shard",
-        description = "Summons a modulation rod with 1 charge per rank.",
+        description = "Summons a modulation rod with 1 charge<span class='perLevel'> per rank</span>.",
         icon = "/builds/icons/rb-mag-modulationshard.png"
     ))
 
     mag.set(8, new Build( // tree 1 row 3 right
         title = "Companion's Intensity",
-        description = "Increases your pet's damage melee damage by 2% per rank.",
+        description = "Increases your pet's damage melee damage by 2%<span class='perLevel'> per rank</span>.",
         icon = "/builds/icons/rb-mag-companionsdurability.png"
     ))
 
@@ -2007,7 +2007,7 @@ function initBuilds() {
 
     mag.set(20, new Build( // tree 2 row 1 right
         title = "Host in the Shell",
-        description = "Grants the Host in the Shell AA, creating a rune effect on your pet with 20% of the rune's maximum value per rank.",
+        description = "Grants the Host in the Shell AA, creating a rune effect on your pet with 20% of the rune's maximum value<span class='perLevel'> per rank</span>.",
         icon = "/builds/icons/rb-mag-hostintheshell.png"
     ))
 
@@ -2019,19 +2019,19 @@ function initBuilds() {
 
     mag.set(24, new Build( // tree 2 row 3 left
         title = "Frenzied Burnout",
-        description = "Reduces the mana cost of direct damage spells by 10% per rank.",
+        description = "Reduces the mana cost of direct damage spells by 10%<span class='perLevel'> per rank</span>.",
         icon = "/builds/icons/rb-mag-frenziedburnout.png"
     ))
 
     mag.set(26, new Build( // tree 2 row 3 right
         title = "Elemental Alacrity",
-        description = "Improves element-based direct damage spells by 4% damage per rank.",
+        description = "Improves element-based direct damage spells by 4% damage<span class='perLevel'> per rank</span>.",
         icon = "/builds/icons/rb-mag-elementalalacrity.png"
     ))
 
     mag.set(28, new Build( // tree 2 row 4 middle
         title = "Call of the Hero",
-        description = "Grants the Call of the Hero AA with reduced cast time and cooldown timer per rank.",
+        description = "Grants the Call of the Hero AA with reduced cast time and cooldown timer<span class='perLevel'> per rank</span>.",
         icon = "/builds/icons/rb-mag-callofthehero.png"
     ))
 
@@ -2049,31 +2049,31 @@ function initBuilds() {
 
     mag.set(36, new Build( // tree 3 row 1 left
         title = "Dimensional Shield",
-        description = "Grants Dimensional Shield AA that allows a chance to shadow step away from the attacking target. Ranks increase the chance of the defensive proc by 20% per rank.",
+        description = "Grants Dimensional Shield AA that allows a chance to shadow step away from the attacking target. Ranks increase the chance of the defensive proc by 20%<span class='perLevel'> per rank</span>.",
         icon = "/builds/icons/rb-mag-dimensionalshield.png"
     ))
 
     mag.set(38, new Build( // tree 3 row 1 right
         title = "Heart of Stone",
-        description = "Grants Heart of Stone AA that provides a melee guard. The melee guard is scaled at 10% per rank.",
+        description = "Grants Heart of Stone AA that provides a melee guard. The melee guard is scaled at 10%<span class='perLevel'> per rank</span>.",
         icon = "/builds/icons/rb-mag-heartofstone.png"
     ))
 
     mag.set(40, new Build( // tree 3 row 2 middle
         title = "Heart of Vapor",
-        description = "Grants Heart of Vapor AA that reduces hate generated. The effectiveness of the spell is 20% per rank.",
+        description = "Grants Heart of Vapor AA that reduces hate generated. The effectiveness of the spell is 20%<span class='perLevel'> per rank</span>.",
         icon = "/builds/icons/rb-mag-heartofvapor.png"
     ))
 
     mag.set(42, new Build( // tree 3 row 3 left
         title = "Shock of Swords",
-        description = "Increases the damage caused by sword and blade spells by 4% per rank.",
+        description = "Increases the damage caused by sword and blade spells by 4%<span class='perLevel'> per rank</span>.",
         icon = "/builds/icons/rb-mag-shockofswords.png"
     ))
 
     mag.set(44, new Build( // tree 3 row 3 right
         title = "Heart of Ice",
-        description = "Grants Heart of Ice AA that provides a spell guard. The spell guard is scaled at 10% per rank.",
+        description = "Grants Heart of Ice AA that provides a spell guard. The spell guard is scaled at 10%<span class='perLevel'> per rank</span>.",
         icon = "/builds/icons/rb-mag-heartofice.png"
     ))
 
@@ -2085,13 +2085,13 @@ function initBuilds() {
 
     mag.set(49, new Build( // tree 3 row 5 middle
         title = "Heart of Flames",
-        description = "Grants Heart of Flames AA that provides a massive damage shield. The effectiveness of the spell is scaled at 20% per rank.",
+        description = "Grants Heart of Flames AA that provides a massive damage shield. The effectiveness of the spell is scaled at 20%<span class='perLevel'> per rank</span>.",
         icon = "/builds/icons/rb-mag-heartofflames.png"
     ))
 
     mag.set(52, new Build( // tree 3 row 6 middle
         title = "Primal Fusion",
-        description = "When you attack with a direct damage spell, your pet will also cast the spell dealing 5 of it's damage per rank.",
+        description = "When you attack with a direct damage spell, your pet will also cast the spell dealing 5 of it's damage<span class='perLevel'> per rank</span>.",
         icon = "/builds/icons/rb-mag-primalfusion.png"
     ))
 
@@ -2112,25 +2112,25 @@ function initBuilds() {
 
     enc.set(0, new Build( // tree 1 row 1 left
         title = "Nightmare",
-        description = "DoT spells do an additional 1% damage per ally in group per rank.",
+        description = "DoT spells do an additional 1% damage per ally in group<span class='perLevel'> per rank</span>.",
         icon = "/builds/icons/rb-enc-nightmare.png"
     ))
 
     enc.set(2, new Build( // tree 1 row 1 right
         title = "Crippling Presence",
-        description = "When an enemy is affected by a disempowering spell, they deal 2% less damage per rank.",
+        description = "When an enemy is affected by a disempowering spell, they deal 2% less damage<span class='perLevel'> per rank</span>.",
         icon = "/builds/icons/rb-enc-cripplingpresence.png"
     ))
 
     enc.set(4, new Build( // tree 1 row 2 middle
         title = "Soothing Words",
-        description = "Grants the Soothing Words AA, reducing your target's hatred for their current target by 5000 points if that creature's target is a member of your group or raid. Each rank reduces cooldown by 30 seconds per rank.",
+        description = "Grants the Soothing Words AA, reducing your target's hatred for their current target by 5000 points if that creature's target is a member of your group or raid. Each rank reduces cooldown by 30 seconds<span class='perLevel'> per rank</span>.",
         icon = "/builds/icons/rb-enc-soothingwords.png"
     ))
 
     enc.set(6, new Build( // tree 1 row 3 left
         title = "Mind over Matter",
-        description = "Grants the Mind over Matter AA, absorbing damage in mana before hitpoints. Each rank improves reduction by 2% per rank.",
+        description = "Grants the Mind over Matter AA, absorbing damage in mana before hitpoints. Each rank improves reduction by 2%<span class='perLevel'> per rank</span>.",
         icon = "/builds/icons/rb-enc-mindovermatter.png"
     ))
 
@@ -2142,7 +2142,7 @@ function initBuilds() {
 
     enc.set(10, new Build( // tree 1 row 4 middle
         title = "Persuasion",
-        description = "Increases buy and sell price to merchants by 3% per rank.",
+        description = "Increases buy and sell price to merchants by 3%<span class='perLevel'> per rank</span>.",
         icon = "/builds/icons/rb-enc-persuasion.png"
     ))
 
@@ -2154,73 +2154,73 @@ function initBuilds() {
 
     enc.set(16, new Build( // tree 1 row 6 middle
         title = "Drown",
-        description = "Lowers mana cost of DoTs by 3% tick per rank.",
+        description = "Lowers mana cost of DoTs by 3% tick<span class='perLevel'> per rank</span>.",
         icon = "/builds/icons/rb-enc-drown.png"
     ))
 
     enc.set(18, new Build( // tree 2 row 1 left
         title = "Enthrall",
-        description = "Each rank reduces mana cost of mesmerize spells by 1%, at max rank increases duration by 1 tick per rank.",
+        description = "Each rank reduces mana cost of mesmerize spells by 1%, at max rank increases duration by 1 tick<span class='perLevel'> per rank</span>.",
         icon = "/builds/icons/rb-enc-enthrall.png"
     ))
 
     enc.set(20, new Build( // tree 2 row 1 right
         title = "Tash",
-        description = "While an enemy is tashed, other group members are granted a 300 mod (enemy level * <em data-base='0.2'>0.2</em>) damage proc while attacking per rank.",
+        description = "While an enemy is tashed, other group members are granted a 300 mod (enemy level * <em data-base='0.2'>0.2</em>) damage proc while attacking<span class='perLevel'> per rank</span>.",
         icon = "/builds/icons/rb-enc-tash.png"
     ))
 
     enc.set(22, new Build( // tree 2 row 2 middle
         title = "Backfire",
-        description = "Wandering Mind, Scryer's Bypass, and Torment of Argli now have the backfire effect. If an enemy successfully channels a spell, they are interrupted, this spell effect is removed, and the enemy takes (enemy level * 25 * <em data-base='0.2'>0.2</em>) damage per rank.",
+        description = "Wandering Mind, Scryer's Bypass, and Torment of Argli now have the backfire effect. If an enemy successfully channels a spell, they are interrupted, this spell effect is removed, and the enemy takes (enemy level * 25 * <em data-base='0.2'>0.2</em>) damage<span class='perLevel'> per rank</span>.",
         icon = "/builds/icons/rb-enc-backfire.png"
     ))
 
     enc.set(24, new Build( // tree 2 row 3 left
         title = "Energy Burn",
-        description = "When you use a spell that takes mana from an enemy, you now deal (mana taken * 0.4) damage per rank.",
+        description = "When you use a spell that takes mana from an enemy, you now deal (mana taken * 0.4) damage<span class='perLevel'> per rank</span>.",
         icon = "/builds/icons/rb-enc-energyburn.png"
     ))
 
     enc.set(26, new Build( // tree 2 row 3 right
         title = "Feedback",
-        description = "When you use a detrimental spell, you deal 10 bonus damage per rank.",
+        description = "When you use a detrimental spell, you deal 10 bonus damage<span class='perLevel'> per rank</span>.",
         icon = "/builds/icons/rb-enc-feedback.png"
     ))
 
     enc.set(28, new Build( // tree 2 row 4 middle
         title = "Focus",
-        description = "When you use a spell with a stun component, reduces hate generated by 7% per rank.",
+        description = "When you use a spell with a stun component, reduces hate generated by 7%<span class='perLevel'> per rank</span>.",
         icon = "/builds/icons/rb-enc-focus.png"
     ))
 
     enc.set(31, new Build( // tree 2 row 5 middle
         title = "Lifeflow",
-        description = "When you use a spell that takes mana from an enemy with mana, you heal for (mana taken * 0.4) hitpoints per rank.",
+        description = "When you use a spell that takes mana from an enemy with mana, you heal for (mana taken * 0.4) hitpoints<span class='perLevel'> per rank</span>.",
         icon = "/builds/icons/rb-enc-lifeflow.png"
     ))
 
     enc.set(34, new Build( // tree 2 row 6 middle
         title = "Extended Charm",
-        description = "When you charm an enemy, increases the minimum duration by 0 to 1 ticks per rank.",
+        description = "When you charm an enemy, increases the minimum duration by 0 to 1 ticks<span class='perLevel'> per rank</span>.",
         icon = "/builds/icons/rb-enc-direcharm.png"
     ))
 
     enc.set(36, new Build( // tree 3 row 1 left
         title = "Mind Devorour",
-        description = "When you cast a detrimental spell against a monster with mana, you have a 2% chance to recover 10% mana per rank.",
+        description = "When you cast a detrimental spell against a monster with mana, you have a 2% chance to recover 10% mana<span class='perLevel'> per rank</span>.",
         icon = "/builds/icons/rb-enc-entropy.png"
     ))
 
     enc.set(38, new Build( // tree 3 row 1 right
         title = "Color Shock",
-        description = "Grants the Color Shock AA, causing a chance to stun when attacked. Chance increases by 1% per rank.",
+        description = "Grants the Color Shock AA, causing a chance to stun when attacked. Chance increases by 1%<span class='perLevel'> per rank</span>.",
         icon = "/builds/icons/rb-enc-colorshock.png"
     ))
 
     enc.set(40, new Build( // tree 3 row 2 middle
         title = "Mana Spear",
-        description = "When you use a spell that takes mana from an enemy, increases chance to land by 2% per rank.",
+        description = "When you use a spell that takes mana from an enemy, increases chance to land by 2%<span class='perLevel'> per rank</span>.",
         icon = "/builds/icons/rb-enc-manaspear.png"
     ))
 
@@ -2232,7 +2232,7 @@ function initBuilds() {
 
     enc.set(44, new Build( // tree 3 row 3 right
         title = "Subtle Casting",
-        description = "Lowers aggression when casting a spell by 2% per rank.",
+        description = "Lowers aggression when casting a spell by 2%<span class='perLevel'> per rank</span>.",
         icon = "/builds/icons/rb-enc-subtlecasting.png"
     ))
 
@@ -2271,146 +2271,146 @@ function initBuilds() {
 
     bst.set(0, new Build( // tree 1 row 1 left
         title = "Animal Bond",
-        description = "Increases the damage of your pet by 2% per rank.",
+        description = "Increases the damage of your pet by 2%<span class='perLevel'> per rank</span>.",
         icon = "/builds/icons/rb-todo.png"
     ))
 
     bst.set(2, new Build( // tree 1 row 1 right
         title = "Animal Training",
-        description = "Increases the health of your pet by 2% per rank.",
+        description = "Increases the health of your pet by 2%<span class='perLevel'> per rank</span>.",
         icon = "/builds/icons/rb-todo.png"
     ))
 
     bst.set(4, new Build( // tree 1 row 2 middle
         title = "Animal Focus",
-        description = "Increases the chance for your pet to critical hit by 2% per rank.",
+        description = "Increases the chance for your pet to critical hit by 2%<span class='perLevel'> per rank</span>.",
         icon = "/builds/icons/rb-todo.png"
     ))
 
     bst.set(6, new Build( // tree 1 row 3 left
         title = "Animal Mastery",
-        description = "Increases the critical damage of your pet by 2% per rank.",
+        description = "Increases the critical damage of your pet by 2%<span class='perLevel'> per rank</span>.",
         icon = "/builds/icons/rb-todo.png"
     ))
 
     bst.set(8, new Build( // tree 1 row 3 right
         title = "Animal Power",
-        description = "Increases the damage of your pet's special attacks by 2% per rank.",
+        description = "Increases the damage of your pet's special attacks by 2%<span class='perLevel'> per rank</span>.",
         icon = "/builds/icons/rb-todo.png"
     ))
 
     bst.set(10, new Build( // tree 1 row 4 middle
         title = "Animal Wrath",
-        description = "Increases the critical chance of your pet's special attacks by 2% per rank.",
+        description = "Increases the critical chance of your pet's special attacks by 2%<span class='perLevel'> per rank</span>.",
         icon = "/builds/icons/rb-todo.png"
     ))
 
     bst.set(13, new Build( // tree 1 row 5 middle
         title = "Devoid of Guilt",
-        description = "Offhand attacks have a 2% chance per rank to trigger a 10 damage proc per rank.",
+        description = "Offhand attacks have a 2% chance per rank to trigger a 10 damage proc<span class='perLevel'> per rank</span>.",
         icon = "/builds/icons/rb-todo.png"
     ))
 
     bst.set(16, new Build( // tree 1 row 6 middle
         title = "Spirit of Seru",
-        description = "Kicks have a 2% chance per rank to trigger a 10 damage proc per rank.",
+        description = "Kicks have a 2% chance per rank to trigger a 10 damage proc<span class='perLevel'> per rank</span>.",
         icon = "/builds/icons/rb-todo.png"
     ))
 
     bst.set(18, new Build( // tree 2 row 1 left
         title = "Spirit of the Wolf",
-        description = "Increases the movement speed of your pet by 2% per rank.",
+        description = "Increases the movement speed of your pet by 2%<span class='perLevel'> per rank</span>.",
         icon = "/builds/icons/rb-todo.png"
     ))
 
     bst.set(20, new Build( // tree 2 row 1 right
         title = "Spirit of the Bear",
-        description = "Increases the armor class of your pet by 2% per rank.",
+        description = "Increases the armor class of your pet by 2%<span class='perLevel'> per rank</span>.",
         icon = "/builds/icons/rb-todo.png"
     ))
 
     bst.set(22, new Build( // tree 2 row 2 middle
         title = "Spirit of the Owl",
-        description = "Increases the mana of your pet by 2% per rank.",
+        description = "Increases the mana of your pet by 2%<span class='perLevel'> per rank</span>.",
         icon = "/builds/icons/rb-todo.png"
     ))
 
     bst.set(24, new Build( // tree 2 row 3 left
         title = "Spirit of the Tiger",
-        description = "Increases the strength of your pet by 2% per rank.",
+        description = "Increases the strength of your pet by 2%<span class='perLevel'> per rank</span>.",
         icon = "/builds/icons/rb-todo.png"
     ))
 
     bst.set(26, new Build( // tree 2 row 3 right
         title = "Spirit of the Monkey",
-        description = "Increases the agility of your pet by 2% per rank.",
+        description = "Increases the agility of your pet by 2%<span class='perLevel'> per rank</span>.",
         icon = "/builds/icons/rb-todo.png"
     ))
 
     bst.set(28, new Build( // tree 2 row 4 middle
         title = "Spirit of the Elephant",
-        description = "Increases the stamina of your pet by 2% per rank.",
+        description = "Increases the stamina of your pet by 2%<span class='perLevel'> per rank</span>.",
         icon = "/builds/icons/rb-todo.png"
     ))
 
     bst.set(31, new Build( // tree 2 row 5 middle
         title = "Spirit of the Rhino",
-        description = "Increases the dexterity of your pet by 2% per rank.",
+        description = "Increases the dexterity of your pet by 2%<span class='perLevel'> per rank</span>.",
         icon = "/builds/icons/rb-todo.png"
     ))
 
     bst.set(34, new Build( // tree 2 row 6 middle
         title = "Spirit of the Lion",
-        description = "Increases the charisma of your pet by 2% per rank.",
+        description = "Increases the charisma of your pet by 2%<span class='perLevel'> per rank</span>.",
         icon = "/builds/icons/rb-todo.png"
     ))
 
 
     bst.set(36, new Build( // tree 3 row 1 left
         title = "Spirit of the Wolf",
-        description = "Increases the movement speed of your pet by 2% per rank.",
+        description = "Increases the movement speed of your pet by 2%<span class='perLevel'> per rank</span>.",
         icon = "/builds/icons/rb-todo.png"
     ))
 
     bst.set(38, new Build( // tree 3 row 1 right
         title = "Spirit of the Bear",
-        description = "Increases the armor class of your pet by 2% per rank.",
+        description = "Increases the armor class of your pet by 2%<span class='perLevel'> per rank</span>.",
         icon = "/builds/icons/rb-todo.png"
     ))
 
     bst.set(40, new Build( // tree 3 row 2 middle
         title = "Spirit of the Owl",
-        description = "Increases the mana of your pet by 2% per rank.",
+        description = "Increases the mana of your pet by 2%<span class='perLevel'> per rank</span>.",
         icon = "/builds/icons/rb-todo.png"
     ))
 
     bst.set(42, new Build( // tree 3 row 3 left
         title = "Spirit of the Tiger",
-        description = "Increases the strength of your pet by 2% per rank.",
+        description = "Increases the strength of your pet by 2%<span class='perLevel'> per rank</span>.",
         icon = "/builds/icons/rb-todo.png"
     ))
 
     bst.set(44, new Build( // tree 3 row 3 right
         title = "Spirit of the Monkey",
-        description = "Increases the agility of your pet by 2% per rank.",
+        description = "Increases the agility of your pet by 2%<span class='perLevel'> per rank</span>.",
         icon = "/builds/icons/rb-todo.png"
     ))
 
     bst.set(46, new Build( // tree 3 row 4 middle
         title = "Spirit of the Elephant",
-        description = "Increases the stamina of your pet by 2% per rank.",
+        description = "Increases the stamina of your pet by 2%<span class='perLevel'> per rank</span>.",
         icon = "/builds/icons/rb-todo.png"
     ))
 
     bst.set(49, new Build( // tree 3 row 5 middle
         title = "Spirit of the Rhino",
-        description = "Increases the dexterity of your pet by 2% per rank.",
+        description = "Increases the dexterity of your pet by 2%<span class='perLevel'> per rank</span>.",
         icon = "/builds/icons/rb-todo.png"
     ))
 
     bst.set(52, new Build( // tree 3 row 6 middle
         title = "Spirit of the Lion",
-        description = "Increases the charisma of your pet by 2% per rank.",
+        description = "Increases the charisma of your pet by 2%<span class='perLevel'> per rank</span>.",
         icon = "/builds/icons/rb-todo.png"
     ))
 
@@ -2437,7 +2437,7 @@ function initBuilds() {
 
     ber.set(2, new Build( // tree 1 row 1 right
         "Frenzied Strikes",
-        "Increases your critical hit chance by 2% per rank.",
+        "Increases your critical hit chance by 2%<span class='perLevel'> per rank</span>.",
         "/builds/icons/rb-todo.png"
     ))
 
@@ -2461,7 +2461,7 @@ function initBuilds() {
 
     ber.set(10, new Build( // tree 1 row 4 middle
         "Reckless Abandon",
-        "Reduces the cooldown of your abilities by 5% per rank.",
+        "Reduces the cooldown of your abilities by 5%<span class='perLevel'> per rank</span>.",
         "/builds/icons/rb-todo.png"
     ))
 
@@ -2479,43 +2479,43 @@ function initBuilds() {
 
     ber.set(18, new Build( // tree 2 row 1 left
         "Endless Fury",
-        "Increases your maximum rage by 5% per rank.",
+        "Increases your maximum rage by 5%<span class='perLevel'> per rank</span>.",
         "/builds/icons/rb-todo.png"
     ))
 
     ber.set(20, new Build( // tree 2 row 1 right
         "Ferocious Assault",
-        "Increases your attack power by 3% per rank.",
+        "Increases your attack power by 3%<span class='perLevel'> per rank</span>.",
         "/builds/icons/rb-todo.png"
     ))
 
     ber.set(22, new Build( // tree 2 row 2 middle
         "Relentless",
-        "Reduces the duration of stun effects on you by 5% per rank.",
+        "Reduces the duration of stun effects on you by 5%<span class='perLevel'> per rank</span>.",
         "/builds/icons/rb-todo.png"
     ))
 
     ber.set(24, new Build( // tree 2 row 3 left
         "Wrath",
-        "Increases your critical strike damage by 3% per rank.",
+        "Increases your critical strike damage by 3%<span class='perLevel'> per rank</span>.",
         "/builds/icons/rb-todo.png"
     ))
 
     ber.set(26, new Build( // tree 2 row 3 right
         "Unstoppable",
-        "Reduces the duration of crowd control effects on you by 5% per rank.",
+        "Reduces the duration of crowd control effects on you by 5%<span class='perLevel'> per rank</span>.",
         "/builds/icons/rb-todo.png"
     ))
 
     ber.set(28, new Build( // tree 2 row 4 middle
         "Titanic Rage",
-        "Increases your strength by 5% per rank.",
+        "Increases your strength by 5%<span class='perLevel'> per rank</span>.",
         "/builds/icons/rb-todo.png"
     ))
 
     ber.set(31, new Build( // tree 2 row 5 middle
         "Savage Blow",
-        "Increases the damage of your melee attacks by 2% per rank.",
+        "Increases the damage of your melee attacks by 2%<span class='perLevel'> per rank</span>.",
         "/builds/icons/rb-todo.png"
     ))
 
@@ -2533,19 +2533,19 @@ function initBuilds() {
 
     ber.set(38, new Build( // tree 3 row 1 right
         "Reckless Fury",
-        "Increases your chance to deal a critical hit by 2% per rank.",
+        "Increases your chance to deal a critical hit by 2%<span class='perLevel'> per rank</span>.",
         "/builds/icons/rb-todo.png"
     ))
 
     ber.set(40, new Build( // tree 3 row 2 middle
         "Bloodletting",
-        "Increases your bleed damage by 5% per rank.",
+        "Increases your bleed damage by 5%<span class='perLevel'> per rank</span>.",
         "/builds/icons/rb-todo.png"
     ))
 
     ber.set(42, new Build( // tree 3 row 3 left
         "Savage Instinct",
-        "Increases your dodge chance by 2% per rank.",
+        "Increases your dodge chance by 2%<span class='perLevel'> per rank</span>.",
         "/builds/icons/rb-todo.png"
     ))
 
@@ -2557,7 +2557,7 @@ function initBuilds() {
 
     ber.set(46, new Build( // tree 3 row 4 middle
         "Unyielding Rage",
-        "Reduces the duration of debuffs on you by 5% per rank.",
+        "Reduces the duration of debuffs on you by 5%<span class='perLevel'> per rank</span>.",
         "/builds/icons/rb-todo.png"
     ))
 
