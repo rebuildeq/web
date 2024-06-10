@@ -1632,8 +1632,8 @@ function initBuilds() {
 
     nec.set(0, new Build( // tree 1 row 1 left
         title = "Corruption",
-        description = "DoT damage is increased by 1% per ally in group<span class='perLevel'> per rank</span>.",
-        icon = "/builds/icons/rb-todo.png"
+        description = "DoT damage is increased by <em data-base='6'>6</em>%<span class='perLevel'> per rank</span>.",
+        icon = "/builds/icons/rb-nec-corruption.png"
     ))
 
     nec.set(2, new Build( // tree 1 row 1 right
