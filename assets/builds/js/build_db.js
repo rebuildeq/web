@@ -833,9 +833,9 @@ function initBuilds() {
     let dru = new Map()
 
     dru.set(0, new Build( // tree 1 row 1 left
-        title = "Spiritual Awakening",
+        title = "Verdant Renewal",
         description = "All melee attacks gain a 300 mod proc that deals (level * 1.5 * <em data-base='0.2'>0.2</em>) magic damage and restores <em data-base='2'>2</em> mana from the target<span class='perLevel'> per rank</span>.",
-        icon = "/builds/icons/rb-dru-spiritualawakening.png"
+        icon = "/builds/icons/rb-dru-verdantrenewal.png"
     ))
 
     dru.set(2, new Build( // tree 1 row 1 right
@@ -1472,9 +1472,9 @@ function initBuilds() {
     let shm = new Map()
 
     shm.set(0, new Build( // tree 1 row 1 left
-        title = "Spirit of Speed",
-        description = "Spirit of Wolf lasts 20% longer<span class='perLevel'> per rank</span>.",
-        icon = "/builds/icons/rb-shm-spiritofspeed.png"
+        title = "SpiritualInfusion",
+        description = "All melee attacks gain a 300 mod proc that deals (level * 1.5 * <em data-base='0.2'>0.2</em>) magic damage and restores <em data-base='2'>2</em> mana from the target<span class='perLevel'> per rank</span>.",
+        icon = "/builds/icons/rb-shm-spiritualinfusion.png"
     ))
 
     shm.set(2, new Build( // tree 1 row 1 right
@@ -1568,9 +1568,6 @@ function initBuilds() {
     ))
 
     shm.set(36, new Build( // tree 3 row 1 left
-        title = "Fury",
-        description = "The shaman gains a 400 mod proc that deals (level * 1.5 * <em data-base='0.2'>0.2</em>) magic damage.",
-        icon = "/builds/icons/rb-shm-fury.png"
     ))
 
     shm.set(38, new Build( // tree 3 row 1 right
