@@ -1792,7 +1792,7 @@ function initBuilds() {
 
     wiz.set(0, new Build( // tree 1 row 1 left
         title = "Weave",
-        description = "When you cast two different single target DD spells that are within 10 levels of your current level, a bonus (level * <em data-base='10'>10</em>) damage spell is applied to target<span class='perLevel'> per rank</span>.",
+        description = "When you cast two different single target DD spells that are within 10 levels of your level, a bonus (level * <em data-base='10'>10</em>) damage spell is applied to target<span class='perLevel'> per rank</span>.",
         icon = "/builds/icons/rb-wiz-weave.png"
     ))
 
@@ -1952,9 +1952,9 @@ function initBuilds() {
     let mag = new Map()
 
     mag.set(0, new Build( // tree 1 row 1 left
-        title = "Summoning Focus",
-        description = "Items summoned by the magician are reinforced, giving better stats. Additional ranks increase the level of spells affected.",
-        icon = "/builds/icons/rb-mag-summoningfocus.png"
+        title = "Arcane Surge",
+        description = "When you cast a single target DD spell that is within 10 levels of your level, a bonus (level * <em data-base='8'>8</em>) spell is applied to target<span class='perLevel'> per rank</span>.",
+        icon = "/builds/icons/rb-mag-arcanesurge.png"
     ))
 
     mag.set(2, new Build( // tree 1 row 1 right
