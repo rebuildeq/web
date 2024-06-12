@@ -19,10 +19,6 @@ h1.title {
 
 ::-moz-selection { color: black; background: #FBB406; }
 ::selection { color: black; background: #FBB406; }
-h1, h2, h3 {
-	margin: 0;
-	font-weight: normal;
-}
 em {
 	font-style: normal;
 }

@@ -10,9 +10,9 @@ defaultMarkdownHandler = "goldmark"
 [markup.goldmark]
   [markup.goldmark.renderer]
     unsafe = true
-  
+
 [params]
-title = "RebuildEQ"
+title = "Rebuild EverQuest"
 description = "RebuildEQ.com"
 enableFooter = false
 enableGitHubEdit = true
@@ -26,7 +26,7 @@ gitHubLink = "https://github.com/rebuildeq/web"
 bookEditPath = true
 # bookFlatSection = ?
 # bookHref = ?
-# bookLogo = ?
+BookLogo = "/logo.png"
 # bookMenuBundle = false
 # bookRepo = ?
 bookSearch = true

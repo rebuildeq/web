@@ -283,9 +283,9 @@ body[dir="rtl"] .book-menu {
 .book-page,
 .book-header aside,
 .markdown {
-  transition: 0.2s ease-in-out;
-  transition-property: transform, margin, opacity, visibility;
-  will-change: transform !important, margin, opacity;
+  //transition: 0.2s ease-in-out;
+  //transition-property: transform, margin, opacity, visibility;
+  //will-change: transform !important, margin, opacity;
 }
 
 @media screen and (max-width: $mobile-breakpoint) {
@@ -316,6 +316,10 @@ body[dir="rtl"] .book-menu {
   #menu-control:checked ~ main {
     .book-menu {
       visibility: initial;
+    }
+
+    #page-logo {
+      display: none;
     }
 
     .book-menu .book-menu-content {
@@ -362,4 +366,14 @@ body[dir="rtl"] .book-menu {
   .book-toc .book-toc-content {
     padding: $padding-16 * 2 $padding-16;
   }
+}
+
+.status-good {
+  color: limegreen;
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+}
+
+.status-bad {
+  color: red;
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
 }

@@ -1953,7 +1953,7 @@ function initBuilds() {
 
     mag.set(0, new Build( // tree 1 row 1 left
         title = "Arcane Surge",
-        description = "When you cast a single target DD spell that is within 10 levels of your level, a bonus (level * <em data-base='8'>8</em>) spell is applied to target<span class='perLevel'> per rank</span>.",
+        description = "When you cast a single target DD spell that is within 10 levels of your level, a bonus (level * <em data-base='8'>8</em>) spell damage is applied to target<span class='perLevel'> per rank</span>.",
         icon = "/builds/icons/rb-mag-arcanesurge.png"
     ))
 
@@ -2112,7 +2112,7 @@ function initBuilds() {
 
     enc.set(0, new Build( // tree 1 row 1 left
         title = "Nightmare",
-        description = "DoT spells do an additional 1% damage per ally in group<span class='perLevel'> per rank</span>.",
+        description = "DoT damage is increased by <em data-base='6'>6</em>%<span class='perLevel'> per rank</span>.",
         icon = "/builds/icons/rb-enc-nightmare.png"
     ))
 
@@ -2271,8 +2271,8 @@ function initBuilds() {
 
     bst.set(0, new Build( // tree 1 row 1 left
         title = "Animal Bond",
-        description = "Increases the damage of your pet by 2%<span class='perLevel'> per rank</span>.",
-        icon = "/builds/icons/rb-todo.png"
+        description = "Increases the damage of your pet by <em data-base='10'>10</em>%<span class='perLevel'> per rank</span>.",
+        icon = "/builds/icons/rb-bst-animalbond.png"
     ))
 
     bst.set(2, new Build( // tree 1 row 1 right
