@@ -50,14 +50,14 @@ function initBuilds() {
     ))
 
     war.set(2, new Build( // tree 1 row 1 right
-        "Defy Pain",
-        "Your chosen god grants you the use of the Defy Pain Ankh item summoned by Warrior Guildmasters.<br>This item grants a buff where when you reach below <em data-base='2'>2</em>% health, you heal for <em data-base='10'>10</em>% of your maximum health and the effect ends. This item has a 10 minute reuse cooldown.",
-        "/builds/icons/rb-todo.png"
+        "Ironclad Challenge",
+        "All melee attacks gain a 300 mod proc that deals (level * 0.75 * <em data-base='0.2'>0.2</em>) blunt damage<span class='perLevel'> per rank</span>, and causes (level * 0.75 * <em data-base='0.4'>0.4</em>) hate.",
+        "/builds/icons/rb-war-ironcladchallenge.png"
     ))
 
     war.set(4, new Build( // tree 1 row 2 middle
-        "War Cry",
-        "Increases your group's attack power by 2% per rank for 10 seconds.",
+        "Defy Pain",
+        "Your chosen god grants you the use of the Defy Pain Ankh item summoned by Warrior Guildmasters.<br>This item grants a buff where when you reach below <em data-base='2'>2</em>% health, you heal for <em data-base='10'>10</em>% of your maximum health and the effect ends. This item has a 10 minute reuse cooldown.",
         "/builds/icons/rb-todo.png"
     ))
 
@@ -140,51 +140,51 @@ function initBuilds() {
     ))
 
     war.set(36, new Build( // tree 3 row 1 left
-        "Heroic Strike",
-        "Increases the critical hit chance of your attacks by 2%<span class='perLevel'> per rank</span>.",
-        "/builds/icons/rb-todo.png"
+        title = "Heroic Strike",
+        description = "Increases the critical hit chance of your attacks by 2%<span class='perLevel'> per rank</span>.",
+        icon = "/builds/icons/rb-todo.png"
     ))
 
     war.set(38, new Build( // tree 3 row 1 right
-        "Tactical Mastery",
-        "Increases your threat generation by 3%<span class='perLevel'> per rank</span>.",
-        "/builds/icons/rb-todo.png"
+        title = "Tactical Mastery",
+        description = "Increases your threat generation by 3%<span class='perLevel'> per rank</span>.",
+        icon = "/builds/icons/rb-todo.png"
     ))
 
     war.set(40, new Build( // tree 3 row 2 middle
-        "Victory Rush",
-        "Heals you for 2% of your maximum health per rank when you kill an enemy.",
-        "/builds/icons/rb-todo.png"
+        title = "Victory Rush",
+        description = "Heals you for 2% of your maximum health per rank when you kill an enemy.",
+        icon = "/builds/icons/rb-todo.png"
     ))
 
     war.set(42, new Build( // tree 3 row 3 left
-        "Shield Slam",
-        "Increases the damage of your shield slam ability by 5%<span class='perLevel'> per rank</span>.",
-        "/builds/icons/rb-todo.png"
+        title = "Shield Slam",
+        description = "Increases the damage of your shield slam ability by 5%<span class='perLevel'> per rank</span>.",
+        icon = "/builds/icons/rb-todo.png"
     ))
 
     war.set(44, new Build( // tree 3 row 3 right
-        "Berserker Rage",
-        "Increases your damage dealt by 5% per rank when your health is below 20%.",
-        "/builds/icons/rb-todo.png"
+        title = "Berserker Rage",
+        description = "Increases your damage dealt by 5% per rank when your health is below 20%.",
+        icon = "/builds/icons/rb-todo.png"
     ))
 
     war.set(46, new Build( // tree 3 row 4 middle
-        "Indomitable",
-        "Reduces the duration of stun effects on you by 5%<span class='perLevel'> per rank</span>.",
-        "/builds/icons/rb-todo.png"
+        title = "Indomitable",
+        description = "Reduces the duration of stun effects on you by 5%<span class='perLevel'> per rank</span>.",
+        icon =  "/builds/icons/rb-todo.png"
     ))
 
     war.set(49, new Build( // tree 3 row 5 middle
-        "Last Stand",
-        "Increases your maximum health by 10% per rank for 20 seconds when activated.",
-        "/builds/icons/rb-todo.png"
+        title = "Last Stand",
+        description = "Increases your maximum health by 10% per rank for 20 seconds when activated.",
+        icon = "/builds/icons/rb-todo.png"
     ))
 
     war.set(52, new Build( // tree 3 row 6 middle
-        "Battle Command",
-        "Increases the damage dealt by your group by 2% per rank for 10 seconds.",
-        "/builds/icons/rb-todo.png"
+        title = "Battle Command",
+        description = "Increases the damage dealt by your group by 2% per rank for 10 seconds.",
+        icon = "/builds/icons/rb-todo.png"
     ))
 
     builds.set(classWarrior, war)
