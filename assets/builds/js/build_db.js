@@ -516,9 +516,9 @@ function initBuilds() {
     let rng = new Map()
 
     rng.set(0, new Build( // tree 1 row 1 left
-        title = "Fletching",
-        description = "Grants the Fletching AA, allowing the ranger to craft arrows and bolts.",
-        icon = "/builds/icons/rb-todo.png"
+        title = "Venomous Volley",
+        description = "DoT damage is increased by <em data-base='8'>8</em>%<span class='perLevel'> per rank</span>.",
+        icon = "/builds/icons/rb-rng-venomousvolley.png"
     ))
 
     rng.set(2, new Build( // tree 1 row 1 right
@@ -2430,15 +2430,15 @@ function initBuilds() {
     let ber = new Map()
 
     ber.set(0, new Build( // tree 1 row 1 left
-        "Blood Rage",
-        "Increases your attack speed by 2% per rank when below 50% health.",
-        "/builds/icons/rb-todo.png"
+        title = "Frenzied Strike",
+        description = "All melee attacks gain a 400 mod proc that deals (level * 1.50 * <em data-base='0.2'>0.2</em>) magic damage<span class='perLevel'> per rank</span>.",
+        icon = "/builds/icons/rb-ber-frenziedstrike.png"
     ))
 
     ber.set(2, new Build( // tree 1 row 1 right
-        "Frenzied Strikes",
-        "Increases your critical hit chance by 2%<span class='perLevel'> per rank</span>.",
-        "/builds/icons/rb-todo.png"
+        "Frenzy Ricochet",
+        "When a frenzy attack lands on your target, there is a <em data-base='15'>15</em>% chance<span class='perLevel'> per rank</span> the attack will bounce to aother melee range enemy that is not mesmerized.",
+        "/builds/icons/rb-ber-frenzyricochet.png"
     ))
 
     ber.set(4, new Build( // tree 1 row 2 middle
