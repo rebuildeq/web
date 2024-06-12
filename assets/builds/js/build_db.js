@@ -207,9 +207,9 @@ function initBuilds() {
     ))
 
     clr.set(2, new Build( // tree 1 row 1 right
-        title = "Ward of Vie",
-        description = "All ward spells last an additional 20% more maximum hitpoints<span class='perLevel'> per rank</span>.",
-        icon = "/builds/icons/rb-clr-wardofvie.png"
+        title = "Divine Bash",
+        description = "Bash heals for <em data-base='4'>4</em>% (<em data-base='1'>1</em>% if self) of the cleric's max hp<span class='perLevel'> per rank</span> to the most hurt ally within <em data-base='10'>10</em>m.",
+        icon = "/builds/icons/rb-clr-divinebash.png"
     ))
 
     clr.set(4, new Build( // tree 1 row 2 middle
@@ -256,9 +256,10 @@ function initBuilds() {
     ))
 
     clr.set(20, new Build( // tree 2 row 1 right
-        title = "Divine Bash",
-        description = "When the cleric uses bash, they heal for 4% of the cleric's max hp per rank to a group member with lowest<span class='perLevel'> per rank</span>. This does not heal the cleric.",
-        icon = "/builds/icons/rb-clr-divinebash.png"
+        title = "Ward of Vie",
+        description = "All ward spells last an additional 20% more maximum hitpoints<span class='perLevel'> per rank</span>.",
+        icon = "/builds/icons/rb-clr-wardofvie.png"
+
     ))
 
     clr.set(22, new Build( // tree 2 row 2 middle
@@ -366,7 +367,7 @@ function initBuilds() {
 
     pal.set(2, new Build( // tree 1 row 1 right
         title = "Hand of Piety",
-        description = "Grants the Hand of Piety AA, allowing the user to heal the group for 2% of their max health<span class='perLevel'> per rank</span>.",
+        description = "All melee attacks gain a 100 mod proc that deals (level * 3 * <em data-base='0.2'>0.2</em>) magic damage and heals the most hurt ally for (level * 3 * <em data-base='0.2'>0.2</em>) within 100m<span class='perLevel'> per rank</span>.",
         icon = "/builds/icons/rb-pal-handofpiety.png"
     ))
 
@@ -1959,7 +1960,7 @@ function initBuilds() {
 
     mag.set(2, new Build( // tree 1 row 1 right
         title = "Hydrosophist",
-        description = "Water Elementals take <em data-base='5'>5</em>% more damage and deal <em data-base='10'>10</em>% less damage, but gain an ability: Every 18 seconds, it heals a most hurt ally for <em data-base='2'>2</em>% of their max health<span class='perLevel'> per rank</span>.",
+        description = "Water Elementals take <em data-base='5'>5</em>% more damage and deal <em data-base='10'>10</em>% less damage, but gain an ability: Every 18 seconds, it heals a most hurt ally for <em data-base='2'>2</em>% of the pet's max health<span class='perLevel'> per rank</span>.",
         icon = "/builds/icons/rb-mag-hydrosophist.png"
     ))
 
