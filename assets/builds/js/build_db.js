@@ -841,8 +841,8 @@ function initBuilds() {
 
     dru.set(2, new Build( // tree 1 row 1 right
         title = "One With Nature",
-        description = "Grants a passive where each time you are hit, 2% of the damage is converted into mana<span class='perLevel'> per rank</span>.",
-        icon = "/builds/icons/rb-dru-treeform.png"
+        description = "Grants a passive where each time you are hit, <em data-base='2'>2</em>)% of the damage is converted into mana<span class='perLevel'> per rank</span>.",
+        icon = "/builds/icons/rb-dru-onewithnature.png"
     ))
 
     dru.set(4, new Build( // tree 1 row 2 middle
@@ -1002,7 +1002,7 @@ function initBuilds() {
 
     mnk.set(2, new Build( // tree 1 row 1 right
         title = "Familiarity",
-        description = "Every time a special attack lands on an enemy, the monk gains 2 armor against the target<span class='perLevel'> per rank</span>.",
+        description = "Every time a special attack lands on an enemy, the monk gains <em data-base='1'>1</em>% more accuracy (max: <em data-base='10'>10</em>) against the target<span class='perLevel'> per rank</span>.",
         icon = "/builds/icons/rb-mnk-familiarity.png"
     ))
 
