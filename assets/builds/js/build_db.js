@@ -2437,7 +2437,7 @@ function initBuilds() {
 
     ber.set(2, new Build( // tree 1 row 1 right
         "Frenzy Ricochet",
-        "When a frenzy attack lands on your target, there is a <em data-base='15'>15</em>% chance<span class='perLevel'> per rank</span> the attack will bounce to aother melee range enemy that is not mesmerized.",
+        "When a frenzy attack lands on your target, there is a <em data-base='15'>15</em>% chance<span class='perLevel'> per rank</span> the attack will bounce to another melee range enemy that is not mesmerized.",
         "/builds/icons/rb-ber-frenzyricochet.png"
     ))
 
