@@ -1953,14 +1953,14 @@ function initBuilds() {
 
     mag.set(0, new Build( // tree 1 row 1 left
         title = "Arcane Surge",
-        description = "When you cast a single target DD spell that is within 10 levels of your level, a bonus (level * <em data-base='8'>8</em>) spell damage is applied to target<span class='perLevel'> per rank</span>.",
+        description = "When you cast a single target DD spell that is within 10 levels of your level, a bonus (level * <em data-base='3'>3</em>) spell damage is applied to target<span class='perLevel'> per rank</span>.",
         icon = "/builds/icons/rb-mag-arcanesurge.png"
     ))
 
     mag.set(2, new Build( // tree 1 row 1 right
-        title = "Quick Summoning",
-        description = "Reduces the cast time of pet summoning spells by 10%<span class='perLevel'> per rank</span>.",
-        icon = "/builds/icons/rb-mag-quicksummoning.png"
+        title = "Hydrosophist",
+        description = "Water Elementals take <em data-base='5'>5</em>% more damage and deal <em data-base='10'>10</em>% less damage, but gain an ability: Every 18 seconds, it heals a most hurt ally for <em data-base='2'>2</em>% of their max health<span class='perLevel'> per rank</span>.",
+        icon = "/builds/icons/rb-mag-hydrosophist.png"
     ))
 
     mag.set(4, new Build( // tree 1 row 2 middle
