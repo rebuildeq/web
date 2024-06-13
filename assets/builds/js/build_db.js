@@ -841,7 +841,7 @@ function initBuilds() {
 
     dru.set(2, new Build( // tree 1 row 1 right
         title = "One With Nature",
-        description = "Grants a passive where each time you are hit, <em data-base='2'>2</em>)% of the damage is converted into mana<span class='perLevel'> per rank</span>.",
+        description = "Grants a passive where each time you are hit, <em data-base='2'>2</em>% of the damage is converted into mana<span class='perLevel'> per rank</span>.",
         icon = "/builds/icons/rb-dru-onewithnature.png"
     ))
 
@@ -1002,7 +1002,7 @@ function initBuilds() {
 
     mnk.set(2, new Build( // tree 1 row 1 right
         title = "Familiarity",
-        description = "Every time a special attack lands on an enemy, the monk gains <em data-base='1'>1</em>% more accuracy (max: <em data-base='10'>10</em>) against the target<span class='perLevel'> per rank</span>.",
+        description = "Every time a special attack lands on an enemy, the monk gains <em data-base='1'>1</em>% more accuracy (max: <em data-base='10'>10</em>%) against the target<span class='perLevel'> per rank</span>.",
         icon = "/builds/icons/rb-mnk-familiarity.png"
     ))
 
@@ -1161,7 +1161,7 @@ function initBuilds() {
 
     brd.set(2, new Build( // tree 1 row 1 right
         title = "Healing Treble",
-        description = "Healing effects on songs (lvl 6) are 10% more effective<span class='perLevel'> per rank</span>.",
+        description = "Healing effects on songs (lvl 6) are <em data-base='10'>10</em>% more effective<span class='perLevel'> per rank</span>.",
         icon = "/builds/icons/rb-brd-healingtreble.png"
     ))
 
