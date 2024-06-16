@@ -10,7 +10,7 @@ class World {
     this.fullNames = {};
     this.notes = {};
   }
- 
+
   addZone(shortName, fullName, minExpansion = -1, maxExpansion = -1) {
     if (minExpansion != -1 && minExpansion >= currentExpansion) {
       return;
@@ -1153,63 +1153,63 @@ w.addZoneLine('hohonora', 'hohonorb'); // 4
 //poearthb
 //potimeb
 //potranquility
-w.addBiZoneLine('poknowledge', 'potranquility'); 
-w.addBiZoneLine('hohonora', 'potranquility'); 
-w.addBiZoneLine('bothunder', 'potranquility'); 
+w.addBiZoneLine('poknowledge', 'potranquility');
 w.addBiZoneLine('hohonora', 'potranquility');
-w.addBiZoneLine('podisease', 'potranquility'); 
-w.addBiZoneLine('poinnovation', 'potranquility'); 
-w.addBiZoneLine('pojustice', 'potranquility'); 
-w.addBiZoneLine('ponightmare', 'potranquility'); 
-w.addBiZoneLine('poknowledge', 'potranquility'); 
-w.addBiZoneLine('postorms', 'potranquility'); 
-w.addBiZoneLine('potimea', 'potranquility'); 
-w.addBiZoneLine('potorment', 'potranquility');  
-w.addBiZoneLine('povalor', 'potranquility'); 
-w.addBiZoneLine('powar', 'potranquility'); 
-w.addBiZoneLine('powater', 'potranquility'); 
-w.addBiZoneLine('solrotower', 'potranquility'); 
-w.addBiZoneLine('poeartha', 'potranquility'); 
-w.addBiZoneLine('poair', 'potranquility'); 
+w.addBiZoneLine('bothunder', 'potranquility');
+w.addBiZoneLine('hohonora', 'potranquility');
+w.addBiZoneLine('podisease', 'potranquility');
+w.addBiZoneLine('poinnovation', 'potranquility');
+w.addBiZoneLine('pojustice', 'potranquility');
+w.addBiZoneLine('ponightmare', 'potranquility');
+w.addBiZoneLine('poknowledge', 'potranquility');
+w.addBiZoneLine('postorms', 'potranquility');
+w.addBiZoneLine('potimea', 'potranquility');
+w.addBiZoneLine('potorment', 'potranquility');
+w.addBiZoneLine('povalor', 'potranquility');
+w.addBiZoneLine('powar', 'potranquility');
+w.addBiZoneLine('powater', 'potranquility');
+w.addBiZoneLine('solrotower', 'potranquility');
+w.addBiZoneLine('poeartha', 'potranquility');
+w.addBiZoneLine('poair', 'potranquility');
 w.addBiZoneLine('pofire', 'potranquility');
 w.addBiZoneLine('codecay', 'potranquility');
 w.addBiZoneLine('hohonorb', 'potranquility');
 //poknowledge
-w.addBiZoneLine('arena', 'poknowledge'); 
-w.addBiZoneLine('bazaar', 'poknowledge'); 
-w.addBiZoneLine('butcher', 'poknowledge'); 
-w.addBiZoneLine('everfrost', 'poknowledge'); 
-w.addBiZoneLine('feerrott', 'poknowledge'); 
+w.addBiZoneLine('arena', 'poknowledge');
+w.addBiZoneLine('bazaar', 'poknowledge');
+w.addBiZoneLine('butcher', 'poknowledge');
+w.addBiZoneLine('everfrost', 'poknowledge');
+w.addBiZoneLine('feerrott', 'poknowledge');
 w.addZoneLine('feerrott2', 'poknowledge', 2, 'Exit From Feerrott, the Dream');
-w.addBiZoneLine('fieldofbone', 'poknowledge'); 
-w.addBiZoneLine('firiona', 'poknowledge'); 
-w.addBiZoneLine('freportw', 'poknowledge'); 
-w.addBiZoneLine('gfaydark', 'poknowledge'); 
-w.addBiZoneLine('greatdivide', 'poknowledge'); 
-w.addBiZoneLine('guildlobby', 'poknowledge'); 
-w.addBiZoneLine('gunthak', 'poknowledge'); 
-w.addBiZoneLine('innothule', 'poknowledge'); 
-w.addBiZoneLine('innothuleb', 'poknowledge'); 
-w.addBiZoneLine('misty', 'poknowledge'); 
-w.addBiZoneLine('mistythicket', 'poknowledge'); 
-w.addBiZoneLine('nektulos', 'poknowledge'); 
-w.addBiZoneLine('nexus', 'poknowledge'); 
-w.addBiZoneLine('overthere', 'poknowledge'); 
-w.addBiZoneLine('tox', 'poknowledge'); 
-w.addBiZoneLine('weddingchapel', 'poknowledge'); 
-w.addBiZoneLine('weddingchapeldark', 'poknowledge'); 
-w.addBiZoneLine('qeynos2', 'poknowledge'); 
-w.addBiZoneLine('relic', 'poknowledge'); 
-w.addBiZoneLine('shadeweaver', 'poknowledge'); 
-w.addBiZoneLine('solrotower', 'pofire'); 
-w.addBiZoneLine('steamfont', 'poknowledge'); 
-w.addBiZoneLine('moors', 'poknowledge'); 
-w.addBiZoneLine('draniksscar', 'poknowledge'); 
-w.addBiZoneLine('gunthak', 'poknowledge'); 
-w.addBiZoneLine('potimea', 'poknowledge'); 
-w.addBiZoneLine('potranquility', 'poknowledge'); 
-w.addBiZoneLine('rathemtn', 'poknowledge'); 
-w.addBiZoneLine('tutoriala', 'poknowledge'); 
+w.addBiZoneLine('fieldofbone', 'poknowledge');
+w.addBiZoneLine('firiona', 'poknowledge');
+w.addBiZoneLine('freportw', 'poknowledge');
+w.addBiZoneLine('gfaydark', 'poknowledge');
+w.addBiZoneLine('greatdivide', 'poknowledge');
+w.addBiZoneLine('guildlobby', 'poknowledge');
+w.addBiZoneLine('gunthak', 'poknowledge');
+w.addBiZoneLine('innothule', 'poknowledge');
+w.addBiZoneLine('innothuleb', 'poknowledge');
+w.addBiZoneLine('misty', 'poknowledge');
+w.addBiZoneLine('mistythicket', 'poknowledge');
+w.addBiZoneLine('nektulos', 'poknowledge');
+w.addBiZoneLine('nexus', 'poknowledge');
+w.addBiZoneLine('overthere', 'poknowledge');
+w.addBiZoneLine('tox', 'poknowledge');
+w.addBiZoneLine('weddingchapel', 'poknowledge');
+w.addBiZoneLine('weddingchapeldark', 'poknowledge');
+w.addBiZoneLine('qeynos2', 'poknowledge');
+w.addBiZoneLine('relic', 'poknowledge');
+w.addBiZoneLine('shadeweaver', 'poknowledge');
+w.addBiZoneLine('solrotower', 'pofire');
+w.addBiZoneLine('steamfont', 'poknowledge');
+w.addBiZoneLine('moors', 'poknowledge');
+w.addBiZoneLine('draniksscar', 'poknowledge');
+w.addBiZoneLine('gunthak', 'poknowledge');
+w.addBiZoneLine('potimea', 'poknowledge');
+w.addBiZoneLine('potranquility', 'poknowledge');
+w.addBiZoneLine('rathemtn', 'poknowledge');
+w.addBiZoneLine('tutoriala', 'poknowledge');
 
 //LEGACY OF YKESHA
 //gunthak
@@ -1484,10 +1484,10 @@ searchForm.addEventListener("submit", (e) => {
     let areDruidPortsEnabledChk = document.getElementById("areDruidPortsEnabled");
     areDruidPortsEnabled = areDruidPortsEnabledChk.checked;
     console.log(areDruidPortsEnabled);
-    
+
     let areGuildLobbyPortsEnabledChk = document.getElementById("areGuildLobbyPortsEnabled");
     areGuildLobbyPortsEnabled = areGuildLobbyPortsEnabledChk.checked;
-    
+
     let isGuildLobbyAAEnabledChk = document.getElementById("isGuildLobbyAAEnabled");
     isGuildLobbyAAEnabled = isGuildLobbyAAEnabledChk.checked;
 
@@ -1507,13 +1507,13 @@ searchForm.addEventListener("submit", (e) => {
     let nav = w.findShortestPath(from.value, to.value);
     let out = ""
     out += "<ol>";
-    
+
     out = " To get from <b>"+w.fullNames[from.value]+"</b> to <b>"+w.fullNames[to.value]+"</b>:<br>";
     out += "<ol>"
- 
+
     let src = ""
     let adj = ""
-    if (nav.length <2 ) { 
+    if (nav.length <2 ) {
       out += "</ol>"
       out += "No route found to get from <b>"+w.fullNames[from.value]+"</b> to <b>"+w.fullNames[to.value]+"</b>!";
       document.getElementById("results").innerHTML = out;
