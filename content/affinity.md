@@ -7,6 +7,8 @@ The affinity system in RebuildEQ impacts your incoming and outgoing damage with 
 
 ## Strength and Weakness
 
+If you hover over your resists in game, you can see strengths and weaknesses as well for quick reference.
+
 {{<mermaid>}}
 graph LR;
     Spirit --> Water;
