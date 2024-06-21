@@ -6,8 +6,8 @@ weight: 0
 
 Welcome to Rebuild EQ!
 
-Check out [Features and Rules](features-and-rules) then [Getting Started](getting-started) to get going.
-
-Demo tinywebeq, each icon if hovered over will show a preview. On click (and for mobile friendliness), it'll stick the preview until clicked again. 
-
-{{<npc id="32040" name="Lord Nagafen">}} uses {{<spell id="861" name="Lava Breath">}} and drops {{<item id="11622" name="Red Dragon Scales">}} which is used for the quest {{<item id="20542" name="Singing Short Sword">}}
+- Introduces a new [build](/builds) system, allowing you to customize your character in hundreds of way.
+- Explore and discover new treasures in content you knew before. Adds over 3 custom NPC nameds, as well as more than 6 custom items
+- Introduces an [affinity] system to Players, NPCs and offensive spells. Consider NPCS to learn their tags for their affinity, hints on what augs they may drop, or read spell descriptions to learn how builds and augmentations modify them
+- Discover the new transfusion system, allowing you to merge and create custom augmentations to cater your build
+- Take advantage of the new rested system, allowing you to pool bonus experience while in a town or city when online or offline

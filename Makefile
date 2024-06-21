@@ -36,3 +36,7 @@ scss:
 .PHONY: spells
 spells:
 	go run scripts/spells/main.go
+
+.PHONY: counter
+counter:
+	go run scripts/counter/main.go
