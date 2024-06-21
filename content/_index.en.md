@@ -6,6 +6,8 @@ weight: 0
 
 Welcome to Rebuild EQ!
 
+When you're ready to play, check out [getting started](/started) for instructions on how to connect to the server and update your client.
+
 - Introduces a new [build](/builds) system, allowing you to customize your character in hundreds of way.
 - Explore and discover new treasures in content you knew before. Adds over 3 custom NPC nameds, as well as more than 6 custom items
 - Introduces an [affinity] system to Players, NPCs and offensive spells. Consider NPCS to learn their tags for their affinity, hints on what augs they may drop, or read spell descriptions to learn how builds and augmentations modify them
