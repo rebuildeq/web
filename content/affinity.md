@@ -9,11 +9,11 @@ The affinity system in RebuildEQ impacts your incoming and outgoing damage with 
 
 {{<mermaid>}}
 graph LR;
-    Air --> Spirit;
     Spirit --> Water;
     Water --> Fire;
     Fire --> Earth;
     Earth --> Air;
+    Air --> Spirit;
 
     classDef spiritClass fill:#FF0000,stroke:#333,stroke-width:2px;
     classDef waterClass fill:#0033BB,stroke:#333,stroke-width:2px;
@@ -29,10 +29,10 @@ graph LR;
 {{</mermaid>}}
 
 - Spirit is strong to water, weak to air
-- Air is strong to spirit, weak to earth
+- Water is strong to fire, weak to spirit
 - Fire is strong to earth, weak to water
 - Earth is strong to air, weak to fire
-- Water is strong to fire, weak to spirit
+- Air is strong to spirit, weak to earth
 - Every other mixture at this time has no effect
 
 Strong currently implies a 50% increase in damage, while weak implies a 50% decrease in damage.
