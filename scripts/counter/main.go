@@ -47,12 +47,63 @@ func run() error {
 		}
 	}
 
+	latestCustomAugID := 0
+	data, err = os.ReadFile("../app/sql/item_aug.sql")
+	if err != nil {
+		return err
+	}
+	lines = strings.Split(string(data), "\n")
+	for lineNumber, line := range lines {
+		if strings.Contains(line, "SET id=") {
+			chunk := line[strings.Index(line, "SET id=")+7:]
+			chunk = chunk[0:strings.Index(chunk, ",")]
+
+			latestCustomAugID, err = strconv.Atoi(chunk)
+			if err != nil {
+				return fmt.Errorf("convert latestCustomAugID line %d: %w", lineNumber, err)
+			}
+		}
+	}
+
+	latestCustomCircleID := 0
+	data, err = os.ReadFile("../app/sql/item_circle.sql")
+	if err != nil {
+		return err
+	}
+	lines = strings.Split(string(data), "\n")
+	for lineNumber, line := range lines {
+		if strings.Contains(line, "SET id=") {
+			chunk := line[strings.Index(line, "SET id=")+7:]
+			chunk = chunk[0:strings.Index(chunk, ",")]
+
+			latestCustomCircleID, err = strconv.Atoi(chunk)
+			if err != nil {
+				return fmt.Errorf("convert latestCustomCircleID line %d: %w", lineNumber, err)
+			}
+		}
+	}
+
+	if latestCustomCircleID > 0 {
+		latestCustomCircleID -= 149000
+		fmt.Println("latestCustomCircleID", latestCustomCircleID)
+	}
+
+	if latestCustomAugID > 0 {
+		latestCustomAugID -= 148000
+		fmt.Println("latestCustomAugID", latestCustomAugID)
+	}
+
 	if latestCustomItemID > 0 {
 		latestCustomItemID -= 150000
+		fmt.Println("latestCustomItemID", latestCustomItemID)
 	}
 	if latestCustomNPCNamedID > 0 {
 		latestCustomNPCNamedID -= 800000
+		fmt.Println("latestCustomNPCNamedID", latestCustomNPCNamedID)
 	}
+
+	totalItem := latestCustomItemID + latestCustomAugID + latestCustomCircleID
+	fmt.Println("totalItem", totalItem)
 
 	data, err = os.ReadFile("content/_index.en.md")
 	if err != nil {
@@ -63,8 +114,9 @@ func run() error {
 	lines = strings.Split(string(data), "\n")
 	for _, line := range lines {
 		if strings.Contains(line, "- Explore and") {
-			fmt.Println("found", line)
-			line = fmt.Sprintf("- Explore and discover new treasures in content you knew before. Adds over %d custom NPC nameds, as well as more than %d custom items", latestCustomNPCNamedID, latestCustomItemID)
+			fmt.Println("Changing from", line)
+			line = fmt.Sprintf("- Explore and discover new treasures in content you knew before. Adds over %d custom NPC nameds, as well as more than %d custom items", latestCustomNPCNamedID, totalItem)
+			fmt.Println("Changing to", line)
 		}
 		out = out + line + "\n"
 	}
