@@ -17,7 +17,7 @@ To get started with Rebuild EQ
 - Place the patcher in your RoF2 directory
 - Run rebuildeq.exe
 - Log in with your EQ Emulator account
-- Select the `Rebuild EQ` server option on server select 
+- Select the `Rebuild EQ` server option on server select
 - Run the patcher each time in the future
 
 ## First Steps
@@ -32,19 +32,8 @@ When you hail a Guild Master, you'll learn quickly they offer services beyond ju
 - Wizards and Druids can teleport you to their typical destinations.
 - Warriors can teleport you to all starter towns.
 
-### Card Augments
-
-Augments have been simplified and revised! There are now 3 slots for augments: Finger, Weapon, and Chest. 
-
-- Finger augments are clicky effects that can be used for utility.
-- Weapon augments are procs or banes, enhancing damage.
-- Chest augments are stat modifiers.
-
-As you hunt every creature in Norrath, they can drop cards, so be sure to loot all corpses. You can buy a custom item called a `MonsterDex` from general merchants and use it's clicky effect to analyze the cards a monster may drop. [There is also a card reference sheet here](/cards)
-
 ## FAQ
 
 > [!question]
-> Can I reroll my classes if I dont like them?
-
-Not right now. Eventually rerolling for EoM might be a thing, but currently it is not.
+> Can I change a new deity later?
+There is a quest that allows you to change your deity, it is difficult and expensive.

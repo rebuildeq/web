@@ -4,12 +4,23 @@ description: Rebuild EQ
 weight: 0
 ---
 
-Welcome to Rebuild EQ!
+**This server is not yet playable.** No launch date yet set, [learn more about progress](/features/progress)
+<a href="test">
+{{< progressbar width="75" label="Beta Launch Progress" >}}</a>
 
-When you're ready to play, check out [getting started](/started) for instructions on how to connect to the server and update your client.
+<center>
+{{<button href="https://rebuildeq.com/starting" target="_self">}}Click here to get started playing on Rebuild EQ{{</button>}}
+</center>
 
-- Introduces a new [build](/builds) system, allowing you to customize your character in hundreds of way.
-- Explore and discover new treasures in content you knew before. Adds over 13 custom NPC nameds, as well as more than 175 custom items
-- Introduces an [affinity](/affinity) system to Players, NPCs and offensive spells. Consider NPCS to learn their tags for their affinity, hints on what augs they may drop, or read spell descriptions to learn how builds and augmentations modify them
-- Discover the new transfusion system, allowing you to merge and create custom augmentations to cater your build
-- Take advantage of the new rested system, allowing you to pool bonus experience while in a town or city when online or offline
+{{< columns >}}
+## Content
+- Original content [has been expanded](/features/custom-content). Adds over 13 custom NPC nameds, as well as more than 175 custom items
+- Take advantage of the new [rested system](/features/rested), allowing you to pool bonus experience while in a town or city when online or offline
+<--->
+## Builds
+- Introduces a new [build](/builds/clr/) system, allowing you to customize your character in hundreds of way.
+<--->
+## Affinity
+- Introduces an [affinity](/features/affinity) system to Players, NPCs and offensive spells. Consider NPCS to learn their tags for their affinity, hints on what augs they may drop, or read spell descriptions to learn how builds and augmentations modify them
+- Discover the new [transfusion system](/features/augments/), allowing you to merge and create custom augmentations to cater your build
+{{< /columns >}}

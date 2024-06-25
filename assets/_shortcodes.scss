@@ -110,4 +110,43 @@
       }
     }
   }
+  // {{< progressbar >}}
+ /* Base styles for light mode */
+.progress-container {
+  width: 100%;
+  background-color: #eee;
+  border: 1px solid #ccc;
+}
+
+.progress-bar {
+  height: 20px;
+  background-color: #4CAF50; /* Green in light mode */
+  text-align: center;
+  line-height: 20px; /* Same as height to vertically center text */
+  color: white;
+  transition: width 0.4s ease;
+}
+
+.progress-label {
+  font-size: 0.8em;
+  font-weight: bold;
+}
+
+/* Dark mode styles */
+@media (prefers-color-scheme: dark) {
+  .progress-container {
+      background-color: #333; /* Darker background in dark mode */
+      border-color: #444;
+  }
+
+  .progress-bar {
+      background-color: #76b852; /* A lighter green suitable for dark backgrounds */
+  }
+
+  .progress-label {
+      color: #f0f0f0; /* Lighter text color for better readability in dark mode */
+  }
+}
+
+
 }

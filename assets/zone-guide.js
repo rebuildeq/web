@@ -2,7 +2,7 @@ let areWizardPortsEnabled = true;
 let areDruidPortsEnabled = true;
 let areGuildLobbyPortsEnabled = true;
 let isGuildLobbyAAEnabled = true;
-let currentExpansion = 19;
+let currentExpansion = 1;
 
 class World {
   constructor() {

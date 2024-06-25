@@ -113,9 +113,9 @@ func run() error {
 	out := ""
 	lines = strings.Split(string(data), "\n")
 	for _, line := range lines {
-		if strings.Contains(line, "- Explore and") {
+		if strings.Contains(line, "- Original content") {
 			fmt.Println("Changing from", line)
-			line = fmt.Sprintf("- Explore and discover new treasures in content you knew before. Adds over %d custom NPC nameds, as well as more than %d custom items", latestCustomNPCNamedID, totalItem)
+			line = fmt.Sprintf("- Original content [has been expanded](/custom-content). Adds over %d custom NPC nameds, as well as more than %d custom items", latestCustomNPCNamedID, totalItem)
 			fmt.Println("Changing to", line)
 		}
 		out = out + line + "\n"

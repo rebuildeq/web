@@ -1,0 +1,6 @@
+<!-- layouts/shortcodes/progressbar.html -->
+<div class="progress-container">
+    <div class="progress-bar" style="width: {{ .Get "width" }}%;">
+        {{ with .Get "label" }}<span class="progress-label">{{ . }}</span>{{ end }}
+    </div>
+</div>
