@@ -6,7 +6,7 @@ weight: 0
 
 **This server is not yet playable.** No launch date yet set, [learn more about progress](/features/progress)
 <a href="test">
-{{< progressbar width="75" label="Beta Launch Progress" >}}</a>
+{{< progressbar width="20" label="Beta Launch Progress" >}}</a>
 
 <center>
 {{<button href="https://rebuildeq.com/starting" target="_self">}}Click here to get started playing on Rebuild EQ{{</button>}}
