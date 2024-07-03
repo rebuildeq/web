@@ -1960,140 +1960,140 @@ function initBuilds() {
 
     mag.set(2, new Build( // tree 1 row 1 right
         title = "Hydrosophist",
-        description = "Water Elementals take <em data-base='5'>5</em>% more damage and deal <em data-base='10'>10</em>% less damage, but gain an ability: Every 18 seconds, it heals a most hurt ally for <em data-base='2'>2</em>% of the pet's max health<span class='perLevel'> per rank</span>.",
+        description = "Water Elementals take <em data-base='5'>5</em>% more damage and deal <em data-base='10'>10</em>% less damage, but gain an ability: Every 18 seconds, it transfers health to a most hurt ally for <em data-base='2'>2</em>% of the pet's max health within 50m<span class='perLevel'> per rank</span>, until pet has 50% health.",
         icon = "/builds/icons/rb-mag-hydrosophist.png"
     ))
 
     mag.set(4, new Build( // tree 1 row 2 middle
         title = "Improved Reclaim Energy",
         description = "Increases the amount of mana returned by Reclaim Energy by 5%<span class='perLevel'> per rank</span>.",
-        icon = "/builds/icons/rb-mag-improvedreclaimenergy.png"
+        icon = "/builds/icons/rb-todo.png"
     ))
 
     mag.set(6, new Build( // tree 1 row 3 left
         title = "Modulation Shard",
         description = "Summons a modulation rod with 1 charge<span class='perLevel'> per rank</span>.",
-        icon = "/builds/icons/rb-mag-modulationshard.png"
+        icon = "/builds/icons/rb-todo.png"
     ))
 
     mag.set(8, new Build( // tree 1 row 3 right
         title = "Companion's Intensity",
         description = "Increases your pet's damage melee damage by 2%<span class='perLevel'> per rank</span>.",
-        icon = "/builds/icons/rb-mag-companionsdurability.png"
+        icon = "/builds/icons/rb-todo.png"
     ))
 
     mag.set(10, new Build( // tree 1 row 4 middle
         title = "Suspended Minion",
         description = "Grants the Suspended Minion AA, allowing you to suspend a minion to be recalled later. Further ranks allow preserving buffs and items while suspended.",
-        icon = "/builds/icons/rb-mag-suspendedminion.png"
+        icon = "/builds/icons/rb-todo.png"
     ))
 
     mag.set(13, new Build( // tree 1 row 5 middle
         title = "Mend Companion",
         description = "Grants the Mend Companion AA, healing 20% of your pet's HP per rank",
-        icon = "/builds/icons/rb-mag-mendcompanion.png"
+        icon = "/builds/icons/rb-todo.png"
     ))
 
     mag.set(16, new Build( // tree 1 row 6 middle
         title = "Companion of Necessity",
         description = "Grants the Companion of Necessity AA, summoning a temporary pet that will gain the attention of one creature and cause that creature to forget all anger when the pet dies. Each rank grants 20% of maximum duration.",
-        icon = "/builds/icons/rb-mag-companionofnecessity.png"
+        icon = "/builds/icons/rb-todo.png"
     ))
 
     mag.set(18, new Build( // tree 2 row 1 left
-        title = "Shared Health",
-        description = "Grants the Shared Health AA, causing 10% of your incoming damage per rank to be sent to your pet instead.",
-        icon = "/builds/icons/rb-mag-sharedhealth.png"
+        title = "Pyromancy",
+        description = "Fire Elementals take <em data-base='10'>10</em>% more damage and deal <em data-base='10'>10</em>% more damage, and gain an ability: Every 6 seconds while the pet is in combat, up to <em data-base='2'>2</em> enemies on the magician's hate list within 30m of the pet is dealt <em data-base='1'>1</em>% of the pet's max health as fire damage. This damage also hurts the pet for half of the amount, until the pet has 30% health. This AE damage causes hate to the magician.",
+        icon = "/builds/icons/rb-mag-pyromancy.png"
     ))
 
     mag.set(20, new Build( // tree 2 row 1 right
         title = "Host in the Shell",
         description = "Grants the Host in the Shell AA, creating a rune effect on your pet with 20% of the rune's maximum value<span class='perLevel'> per rank</span>.",
-        icon = "/builds/icons/rb-mag-hostintheshell.png"
+        icon = "/builds/icons/rb-todo.png"
     ))
 
     mag.set(22, new Build( // tree 2 row 2 middle
         title = "Turn Summoned",
         description = "Grants the Turn Summoned AA, inflicting a DoT for 500 damage per rank per tick for 4 ticks with a 1% chance per rank to cause 32000 damage.",
-        icon = "/builds/icons/rb-mag-turnsummoned.png"
+        icon = "/builds/icons/rb-todo.png"
     ))
 
     mag.set(24, new Build( // tree 2 row 3 left
         title = "Frenzied Burnout",
         description = "Reduces the mana cost of direct damage spells by 10%<span class='perLevel'> per rank</span>.",
-        icon = "/builds/icons/rb-mag-frenziedburnout.png"
+        icon = "/builds/icons/rb-todo.png"
     ))
 
     mag.set(26, new Build( // tree 2 row 3 right
         title = "Elemental Alacrity",
         description = "Improves element-based direct damage spells by 4% damage<span class='perLevel'> per rank</span>.",
-        icon = "/builds/icons/rb-mag-elementalalacrity.png"
+        icon = "/builds/icons/rb-todo.png"
     ))
 
     mag.set(28, new Build( // tree 2 row 4 middle
         title = "Call of the Hero",
         description = "Grants the Call of the Hero AA with reduced cast time and cooldown timer<span class='perLevel'> per rank</span>.",
-        icon = "/builds/icons/rb-mag-callofthehero.png"
+        icon = "/builds/icons/rb-todo.png"
     ))
 
     mag.set(31, new Build( // tree 2 row 5 middle
         title = "Clockwork Merchant",
         description = "Grants the Clockwork Banker AA that summons a merchant. Ranks decrease the cooldown substantially.",
-        icon = "/builds/icons/rb-mag-clockworkmerchant.png"
+        icon = "/builds/icons/rb-todo.png"
     ))
 
     mag.set(34, new Build( // tree 2 row 6 middle
         title = "Servant of Ro",
         description = "Grants the Servant of Ro AA that calls a loyal servant into being who will repeatedly hurl fire at your target. Ranks increase the duration of this temporary pet.",
-        icon = "/builds/icons/rb-mag-servantofro.png"
+        icon = "/builds/icons/rb-todo.png"
     ))
 
     mag.set(36, new Build( // tree 3 row 1 left
         title = "Dimensional Shield",
         description = "Grants Dimensional Shield AA that allows a chance to shadow step away from the attacking target. Ranks increase the chance of the defensive proc by 20%<span class='perLevel'> per rank</span>.",
-        icon = "/builds/icons/rb-mag-dimensionalshield.png"
+        icon = "/builds/icons/rb-todo.png"
     ))
 
     mag.set(38, new Build( // tree 3 row 1 right
         title = "Heart of Stone",
         description = "Grants Heart of Stone AA that provides a melee guard. The melee guard is scaled at 10%<span class='perLevel'> per rank</span>.",
-        icon = "/builds/icons/rb-mag-heartofstone.png"
+        icon = "/builds/icons/rb-todo.png"
     ))
 
     mag.set(40, new Build( // tree 3 row 2 middle
         title = "Heart of Vapor",
         description = "Grants Heart of Vapor AA that reduces hate generated. The effectiveness of the spell is 20%<span class='perLevel'> per rank</span>.",
-        icon = "/builds/icons/rb-mag-heartofvapor.png"
+        icon = "/builds/icons/rb-todo.png"
     ))
 
     mag.set(42, new Build( // tree 3 row 3 left
         title = "Shock of Swords",
         description = "Increases the damage caused by sword and blade spells by 4%<span class='perLevel'> per rank</span>.",
-        icon = "/builds/icons/rb-mag-shockofswords.png"
+        icon = "/builds/icons/rb-todo.png"
     ))
 
     mag.set(44, new Build( // tree 3 row 3 right
         title = "Heart of Ice",
         description = "Grants Heart of Ice AA that provides a spell guard. The spell guard is scaled at 10%<span class='perLevel'> per rank</span>.",
-        icon = "/builds/icons/rb-mag-heartofice.png"
+        icon = "/builds/icons/rb-todo.png"
     ))
 
     mag.set(46, new Build( // tree 3 row 4 middle
         title = "Quick Damage",
         description = "Reduces the cast time of direct damage spells that have casting times longer than 3 seconds. Each rank further decreases the cast time.",
-        icon = "/builds/icons/rb-mag-quickdamage.png"
+        icon = "/builds/icons/rb-todo.png"
     ))
 
     mag.set(49, new Build( // tree 3 row 5 middle
         title = "Heart of Flames",
         description = "Grants Heart of Flames AA that provides a massive damage shield. The effectiveness of the spell is scaled at 20%<span class='perLevel'> per rank</span>.",
-        icon = "/builds/icons/rb-mag-heartofflames.png"
+        icon = "/builds/icons/rb-todo.png"
     ))
 
     mag.set(52, new Build( // tree 3 row 6 middle
         title = "Primal Fusion",
         description = "When you attack with a direct damage spell, your pet will also cast the spell dealing 5 of it's damage<span class='perLevel'> per rank</span>.",
-        icon = "/builds/icons/rb-mag-primalfusion.png"
+        icon = "/builds/icons/rb-todo.png"
     ))
 
     builds.set(classMagician, mag)
