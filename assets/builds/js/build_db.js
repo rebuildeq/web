@@ -701,7 +701,7 @@ function initBuilds() {
 
     shd.set(8, new Build( // tree 1 row 3 right
         title = "Zevfeer's Feast",
-        description = "While in a group, you and your allies gain (group size * level * 0.028) mana regen per tick, capped at maximum group size 3<span class='perLevel'> per rank</span>.",
+        description = "When lifetapping, Zevfeer's Feast has a <em data-base='10'>10</em>% chance to deal an additional <em data-base='2'>2</em>% damage. This damage is returned in the form of mana for yourself and party.",
         icon = "/builds/icons/rb-shd-zevfeersfeast.png"
     ))
 
