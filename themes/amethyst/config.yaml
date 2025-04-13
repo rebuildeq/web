@@ -82,7 +82,7 @@ params:
   # Footer links
   links:
     - link_name: Discord
-      link: https://discord.gg/ARYXfNSA9A
+      link: https://discord.gg/E8seAXdsHM
 
   # (Optional, default true) Controls table of contents visibility on right side of pages.
   # Start and end levels can be controlled with markup.tableOfContents setting.
