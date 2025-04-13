@@ -4,7 +4,7 @@ summary: "Starting Guide for Playing on RebuildEQ"
 weight: 1
 ---
 
-Welcome to your new adventure on RebuildEQ! To talk to the community, don't forget to [join the discord](https://discord.gg/0lwW4DnAyID7E7wi).
+Welcome to your new adventure on RebuildEQ! To talk to the community, don't forget to [join the discord](https://discord.gg/E8seAXdsHM).
 
 
 ## Initial Setup
