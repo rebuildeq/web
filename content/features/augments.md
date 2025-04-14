@@ -4,8 +4,6 @@ title: "Augments"
 summary: "List of Cards Augments available on RebuildEQ"
 ---
 
-# Tags
-
 Rebuild EQ simplifies augs. When leveling up, many monsters have a chance to drop cards. These cards can be equipped as augs.
 
 This system is built to be intuitive and seamlessly integrate into the game, so even if you aren't aware of this system, it should be easy to discover in game.
@@ -14,8 +12,8 @@ This system is built to be intuitive and seamlessly integrate into the game, so 
 - Every equippable item that can fit augs has a slot for augs, even a cloth shirt
 - Removing augs is free and they are never destroyed, simply take them out of the socket
 - When you consider a mob, you will see (Tags) associated with it. These tags are hints on what augs the monster can drop.
-- Aug cards are rare, however. It is difficult to actively target an card, it is recommended to shift your hunting grounds to possibly get cards, but never expect one in particular without excessive farming
-- The aug system will grow in complexity later for the end game, so look forward to learning more complicated systems later, but don't worry about it for now
+- Aug cards are rare, however. It is difficult to actively target a card, it is recommended to shift your hunting grounds to include monsters that drop cards you are after, but never expect one in particular without excessive farming
+- The aug system grows in complexity later for the end game (60+), so look forward to learning more complicated systems later, but don't worry about it for now (it also is not yet implemented)
 
 Name|Slot|Rarity|Lore
 --|--|--|--
