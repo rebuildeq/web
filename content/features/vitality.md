@@ -22,4 +22,4 @@ Note that these 3 sources of vitality are independent and are summarized with th
 
 ## How to use vitality
 
-When you gain experience, you will consume vitality. The amount of vitality consumed is based on the amount of experience you gain. The more vitality you have, the more experience you will gain. You can see how much vitality you have in your experience window. The more vitality you have, the faster vitality is used, slowing down as you get closer to fully exhausting the reserves.
+When you gain experience, you will bonus experience and consume vitality. Your exp gain message will tell you how much was added from vitality. The more vitality you have, the faster vitality is used, slowing down as you get closer to fully exhausting the vitality reserves. Which source of vitality is consumed is 50/50 rested and event, then once both of these are exhausted, activities.
