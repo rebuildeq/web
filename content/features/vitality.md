@@ -15,8 +15,8 @@ This system is designed to help players who may not have as much time to play, o
 You gain vitality in 3 different ways, and each way stack with each other:
 
 - Resting: When you enter safe zones (towns, designated areas) you will get a buff and an emote notifying that you are in a rested area. If you log out or stay in these areas, your character will gain vitality over time. It will take 42 hours to cap this vitality.
-- Events: Holiday events, weekend bonuses, and other community events will give you a boost to your vitality. These events will be announced. Vitality gained via events will have an expiration time, usually 1 week after the event ends.
-- Activities: When in towns, there will be simple activities available by interacting with NPCs. These activities will give you another form of vitality.
+- Events: Holiday events, weekend bonuses, and other community events will give you a boost to your vitality. These events will be announced, and logging in during the event will be enough to obtain this vitality. Vitality gained via events will have an expiration time, usually 1 week after the event ends, and has no cap, but it is only given for special occasions.
+- Activities: When in towns, there will be simple activities available by interacting with NPCs. These activities will give you another form of vitality. They have their own cap and you'll be notified when you reach it or are nearing reaching it in game as you do activities.
 
 Note that these 3 sources of vitality are independent and are summarized with the vitality progress bar. If the total is over the experience needed for your next level, vitality will show at 100%. As you consume vitality, it will retain 100% until the total amount of vitality remaining is less than the experience needed for your next level.
 
