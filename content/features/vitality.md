@@ -8,7 +8,7 @@ Vitality is a system reimagined in RebuildEQ that grants bonus experience. Inste
 
 With Vitality, you can gain experience faster, but it will deplete over time. The more vitality you have, the more experience you will gain.
 
-This system is designed to help players who may not have as much time to play, or who may be returning to the game after a long break. It allows you to catch up and enjoy the game without feeling like you are falling behind.
+This system is designed to help players who may not have as much time to play, or who may be returning to the game after a long break. It allows you to enjoy the game without feeling like you are falling behind. It also is a great way to measure "dailies", a minimum play time to get optimal experience, then log off and come back later.
 
 ## How to gain vitality
 
