@@ -63,7 +63,3 @@ Werewolf Card|Legs|Rare|5 AC, 2
 Wolf Card|Finger|Extremely Rare|Spirit of Wolf Click Effect|
 Wood Elf Card|Weapon|Rare|Orc Bane Damage
 Zombie Card|Weapon|Rare|Disease Effect
-
-# Transfusion
-
-Transfusion allows you to combine augments together.
