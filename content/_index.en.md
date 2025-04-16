@@ -14,7 +14,7 @@ weight: 0
 ## Features
 {{< columns >}}
 - Group-focused. Expect to play with friends for the best experience. Content will be tuned to require no more than 6, but many situations will at least need 2 players
-- Take advantage of the new [rested system](/features/rested), allowing you to pool bonus experience while in a town or city when online or offline
+- Take advantage of the new [rested system](/features/vitality), allowing you to pool bonus experience while in a town or city when online or offline
 - Casual friendly. Baseline game will be grindy, but systems are in place to help your first 2 hours a day be accelerated and other daily quests allow more casual players to play at their own pace. 1-60 is aimed to take 1 to 2 months with about 2 hours of play time from zero to hero
 - [Build system]([build](/builds/clr/)). Every time you level up, you're granted an AA point that you can spend on unique build skills
 - AAs are quested. AAs can be unlocked by doing quests that are one time permanent unlocks of an entire AA, instead of grinding
