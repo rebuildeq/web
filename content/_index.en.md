@@ -4,7 +4,7 @@ description: Rebuild EQ
 weight: 0
 ---
 
-**This server is not yet playable.** A prealpha is set for Friday, April 16th, 2025.
+**This server is not yet playable.** A prealpha is set for Friday, April 18th, 2025. During prealpha, we will be testing some early access mechanics like exp balance, initial builds, and vitality system. The content will be heavily unfinished, but we don't plan to wipe for some time (2+ months?) unless things get too chaotic after we rapid patch.
 <a href="test">{{< progressbar width="80" label="Pre-Alpha Launch Progress" >}}</a>
 
 <center>
@@ -19,6 +19,7 @@ weight: 0
 - [Build system]([build](/builds/clr/)). Every time you level up, you're granted an AA point that you can spend on unique build skills
 - AAs are quested. AAs can be unlocked by doing quests that are one time permanent unlocks of an entire AA, instead of grinding
 - Augs are simplified. As you hunt Norrath and consider mobs, you'll see (tags) that give hints of what cards they may drop
+- Spells from newer eras are introduced to lower levels. E.g., Cleric getting rez as early as 5
 <--->
 - Original content [has been expanded](/features/custom-content). Adds over 13 custom NPC nameds, as well as more than 175 custom items (More will be added)
 - Salvage systems helps with earning money. A salvage box will help you recycle any items that drop into salvaged parts which can be then be sold at merchants. No items need to rot any more on corpses!
