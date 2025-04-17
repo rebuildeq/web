@@ -1,6 +1,6 @@
 module github.com/rebuildeq/web
 
-go 1.21.5
+go 1.23.0
 
 require (
 	github.com/go-sql-driver/mysql v1.8.0
