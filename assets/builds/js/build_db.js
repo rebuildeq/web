@@ -4429,13 +4429,13 @@ function initBuilds() {
 
     shm.set(9, new Build(
         title = "Feral 4: Spirit Guardian",
-        description = "Places your target under protection of a Spirit Guardian",
+        description = "Places your target under protection of a Spirit Guardian, triggering a 50 hp/tick regen for 6 ticks",
         icon = "/builds/icons/rb-shm-spiritualhealing.png"
     ))
 
     shm.set(12, new Build(
         title = "Feral 5: Feral Infusion",
-        description = "All melee attacks gain a 300 mod proc that deals (level * 0.75 * 0.2) magic damage and restores 2 mana from the target",
+        description = "All melee attacks gain a 75 mod proc that deals (level * 0.75 * 0.2) magic damage and restores 2 mana from the target",
         icon = "/builds/icons/rb-shm-spiritualinfusion.png"
     ))
 
@@ -4525,7 +4525,7 @@ function initBuilds() {
 
     shm.set(21, new Build(
         title = "Mender 2: Ancestral Guard",
-        description = "Blesses you with various forms of protection for 3 minutes",
+        description = "Absorb up to 10000 melee damage by 25% for 60 seconds",
         icon = "/builds/icons/rb-shm-ancestralguard.png"
     ))
 
@@ -4626,8 +4626,8 @@ function initBuilds() {
     ))
 
     shm.set(36, new Build(
-        title = "TODO",
-        description = "TODO",
+        title = "Spiritbender 1: Extended Slow",
+        description = "Increases the duration of slows by 10 ticks per rank",
         icon = "/builds/icons/rb-todo.png"
     ))
 
