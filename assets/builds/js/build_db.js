@@ -4525,19 +4525,19 @@ function initBuilds() {
 
     shm.set(21, new Build(
         title = "Mender 2: Ancestral Guard",
-        description = "Absorb up to 10000 melee damage by 25% for 60 seconds",
+        description = "Absorb up to 5000 melee damage by 25% for 60 seconds, 10 minute reuse",
         icon = "/builds/icons/rb-shm-ancestralguard.png"
     ))
 
     shm.set(24, new Build(
         title = "Mender 3: Communion of the Cheetah",
-        description = "Grants you and your group 115% movement speed for 1 minute 18 seconds",
+        description = "Grants you and your group 115% movement speed for 1 minute 18 seconds, 10 minute reuse",
         icon = "/builds/icons/rb-shm-spiritofspeed.png"
     ))
 
     shm.set(27, new Build(
         title = "Mender 4: Call of the Ancients",
-        description = "Summons a totem that buffs your party",
+        description = "Summons a totem that causes a regeneration effect, healing for 2 hp per tick and increases per level. 20 min reuse",
         icon = "/builds/icons/rb-shm-spiritcall.png"
     ))
 
@@ -4549,7 +4549,7 @@ function initBuilds() {
 
     shm.set(33, new Build(
         title = "Mender 6: Ancestral Aid",
-        description = "Grants your group a stat buff and heal over time",
+        description = "Grants your group a 30 STR/STA/AGI/DEX and 60 overcap of same stats, 95% chance to remove one detrimental, and 10 hp/tick for 30 seconds. 5 Minute reuse",
         icon = "/builds/icons/rb-shm-ancestralaid.png"
     ))
 
@@ -4627,7 +4627,7 @@ function initBuilds() {
 
     shm.set(36, new Build(
         title = "Spiritbender 1: Extended Slow",
-        description = "Increases the duration of slows by 10 ticks per rank",
+        description = "Increases the duration of slows by 5 ticks per rank",
         icon = "/builds/icons/rb-todo.png"
     ))
 
@@ -4638,8 +4638,8 @@ function initBuilds() {
     ))
 
     shm.set(42, new Build(
-        title = "TODO",
-        description = "TODO",
+        title = "Spiritbender 3: Virulent Paralysis",
+        description = "This ability, when activated, pushes your target backwards then roots them in place for up to 3 minutes with a 110 point resist modifier, 30 second cooldown",
         icon = "/builds/icons/rb-todo.png"
     ))
 
