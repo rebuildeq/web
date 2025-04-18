@@ -5,6 +5,10 @@ NAME := rebuildeq.com
 server:
 	@hugo server -b http://localhost:1313/ --noHTTPCache
 
+.PHONY: sync
+sync:
+	cd ../server && git pull
+	cd scripts/build && go test -v -timeout 30s -run ^TestBuildPull$$ github.com/rebuildeq/web/scripts/build
 .PHONY: build
 build:
 	@#rm -rf public/*

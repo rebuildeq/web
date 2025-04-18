@@ -195,6 +195,7 @@ var (
 
 func run() error {
 
+	fmt.Println("Generating build_db.js")
 	err := parseAA()
 	if err != nil {
 		return fmt.Errorf("parseAA: %w", err)
@@ -390,6 +391,7 @@ function generateTreeHTML(classID, treeID) {
 initBuilds()
 `
 
+	fmt.Println("Writing assets/builds/js/build_db.js")
 	err = os.WriteFile("../../assets/builds/js/build_db.js", []byte(out), 0644)
 	if err != nil {
 		return fmt.Errorf("write: %w", err)
