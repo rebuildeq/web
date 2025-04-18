@@ -4628,13 +4628,13 @@ function initBuilds() {
     shm.set(36, new Build(
         title = "Spiritbender 1: Extended Slow",
         description = "Increases the duration of slows by 5 ticks per rank",
-        icon = "/builds/icons/rb-todo.png"
+        icon = "/builds/icons/rb-shm-virulentparalysis.png"
     ))
 
     shm.set(39, new Build(
         title = "Spiritbender 2: Call of the Wild",
         description = "This ability, when activated, calls a fallen comrade's spirit back to their corpse but does not restore any lost experience.\n Your ally can still obtain an experience resurrection after being called by this ability.\nAllies called back to their corpse suffer from Revival Sickness which leaves them unable to regain more than 20% of their mana and endurance for 2 minutes",
-        icon = "/builds/icons/rb-todo.png"
+        icon = "/builds/icons/rb-shm-calloftheancients.png"
     ))
 
     shm.set(42, new Build(
