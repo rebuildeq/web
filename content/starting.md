@@ -13,7 +13,7 @@ To get started with Rebuild EQ
 - Get an [EQ Emulator account](http://www.eqemulator.org/)
 - [create a login server account](http://www.eqemulator.org/account/?CreateLS)
 - Get a clean copy of EQ RoF2
-- {{<button href="https://github.com/rebuildeq/eqemupatcher/releases/latest/download/rebuildeq.exe">}}Download the Patcher{{</button>}}
+- {{<button href="https://github.com/rebuildeq/eqemupatcher/releases/download/1.0.6.10/rebuildeq.exe">}}Download the Patcher{{</button>}}
 - Place the patcher in your RoF2 directory
 - Run rebuildeq.exe
 - Log in with your EQ Emulator account
