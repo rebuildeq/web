@@ -21,7 +21,7 @@ Animal Card|Chest|Rare|10 AC, 5 AGI, 5 ATK
 Aviak Card|Legs|Rare|5 To All Resists
 Barbarian Card|Weapon|Rare|20 Gnoll Bane Damage
 Bear Card|Chest|Rare|75 HP
-Beetle Card|Finger|Rare|Flame Lick Effect
+Beetle Card|Weapon|Rare|Flame Lick Effect
 Construct Card|Chest|Rare|20 AC
 Chromadrac Card|?|?|?
 Dark Elf Card|Weapon|Rare|20 Halfling Bane Damage
