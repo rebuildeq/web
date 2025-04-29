@@ -466,41 +466,30 @@ func parseDBStrLine(line string) error {
 
 	switch strings.ToLower(records[0]) {
 	case "title_sid":
-		if len(records) < 3 {
-			return fmt.Errorf("title_sid records less than 3")
-		}
 		key = fmt.Sprintf("%s^1", records[1])
-		value = strings.Join(records[2:], " ")
+		if len(records) >= 3 {
+			value = strings.Join(records[2:], " ")
+		}
 	case "upper_hotkey_sid":
-		if len(records) < 3 {
-			return fmt.Errorf("upper_hotkey_sid records less than 3")
-		}
 		key = fmt.Sprintf("%s^2", records[1])
-		value = strings.Join(records[2:], " ")
+		if len(records) >= 3 {
+			value = strings.Join(records[2:], " ")
+		}
 	case "lower_hotkey_sid":
-		if len(records) < 3 {
-			return fmt.Errorf("lower_hotkey_sid records less than 3")
-		}
 		key = fmt.Sprintf("%s^3", records[1])
-		value = strings.Join(records[2:], " ")
+		if len(records) >= 3 {
+			value = strings.Join(records[2:], " ")
+		}
 	case "desc_sid":
-		if len(records) < 3 {
-			return fmt.Errorf("desc_sid records less than 3")
-		}
 		key = fmt.Sprintf("%s^4", records[1])
-		value = strings.Join(records[2:], " ")
+		if len(records) >= 3 {
+			value = strings.Join(records[2:], " ")
+		}
 	case "spell_desc_sid":
-		if len(records) < 3 {
-			return fmt.Errorf("spell_desc_sid records less than 3")
-		}
 		key = fmt.Sprintf("%s^6", records[1])
-		value = strings.Join(records[2:], " ")
-	case "icon":
-		if len(records) < 3 {
-			return fmt.Errorf("icon records less than 3")
+		if len(records) >= 3 {
+			value = strings.Join(records[2:], " ")
 		}
-		key = fmt.Sprintf("%s^7", records[1])
-		value = strings.Join(records[2:], " ")
 	default:
 		return nil
 	}
