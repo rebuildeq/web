@@ -703,38 +703,38 @@ function initBuilds() {
     bst = new Map()
 
     bst.set(0, new Build(
-        title = "TODO",
-        description = "TODO",
+        title = "Kinship 1: Gelid Rending",
+        description = "This passive ability adds a 3% per rank chance to apply a melee proc effect to your one-handed blunt and hand-to-hand attacks, dealing (5 + level) damage and lowering the target's attack by 25",
         icon = "/builds/icons/rb-todo.png"
     ))
 
     bst.set(3, new Build(
-        title = "TODO",
-        description = "TODO",
+        title = "Kinship 2: Warder's Gift",
+        description = "Sacrifices 250 health from your Warder and heals yourself for 250 health, 3 minute cooldown",
         icon = "/builds/icons/rb-todo.png"
     ))
 
     bst.set(6, new Build(
-        title = "TODO",
-        description = "TODO",
+        title = "Kinship 3: Nature's Salve",
+        description = "Cures you and your warder of poisons, diseases, curses, corruption and a detrimental effect, 2 minute cooldown",
         icon = "/builds/icons/rb-todo.png"
     ))
 
     bst.set(9, new Build(
-        title = "TODO",
-        description = "TODO",
+        title = "Kinship 4: Growl",
+        description = "Commands your Warder to growl, causing its next attack to fear all targets in a 50 radius area of effect around it, 3 minute cooldown",
         icon = "/builds/icons/rb-todo.png"
     ))
 
     bst.set(12, new Build(
-        title = "TODO",
-        description = "TODO",
+        title = "Kinship 5: Warder Recall",
+        description = "Summons your warder to your side, wiping both of your hatelists, 3 minute cooldown",
         icon = "/builds/icons/rb-todo.png"
     ))
 
     bst.set(15, new Build(
-        title = "TODO",
-        description = "TODO",
+        title = "Kinship 6: Hobble of Spirits",
+        description = "Grants your pet a buff that procs a snare effect on its target",
         icon = "/builds/icons/rb-todo.png"
     ))
 
@@ -811,38 +811,38 @@ function initBuilds() {
     ))
 
     bst.set(18, new Build(
-        title = "TODO",
-        description = "TODO",
+        title = "Vigor 1: Primal Howl",
+        description = "Let loose a primal howl, buffing your strength, attack and armor class for 60 seconds. 3 minute cooldown",
         icon = "/builds/icons/rb-todo.png"
     ))
 
     bst.set(21, new Build(
-        title = "TODO",
-        description = "TODO",
+        title = "Vigor 2: Rabid Resolve",
+        description = "Increases maximum health by 2% per rank",
         icon = "/builds/icons/rb-todo.png"
     ))
 
     bst.set(24, new Build(
-        title = "TODO",
-        description = "TODO",
+        title = "Vigor 3: Protection of the Warder",
+        description = "This ability, when activated, absorbs 20% of incoming melee damage up to 200 damage per hit up to 5000 total damage for 1 minute. 5 minute cooldown",
         icon = "/builds/icons/rb-todo.png"
     ))
 
     bst.set(27, new Build(
-        title = "TODO",
-        description = "TODO",
+        title = "Vigor 4: Paragon of Spirit",
+        description = "Regenerates 50 health and 40 mana per tick, for your group, for 6 ticks. 5 minute cooldown",
         icon = "/builds/icons/rb-todo.png"
     ))
 
     bst.set(30, new Build(
-        title = "TODO",
-        description = "TODO",
+        title = "Vigor 5: Evasion",
+        description = "Increases chance to avoid melee attacks by 2% per rank",
         icon = "/builds/icons/rb-todo.png"
     ))
 
     bst.set(33, new Build(
-        title = "TODO",
-        description = "TODO",
+        title = "Vigor 6: Empathic Fury",
+        description = "Buffs you and your pet with increased damage and critical hits for 30 seconds, 5 minute cooldown",
         icon = "/builds/icons/rb-todo.png"
     ))
 
@@ -919,38 +919,38 @@ function initBuilds() {
     ))
 
     bst.set(36, new Build(
-        title = "TODO",
-        description = "TODO",
+        title = "Ferocity 1: Ravage",
+        description = "Slash at your target, dealing (10 + level) damage and applying a haste effect to yourself for 12 seconds. 60 second cooldown",
         icon = "/builds/icons/rb-todo.png"
     ))
 
     bst.set(39, new Build(
-        title = "TODO",
-        description = "TODO",
+        title = "Ferocity 2: Wild Swings",
+        description = "Grants you a 3% chance per rank to double attack",
         icon = "/builds/icons/rb-todo.png"
     ))
 
     bst.set(42, new Build(
-        title = "TODO",
-        description = "TODO",
+        title = "Ferocity 3: Frenzy of Spirit",
+        description = "Stirs you into a frenzy, increasing your attack speed by 99%, attack by 50, and decreases your weapon delay by 50% for 48 seconds. 3 minute cooldown",
         icon = "/builds/icons/rb-todo.png"
     ))
 
     bst.set(45, new Build(
-        title = "TODO",
-        description = "TODO",
+        title = "Ferocity 4: Bloodlust",
+        description = "Grants your weapon proc effects a 100% chance to trigger for 18 seconds. 5 minute cooldown",
         icon = "/builds/icons/rb-todo.png"
     ))
 
     bst.set(48, new Build(
-        title = "TODO",
-        description = "TODO",
+        title = "Ferocity 5: Instinctual Incantation",
+        description = "Increases spell haste by 4% per rank",
         icon = "/builds/icons/rb-todo.png"
     ))
 
     bst.set(51, new Build(
-        title = "TODO",
-        description = "TODO",
+        title = "Ferocity 6: Bestial Alignment",
+        description = "Grants you 9% spell resist, 33% increased attack damage, 33% increased pet critical chance and critical damage, and 33% increased spell damage for 30 seconds. 3 minute cooldown",
         icon = "/builds/icons/rb-todo.png"
     ))
 
@@ -2388,38 +2388,38 @@ function initBuilds() {
     mnk = new Map()
 
     mnk.set(0, new Build(
-        title = "TODO",
-        description = "TODO",
+        title = "Focus 1: Hardened Body",
+        description = "Passively increases maximum health by 2% per rank",
         icon = "/builds/icons/rb-todo.png"
     ))
 
     mnk.set(3, new Build(
-        title = "TODO",
-        description = "TODO",
+        title = "Focus 2: Improved Mend",
+        description = "Passively increases your chance to critically mend by 16% per rank, and reduces the reuse timer of mend by 1 minute per rank",
         icon = "/builds/icons/rb-todo.png"
     ))
 
     mnk.set(6, new Build(
-        title = "TODO",
-        description = "TODO",
+        title = "Focus 3: Deflecting Palm",
+        description = "Passively improves your chance to block by 2% per rank",
         icon = "/builds/icons/rb-todo.png"
     ))
 
     mnk.set(9, new Build(
-        title = "TODO",
-        description = "TODO",
+        title = "Focus 4: Perfect Claw",
+        description = "Passively increases the damage of your Tiger Claw skill by 15 per rank",
         icon = "/builds/icons/rb-todo.png"
     ))
 
     mnk.set(12, new Build(
-        title = "TODO",
-        description = "TODO",
+        title = "Focus 5: Chi Reclamation",
+        description = "Passively gives your killing blows against monsters that grant experience a (10% * rank) chance to heal your group for (80 + level * 5) health",
         icon = "/builds/icons/rb-todo.png"
     ))
 
     mnk.set(15, new Build(
-        title = "TODO",
-        description = "TODO",
+        title = "Focus 6: Warding Strike",
+        description = "Passively gives your Dragon Punch and Flying Kick attacks a (6% * rank) chance to apply a 200 health rune effect to yourself for 36 seconds",
         icon = "/builds/icons/rb-todo.png"
     ))
 
@@ -2496,38 +2496,38 @@ function initBuilds() {
     ))
 
     mnk.set(18, new Build(
-        title = "TODO",
-        description = "TODO",
+        title = "Striking 1: Chi Blast",
+        description = "A long ranged attack that deals (12 + level) damage to the target, (60 - 6 * rank) seconds cooldown",
         icon = "/builds/icons/rb-todo.png"
     ))
 
     mnk.set(21, new Build(
-        title = "TODO",
-        description = "TODO",
+        title = "Striking 2: Ambidexterity",
+        description = "Passively increases chance to activate dual wield by 30 effective skill per rank",
         icon = "/builds/icons/rb-todo.png"
     ))
 
     mnk.set(24, new Build(
-        title = "TODO",
-        description = "TODO",
+        title = "Striking 3: Strikethrough",
+        description = "Passively increases the chance for you to bypass your opponents defenses by 3% per rank",
         icon = "/builds/icons/rb-todo.png"
     ))
 
     mnk.set(27, new Build(
-        title = "TODO",
-        description = "TODO",
+        title = "Striking 4: Focused Training",
+        description = "Passively increases your skill caps for one-handed blunt, two-handed blunt, and hand-to-hand by 4 per rank",
         icon = "/builds/icons/rb-todo.png"
     ))
 
     mnk.set(30, new Build(
-        title = "TODO",
-        description = "TODO",
+        title = "Striking 5: Technique of Master Wu",
+        description = "Passively grants you a 12% per rank chance to perform extra special attacks",
         icon = "/builds/icons/rb-todo.png"
     ))
 
     mnk.set(33, new Build(
-        title = "TODO",
-        description = "TODO",
+        title = "Striking 6: Destructive Force",
+        description = "Activate this ability to go into a state of destructive force, causing all of your attacks to hit all enemies in melee range for 36 seconds (note: there is no spell effect icon for this effect). 5 minute cooldown",
         icon = "/builds/icons/rb-todo.png"
     ))
 
@@ -2604,38 +2604,38 @@ function initBuilds() {
     ))
 
     mnk.set(36, new Build(
-        title = "TODO",
-        description = "TODO",
+        title = "Balance 1: Sweeping Kick",
+        description = "Gives your kick, round kick and flying kick skills a (12% * rank) chance to apply an 80% snare effect to the target for 12 seconds",
         icon = "/builds/icons/rb-todo.png"
     ))
 
     mnk.set(39, new Build(
-        title = "TODO",
-        description = "TODO",
+        title = "Balance 2: Improved Bandaging",
+        description = "Passively increases the maximum health percentage you can bandage up to by (10 * rank), and passively increases the amount bandages heal by (100% * rank)",
         icon = "/builds/icons/rb-todo.png"
     ))
 
     mnk.set(42, new Build(
-        title = "TODO",
-        description = "TODO",
+        title = "Balance 3: Purify Body",
+        description = "Purifies the body, dispelling up to 20 detrimental effects. 3 minute cooldown",
         icon = "/builds/icons/rb-todo.png"
     ))
 
     mnk.set(45, new Build(
-        title = "TODO",
-        description = "TODO",
+        title = "Balance 4: Rapid Feign",
+        description = "Passively decreases the cooldown of your feign death skill by 1 second per rank",
         icon = "/builds/icons/rb-todo.png"
     ))
 
     mnk.set(48, new Build(
-        title = "TODO",
-        description = "TODO",
+        title = "Balance 5: Equanimity",
+        description = "Perform a group meditation, restoring 150 mana and 500 endurance to the group. Must be out of combat, 10 second cast time, 10 second cooldown",
         icon = "/builds/icons/rb-todo.png"
     ))
 
     mnk.set(51, new Build(
-        title = "TODO",
-        description = "TODO",
+        title = "Balance 6: Wave of Tranquility",
+        description = "Washes a wave of tranquility over all nearby targets, mesmerizing them for 30 seconds. 3 minute cooldown",
         icon = "/builds/icons/rb-todo.png"
     ))
 
@@ -4073,38 +4073,38 @@ function initBuilds() {
     shd = new Map()
 
     shd.set(0, new Build(
-        title = "TODO",
-        description = "TODO",
+        title = "Graveguard 1: Dark Absorption",
+        description = "Passively grants you a melee lifetap effect that heals you for 2% per rank of the damage done",
         icon = "/builds/icons/rb-todo.png"
     ))
 
     shd.set(3, new Build(
-        title = "TODO",
-        description = "TODO",
+        title = "Graveguard 2: Explosion of Hatred",
+        description = "Fills your target and surrounding enemies with anger, increasing their hate towards you by 3000. 1 minute cooldown",
         icon = "/builds/icons/rb-todo.png"
     ))
 
     shd.set(6, new Build(
-        title = "TODO",
-        description = "TODO",
+        title = "Graveguard 3: Unholy Resilience",
+        description = "Increases maximum health by 3% per rank",
         icon = "/builds/icons/rb-todo.png"
     ))
 
     shd.set(9, new Build(
-        title = "TODO",
-        description = "TODO",
+        title = "Graveguard 4: Scourge Skin",
+        description = "Grants you 50 AC and a 500 point rune effect for 1 minute. 3 minute cooldown",
         icon = "/builds/icons/rb-todo.png"
     ))
 
     shd.set(12, new Build(
-        title = "TODO",
-        description = "TODO",
+        title = "Graveguard 5: Bash of Death",
+        description = "Passively adds a (10% * rank) chance to proc a disease based nuke that deals (25 + level * 2) damage on your bashes",
         icon = "/builds/icons/rb-todo.png"
     ))
 
     shd.set(15, new Build(
-        title = "TODO",
-        description = "TODO",
+        title = "Graveguard 6: Unholy Bastion",
+        description = "Grants you 90% increased parry chance for 30 seconds. 5 minute cooldown",
         icon = "/builds/icons/rb-todo.png"
     ))
 
@@ -4181,38 +4181,38 @@ function initBuilds() {
     ))
 
     shd.set(18, new Build(
-        title = "TODO",
-        description = "TODO",
+        title = "Blight 1: Dread Siphon",
+        description = "Lifetaps in a 50 unit area of effect around your target for (15 + level * 2) damage, generating 250 extra hate. (90 - 6 * rank) seconds cooldown",
         icon = "/builds/icons/rb-todo.png"
     ))
 
     shd.set(21, new Build(
-        title = "TODO",
-        description = "TODO",
+        title = "Blight 2: Mortal Coil",
+        description = "Grants a (10% * rank) chance on killing a monster that grants experience to trigger a buff that increases AC by 50 and weapon lifetap by 40% for 1 minute",
         icon = "/builds/icons/rb-todo.png"
     ))
 
     shd.set(24, new Build(
-        title = "TODO",
-        description = "TODO",
+        title = "Blight 3: Aura of Spite",
+        description = "This ability applies a 20 point damage shield to you for 3 minutes. (450 - 30 * rank) seconds cooldown",
         icon = "/builds/icons/rb-todo.png"
     ))
 
     shd.set(27, new Build(
-        title = "TODO",
-        description = "TODO",
+        title = "Blight 4: Soul Abrasion",
+        description = "Passively increases the amount of damage your lifetap proc buffs do by 20% per rank",
         icon = "/builds/icons/rb-todo.png"
     ))
 
     shd.set(30, new Build(
-        title = "TODO",
-        description = "TODO",
+        title = "Blight 5: Visage of Death",
+        description = "Transforms you into a visage of death, increasing your melee damage by 245% for 1 minute. 5 minute cooldown",
         icon = "/builds/icons/rb-todo.png"
     ))
 
     shd.set(33, new Build(
-        title = "TODO",
-        description = "TODO",
+        title = "Blight 6: T'Vyl's Resolve",
+        description = "Strike your target with a flurry of blows, causing them to take extra damage from attacks for 12 seconds afterwards. 90 second cooldown",
         icon = "/builds/icons/rb-todo.png"
     ))
 
@@ -4289,38 +4289,38 @@ function initBuilds() {
     ))
 
     shd.set(36, new Build(
-        title = "TODO",
-        description = "TODO",
+        title = "Ruin 1: Bite of Chaos",
+        description = "Strikes your target for (25 + level * 3) damage, healing your group for the damage done, restoring (20 + level * 2) mana, and restoring endurance. 90 second cooldown",
         icon = "/builds/icons/rb-todo.png"
     ))
 
     shd.set(39, new Build(
-        title = "TODO",
-        description = "TODO",
+        title = "Ruin 2: Purity of Death",
+        description = "Cures yourself of disease, poison and curses. 3 minute cooldown",
         icon = "/builds/icons/rb-todo.png"
     ))
 
     shd.set(42, new Build(
-        title = "TODO",
-        description = "TODO",
+        title = "Ruin 3: Veil of Undeath",
+        description = "Grants your group perfected invisibility to undead",
         icon = "/builds/icons/rb-todo.png"
     ))
 
     shd.set(45, new Build(
-        title = "TODO",
-        description = "TODO",
+        title = "Ruin 4: Death Peace",
+        description = "Feign death with a 98% chance to succeed with no cast time. 18 second cooldown",
         icon = "/builds/icons/rb-todo.png"
     ))
 
     shd.set(48, new Build(
-        title = "TODO",
-        description = "TODO",
+        title = "Ruin 5: Visage of Decay",
+        description = "Transforms you into a visage of decay, increasing your spell damage by 50% for 1 minute. 5 minute cooldown",
         icon = "/builds/icons/rb-todo.png"
     ))
 
     shd.set(51, new Build(
-        title = "TODO",
-        description = "TODO",
+        title = "Ruin 6: Thought Leech",
+        description = "Taps your target, dealing (80 + level * 4) damage and restoring mana equal to 200% of the damage dealt. 3 minute cooldown",
         icon = "/builds/icons/rb-todo.png"
     ))
 
@@ -4435,7 +4435,7 @@ function initBuilds() {
 
     shm.set(12, new Build(
         title = "Feral 5: Feral Infusion",
-        description = "All melee attacks gain a 75 mod proc that deals (level * 0.75 * 0.2) magic damage and restores 2 mana from the target",
+        description = "All melee attacks gain a 75 mod proc that deals (level * 0.75 * (rank * 0.2)) magic damage and restores (2 * rank) mana from the target",
         icon = "/builds/icons/rb-todo.png"
     ))
 

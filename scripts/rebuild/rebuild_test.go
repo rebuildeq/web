@@ -253,7 +253,7 @@ function initBuilds() {
 			classEntry.shortName,
 		)
 
-		for category := range 3 {
+		for category := 0; category < 3; category++ {
 			webID := 0
 			switch category {
 			case 1:
@@ -261,18 +261,18 @@ function initBuilds() {
 			case 2:
 				webID = 36
 			}
-			for path := range 3 {
+			for path := 0; path < 3; path++ {
 				if path > 0 {
 
 				}
 
-				for ability := range 6 {
+				for ability := 0; ability < 6; ability++ {
 					if ability > 0 {
 
 					}
 					description := ""
 					icon := ""
-					for aaRank := range 5 {
+					for aaRank := 0; aaRank < 5; aaRank++ {
 
 						if aaRank == 0 {
 							buildName := fmt.Sprintf("RB_%s_C%dP%dA%dR%d", strings.ToUpper(classes[class].shortName), category, path, ability, aaRank)
@@ -400,14 +400,16 @@ initBuilds()
 }
 
 func parseAA() error {
-	fi, err := os.Stat("../../../server/base/expansion/aa/builds")
+	var err error
+	var fi os.FileInfo
+	fi, err = os.Stat("../../../base/expansion/aa/builds")
 	if err != nil {
 		return err
 	}
 	if !fi.IsDir() {
 		return fmt.Errorf("expected directory, got %v", fi.Mode())
 	}
-	err = filepath.WalkDir("../../../server/base/expansion/aa/builds", func(path string, d os.DirEntry, err error) error {
+	err = filepath.WalkDir("../../../base/expansion/aa/builds", func(path string, d os.DirEntry, ferr error) error {
 		if d.IsDir() {
 			return nil
 		}
