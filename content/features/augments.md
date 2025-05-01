@@ -32,6 +32,7 @@ Dwarf Card|Weapon|Rare|20 Frost Giant Bane Damage
 Erudite Card|Weapon|Rare|20 Kobold Bane Damage
 Evil Eye Card|Finger|Rare|Eye of Zomm Effect
 Extra Planar Card|Chest|Rare|10 STR, 20 ATK
+Fish Card|Finger|Rare|Enduring Breath Worn Effect
 Froglok Card|Weapon|Rare|20 Troll Bane Damage
 Fungus Card|Chest|Rare|15 HP Regen
 Ghoul Card|Weapon|Rare|Ghoul Root Effect
