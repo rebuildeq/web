@@ -404,14 +404,14 @@ initBuilds()
 func parseAA() error {
 	var err error
 	var fi os.FileInfo
-	fi, err = os.Stat("../../../base/expansion/aa/builds")
+	fi, err = os.Stat("../../../base/aa/builds")
 	if err != nil {
 		return err
 	}
 	if !fi.IsDir() {
 		return fmt.Errorf("expected directory, got %v", fi.Mode())
 	}
-	err = filepath.WalkDir("../../../base/expansion/aa/builds", func(path string, d os.DirEntry, ferr error) error {
+	err = filepath.WalkDir("../../../base/aa/builds", func(path string, d os.DirEntry, ferr error) error {
 		if d.IsDir() {
 			return nil
 		}
