@@ -705,37 +705,37 @@ function initBuilds() {
     bst.set(0, new Build(
         title = "Kinship 1: Gelid Rending",
         description = "This passive ability adds a 3% per rank chance to apply a melee proc effect to your one-handed blunt and hand-to-hand attacks, dealing (5 + level) damage and lowering the target's attack by 25",
-        icon = "/builds/icons/rb-todo.png"
+        icon = "/builds/icons/rb-clr-fistofthegods.png"
     ))
 
     bst.set(3, new Build(
         title = "Kinship 2: Warder's Gift",
         description = "Sacrifices 250 health from your Warder and heals yourself for 250 health, 3 minute cooldown",
-        icon = "/builds/icons/rb-todo.png"
+        icon = "/builds/icons/rb-clr-intensifiedresolution.png"
     ))
 
     bst.set(6, new Build(
         title = "Kinship 3: Nature's Salve",
         description = "Cures you and your warder of poisons, diseases, curses, corruption and a detrimental effect, 2 minute cooldown",
-        icon = "/builds/icons/rb-todo.png"
+        icon = "/builds/icons/rb-mag-mendcompanion.png"
     ))
 
     bst.set(9, new Build(
         title = "Kinship 4: Growl",
         description = "Commands your Warder to growl, causing its next attack to fear all targets in a 50 radius area of effect around it, 3 minute cooldown",
-        icon = "/builds/icons/rb-todo.png"
+        icon = "/builds/icons/rb-enc-direcharm.png"
     ))
 
     bst.set(12, new Build(
         title = "Kinship 5: Warder Recall",
         description = "Summons your warder to your side, wiping both of your hatelists, 3 minute cooldown",
-        icon = "/builds/icons/rb-todo.png"
+        icon = "/builds/icons/rb-dru-callofthewild.png"
     ))
 
     bst.set(15, new Build(
         title = "Kinship 6: Hobble of Spirits",
         description = "Grants your pet a buff that procs a snare effect on its target",
-        icon = "/builds/icons/rb-todo.png"
+        icon = "/builds/icons/rb-shm-virulentparalysis.png"
     ))
 
     bst.set(18, new Build(
@@ -813,37 +813,37 @@ function initBuilds() {
     bst.set(18, new Build(
         title = "Vigor 1: Primal Howl",
         description = "Let loose a primal howl, buffing your strength, attack and armor class for 60 seconds. 3 minute cooldown",
-        icon = "/builds/icons/rb-todo.png"
+        icon = "/builds/icons/rb-dru-callofthewild.png"
     ))
 
     bst.set(21, new Build(
         title = "Vigor 2: Rabid Resolve",
         description = "Increases maximum health by 2% per rank",
-        icon = "/builds/icons/rb-todo.png"
+        icon = "/builds/icons/rb-brd-healingtreble.png"
     ))
 
     bst.set(24, new Build(
         title = "Vigor 3: Protection of the Warder",
         description = "This ability, when activated, absorbs 20% of incoming melee damage up to 200 damage per hit up to 5000 total damage for 1 minute. 5 minute cooldown",
-        icon = "/builds/icons/rb-todo.png"
+        icon = "/builds/icons/rb-dru-focusedswarm.png"
     ))
 
     bst.set(27, new Build(
         title = "Vigor 4: Paragon of Spirit",
         description = "Regenerates 50 health and 40 mana per tick, for your group, for 6 ticks. 5 minute cooldown",
-        icon = "/builds/icons/rb-todo.png"
+        icon = "/builds/icons/rb-pal-waveofmarr.png"
     ))
 
     bst.set(30, new Build(
         title = "Vigor 5: Evasion",
         description = "Increases chance to avoid melee attacks by 2% per rank",
-        icon = "/builds/icons/rb-todo.png"
+        icon = "/builds/icons/rb-enc-backfire.png"
     ))
 
     bst.set(33, new Build(
         title = "Vigor 6: Empathic Fury",
         description = "Buffs you and your pet with increased damage and critical hits for 30 seconds, 5 minute cooldown",
-        icon = "/builds/icons/rb-todo.png"
+        icon = "/builds/icons/rb-enc-cripplingpresence.png"
     ))
 
     bst.set(36, new Build(
@@ -921,37 +921,37 @@ function initBuilds() {
     bst.set(36, new Build(
         title = "Ferocity 1: Ravage",
         description = "Slash at your target, dealing (10 + level) damage and applying a haste effect to yourself for 12 seconds. 60 second cooldown",
-        icon = "/builds/icons/rb-todo.png"
+        icon = "/builds/icons/rb-shm-feralswipe.png"
     ))
 
     bst.set(39, new Build(
         title = "Ferocity 2: Wild Swings",
         description = "Grants you a 3% chance per rank to double attack",
-        icon = "/builds/icons/rb-todo.png"
+        icon = "/builds/icons/rb-shm-spiritofspeed.png"
     ))
 
     bst.set(42, new Build(
         title = "Ferocity 3: Frenzy of Spirit",
         description = "Stirs you into a frenzy, increasing your attack speed by 99%, attack by 50, and decreases your weapon delay by 50% for 48 seconds. 3 minute cooldown",
-        icon = "/builds/icons/rb-todo.png"
+        icon = "/builds/icons/rb-shm-rabidbear.png"
     ))
 
     bst.set(45, new Build(
         title = "Ferocity 4: Bloodlust",
         description = "Grants your weapon proc effects a 100% chance to trigger for 18 seconds. 5 minute cooldown",
-        icon = "/builds/icons/rb-todo.png"
+        icon = "/builds/icons/rb-shm-spiritualinfusion.png"
     ))
 
     bst.set(48, new Build(
         title = "Ferocity 5: Instinctual Incantation",
         description = "Increases spell haste by 4% per rank",
-        icon = "/builds/icons/rb-todo.png"
+        icon = "/builds/icons/rb-shm-ancientwrath.png"
     ))
 
     bst.set(51, new Build(
         title = "Ferocity 6: Bestial Alignment",
         description = "Grants you 9% spell resist, 33% increased attack damage, 33% increased pet critical chance and critical damage, and 33% increased spell damage for 30 seconds. 3 minute cooldown",
-        icon = "/builds/icons/rb-todo.png"
+        icon = "/builds/icons/rb-enc-direcharm.png"
     ))
 
     bst.set(54, new Build(
@@ -2390,37 +2390,37 @@ function initBuilds() {
     mnk.set(0, new Build(
         title = "Focus 1: Hardened Body",
         description = "Passively increases maximum health by 2% per rank",
-        icon = "/builds/icons/rb-todo.png"
+        icon = "/builds/icons/rb-pal-actofvalor.png"
     ))
 
     mnk.set(3, new Build(
         title = "Focus 2: Improved Mend",
         description = "Passively increases your chance to critically mend by 16% per rank, and reduces the reuse timer of mend by 1 minute per rank",
-        icon = "/builds/icons/rb-todo.png"
+        icon = "/builds/icons/rb-mnk-improvedmend.png"
     ))
 
     mnk.set(6, new Build(
         title = "Focus 3: Deflecting Palm",
         description = "Passively improves your chance to block by 2% per rank",
-        icon = "/builds/icons/rb-todo.png"
+        icon = "/builds/icons/rb-mnk-divinesurge.png"
     ))
 
     mnk.set(9, new Build(
         title = "Focus 4: Perfect Claw",
         description = "Passively increases the damage of your Tiger Claw skill by 15 per rank",
-        icon = "/builds/icons/rb-todo.png"
+        icon = "/builds/icons/rb-mnk-destiny.png"
     ))
 
     mnk.set(12, new Build(
         title = "Focus 5: Chi Reclamation",
         description = "Passively gives your killing blows against monsters that grant experience a (10% * rank) chance to heal your group for (80 + level * 5) health",
-        icon = "/builds/icons/rb-todo.png"
+        icon = "/builds/icons/rb-pal-divinestun.png"
     ))
 
     mnk.set(15, new Build(
         title = "Focus 6: Warding Strike",
         description = "Passively gives your Dragon Punch and Flying Kick attacks a (6% * rank) chance to apply a 200 health rune effect to yourself for 36 seconds",
-        icon = "/builds/icons/rb-todo.png"
+        icon = "/builds/icons/rb-mnk-wusquickening.png"
     ))
 
     mnk.set(18, new Build(
@@ -2498,37 +2498,37 @@ function initBuilds() {
     mnk.set(18, new Build(
         title = "Striking 1: Chi Blast",
         description = "A long ranged attack that deals (12 + level) damage to the target, (60 - 6 * rank) seconds cooldown",
-        icon = "/builds/icons/rb-todo.png"
+        icon = "/builds/icons/rb-pal-zealotsfervor.png"
     ))
 
     mnk.set(21, new Build(
         title = "Striking 2: Ambidexterity",
         description = "Passively increases chance to activate dual wield by 30 effective skill per rank",
-        icon = "/builds/icons/rb-todo.png"
+        icon = "/builds/icons/rb-mnk-relentlesstraining.png"
     ))
 
     mnk.set(24, new Build(
         title = "Striking 3: Strikethrough",
         description = "Passively increases the chance for you to bypass your opponents defenses by 3% per rank",
-        icon = "/builds/icons/rb-todo.png"
+        icon = "/builds/icons/rb-mnk-channelchakra.png"
     ))
 
     mnk.set(27, new Build(
         title = "Striking 4: Focused Training",
         description = "Passively increases your skill caps for one-handed blunt, two-handed blunt, and hand-to-hand by 4 per rank",
-        icon = "/builds/icons/rb-todo.png"
+        icon = "/builds/icons/rb-mnk-intensifiedtraining.png"
     ))
 
     mnk.set(30, new Build(
         title = "Striking 5: Technique of Master Wu",
         description = "Passively grants you a 12% per rank chance to perform extra special attacks",
-        icon = "/builds/icons/rb-todo.png"
+        icon = "/builds/icons/rb-mnk-groundedessence.png"
     ))
 
     mnk.set(33, new Build(
         title = "Striking 6: Destructive Force",
         description = "Activate this ability to go into a state of destructive force, causing all of your attacks to hit all enemies in melee range for 36 seconds (note: there is no spell effect icon for this effect). 5 minute cooldown",
-        icon = "/builds/icons/rb-todo.png"
+        icon = "/builds/icons/rb-ber-frenziedstrike.png"
     ))
 
     mnk.set(36, new Build(
@@ -2606,37 +2606,37 @@ function initBuilds() {
     mnk.set(36, new Build(
         title = "Balance 1: Sweeping Kick",
         description = "Gives your kick, round kick and flying kick skills a (12% * rank) chance to apply an 80% snare effect to the target for 12 seconds",
-        icon = "/builds/icons/rb-todo.png"
+        icon = "/builds/icons/rb-mnk-agilefeet.png"
     ))
 
     mnk.set(39, new Build(
         title = "Balance 2: Improved Bandaging",
         description = "Passively increases the maximum health percentage you can bandage up to by (10 * rank), and passively increases the amount bandages heal by (100% * rank)",
-        icon = "/builds/icons/rb-todo.png"
+        icon = "/builds/icons/rb-mnk-partialmending.png"
     ))
 
     mnk.set(42, new Build(
         title = "Balance 3: Purify Body",
         description = "Purifies the body, dispelling up to 20 detrimental effects. 3 minute cooldown",
-        icon = "/builds/icons/rb-todo.png"
+        icon = "/builds/icons/rb-mnk-purifybody.png"
     ))
 
     mnk.set(45, new Build(
         title = "Balance 4: Rapid Feign",
         description = "Passively decreases the cooldown of your feign death skill by 1 second per rank",
-        icon = "/builds/icons/rb-todo.png"
+        icon = "/builds/icons/rb-mnk-slowheartrate.png"
     ))
 
     mnk.set(48, new Build(
         title = "Balance 5: Equanimity",
         description = "Perform a group meditation, restoring 150 mana and 500 endurance to the group. Must be out of combat, 10 second cast time, 10 second cooldown",
-        icon = "/builds/icons/rb-todo.png"
+        icon = "/builds/icons/rb-mnk-tranquility.png"
     ))
 
     mnk.set(51, new Build(
         title = "Balance 6: Wave of Tranquility",
         description = "Washes a wave of tranquility over all nearby targets, mesmerizing them for 30 seconds. 3 minute cooldown",
-        icon = "/builds/icons/rb-todo.png"
+        icon = "/builds/icons/rb-mnk-mendingaura.png"
     ))
 
     mnk.set(54, new Build(
@@ -2727,37 +2727,37 @@ function initBuilds() {
     nec.set(0, new Build(
         title = "Leech 1: Undying Resolve",
         description = "Increases maximum health by 2% per rank",
-        icon = "/builds/icons/rb-todo.png"
+        icon = "/builds/icons/rb-pal-instillpurpose.png"
     ))
 
     nec.set(3, new Build(
         title = "Leech 2: Necrotic Pustules",
         description = "Grants your target a defensive lifetap proc buff for 15 minutes that deals (5 + level / 2) damage, 3 minute cooldown",
-        icon = "/builds/icons/rb-todo.png"
+        icon = "/builds/icons/rb-shd-zevfeersfeast.png"
     ))
 
     nec.set(6, new Build(
         title = "Leech 3: Encroaching Darkness",
         description = "Engulfs your target in darkness, greatly decreasing their movement speed for 2 minutes. 10 second cooldown",
-        icon = "/builds/icons/rb-todo.png"
+        icon = "/builds/icons/rb-shd-darkness.png"
     ))
 
     nec.set(9, new Build(
         title = "Leech 4: Dead Mesmerization",
         description = "Mesmerizes a target undead and surrounding targets for 60 seconds",
-        icon = "/builds/icons/rb-todo.png"
+        icon = "/builds/icons/rb-shd-steadfastservant.png"
     ))
 
     nec.set(12, new Build(
         title = "Leech 5: Theft of Life",
         description = "Gives your lifetap and healing a 3% chance to critically hit per rank",
-        icon = "/builds/icons/rb-todo.png"
+        icon = "/builds/icons/rb-shm-covenantofspirit.png"
     ))
 
     nec.set(15, new Build(
         title = "Leech 6: Mercurial Torment",
         description = "This ability, when activated, reduces the cast time of your detrimental spells by 25% for 5 minutes. 10 minute cooldown",
-        icon = "/builds/icons/rb-todo.png"
+        icon = "/builds/icons/rb-shd-unholyfocus.png"
     ))
 
     nec.set(18, new Build(
@@ -2835,37 +2835,37 @@ function initBuilds() {
     nec.set(18, new Build(
         title = "Decay 1: Mending Flesh",
         description = "Increases health regeneration by 1 per rank",
-        icon = "/builds/icons/rb-todo.png"
+        icon = "/builds/icons/rb-pal-instillpurpose.png"
     ))
 
     nec.set(21, new Build(
         title = "Decay 2: Cloak of Shadows",
         description = "Grants you invisibility for 10 minutes",
-        icon = "/builds/icons/rb-todo.png"
+        icon = "/builds/icons/rb-shd-cloakofshadows.png"
     ))
 
     nec.set(24, new Build(
         title = "Decay 3: Extended Recourse",
         description = "Increases the duration of your damage over time effects (that cost mana and have a duration of at least 12 seconds) by 1 tick per rank",
-        icon = "/builds/icons/rb-todo.png"
+        icon = "/builds/icons/rb-shd-festeringwound.png"
     ))
 
     nec.set(27, new Build(
         title = "Decay 4: Critical Affliction",
         description = "Grants your damage over time effects a 3% chance to critically hit per rank, dealing double damage",
-        icon = "/builds/icons/rb-todo.png"
+        icon = "/builds/icons/rb-shd-bloodoath.png"
     ))
 
     nec.set(30, new Build(
         title = "Decay 5: Funeral Pyre",
         description = "Shortens your damage over time spells by 50% but increases their damage and mana cost by 35% for 2 minutes, 10 minute cooldown",
-        icon = "/builds/icons/rb-todo.png"
+        icon = "/builds/icons/rb-mag-servantofro.png"
     ))
 
     nec.set(33, new Build(
         title = "Decay 6: Soul Siphon",
         description = "Every time one of your damage over time spells ticks, there is a 25% chance to heal your group for (10 * rank) damage",
-        icon = "/builds/icons/rb-todo.png"
+        icon = "/builds/icons/rb-shd-hungeringaura.png"
     ))
 
     nec.set(36, new Build(
@@ -2943,37 +2943,37 @@ function initBuilds() {
     nec.set(36, new Build(
         title = "Soul 1: Shield Bones",
         description = "Grants your pet a rune that absorbs (25 + level * 7) damage, 3 minute cooldown",
-        icon = "/builds/icons/rb-todo.png"
+        icon = "/builds/icons/rb-shd-rottencore.png"
     ))
 
     nec.set(39, new Build(
         title = "Soul 2: Eradicate Magic",
         description = "This ability, when activated, has a 95% chance to remove up to 4 beneficial effects from your NPC target, 30 second cooldown",
-        icon = "/builds/icons/rb-todo.png"
+        icon = "/builds/icons/rb-enc-cripplingpresence.png"
     ))
 
     nec.set(42, new Build(
         title = "Soul 3: Silent Casting",
         description = "Reduces the hate generated by your spells by 4% per rank",
-        icon = "/builds/icons/rb-todo.png"
+        icon = "/builds/icons/rb-shd-empatheticsoul.png"
     ))
 
     nec.set(45, new Build(
         title = "Soul 4: Blood Magic",
         description = "Grants a 30 second buff where you begin using your health to cast spells at a 200% rate and have 20 extra health regeneration, 2 minute cooldown",
-        icon = "/builds/icons/rb-todo.png"
+        icon = "/builds/icons/rb-shm-cannibalize.png"
     ))
 
     nec.set(48, new Build(
         title = "Soul 5: Dying Grasp",
         description = "Lifetaps in a 35 unit area of effect around your target for (50 + level * 5) damage, 5 minute cooldown",
-        icon = "/builds/icons/rb-todo.png"
+        icon = "/builds/icons/rb-shd-mentalresistance.png"
     ))
 
     nec.set(51, new Build(
         title = "Soul 6: Cascade of Decay",
         description = "Grants you a buff that allows your damage over time spells, when cast, a chance to proc an additional 3-tick damage over time on the target, which deals (15 + level * 2) damage",
-        icon = "/builds/icons/rb-todo.png"
+        icon = "/builds/icons/rb-shd-festeringspear.png"
     ))
 
     nec.set(54, new Build(
@@ -4075,37 +4075,37 @@ function initBuilds() {
     shd.set(0, new Build(
         title = "Graveguard 1: Dark Absorption",
         description = "Passively grants you a melee lifetap effect that heals you for 2% per rank of the damage done",
-        icon = "/builds/icons/rb-todo.png"
+        icon = "/builds/icons/rb-shd-lifesap.png"
     ))
 
     shd.set(3, new Build(
         title = "Graveguard 2: Explosion of Hatred",
         description = "Fills your target and surrounding enemies with anger, increasing their hate towards you by 3000. 1 minute cooldown",
-        icon = "/builds/icons/rb-todo.png"
+        icon = "/builds/icons/rb-enc-cripplingpresence.png"
     ))
 
     shd.set(6, new Build(
         title = "Graveguard 3: Unholy Resilience",
         description = "Increases maximum health by 3% per rank",
-        icon = "/builds/icons/rb-todo.png"
+        icon = "/builds/icons/rb-mag-heartofstone.png"
     ))
 
     shd.set(9, new Build(
         title = "Graveguard 4: Scourge Skin",
         description = "Grants you 50 AC and a 500 point rune effect for 1 minute. 3 minute cooldown",
-        icon = "/builds/icons/rb-todo.png"
+        icon = "/builds/icons/rb-shd-gougingskin.png"
     ))
 
     shd.set(12, new Build(
         title = "Graveguard 5: Bash of Death",
         description = "Passively adds a (10% * rank) chance to proc a disease based nuke that deals (25 + level * 2) damage on your bashes",
-        icon = "/builds/icons/rb-todo.png"
+        icon = "/builds/icons/rb-shd-bashofdeath.png"
     ))
 
     shd.set(15, new Build(
         title = "Graveguard 6: Unholy Bastion",
         description = "Grants you 90% increased parry chance for 30 seconds. 5 minute cooldown",
-        icon = "/builds/icons/rb-todo.png"
+        icon = "/builds/icons/rb-pal-dismissevil.png"
     ))
 
     shd.set(18, new Build(
@@ -4183,37 +4183,37 @@ function initBuilds() {
     shd.set(18, new Build(
         title = "Blight 1: Dread Siphon",
         description = "Lifetaps in a 50 unit area of effect around your target for (15 + level * 2) damage, generating 250 extra hate. (90 - 6 * rank) seconds cooldown",
-        icon = "/builds/icons/rb-todo.png"
+        icon = "/builds/icons/rb-shd-siphonofdeath.png"
     ))
 
     shd.set(21, new Build(
         title = "Blight 2: Mortal Coil",
         description = "Grants a (10% * rank) chance on killing a monster that grants experience to trigger a buff that increases AC by 50 and weapon lifetap by 40% for 1 minute",
-        icon = "/builds/icons/rb-todo.png"
+        icon = "/builds/icons/rb-shm-poison.png"
     ))
 
     shd.set(24, new Build(
         title = "Blight 3: Aura of Spite",
         description = "This ability applies a 20 point damage shield to you for 3 minutes. (450 - 30 * rank) seconds cooldown",
-        icon = "/builds/icons/rb-todo.png"
+        icon = "/builds/icons/rb-shd-hungeringaura.png"
     ))
 
     shd.set(27, new Build(
         title = "Blight 4: Soul Abrasion",
         description = "Passively increases the amount of damage your lifetap proc buffs do by 20% per rank",
-        icon = "/builds/icons/rb-todo.png"
+        icon = "/builds/icons/rb-rog-vitalorgans.png"
     ))
 
     shd.set(30, new Build(
         title = "Blight 5: Visage of Death",
         description = "Transforms you into a visage of death, increasing your melee damage by 245% for 1 minute. 5 minute cooldown",
-        icon = "/builds/icons/rb-todo.png"
+        icon = "/builds/icons/rb-shd-steadfastservant.png"
     ))
 
     shd.set(33, new Build(
         title = "Blight 6: T'Vyl's Resolve",
         description = "Strike your target with a flurry of blows, causing them to take extra damage from attacks for 12 seconds afterwards. 90 second cooldown",
-        icon = "/builds/icons/rb-todo.png"
+        icon = "/builds/icons/rb-pal-purposeofmarr.png"
     ))
 
     shd.set(36, new Build(
@@ -4291,37 +4291,37 @@ function initBuilds() {
     shd.set(36, new Build(
         title = "Ruin 1: Bite of Chaos",
         description = "Strikes your target for (25 + level * 3) damage, healing your group for the damage done, restoring (20 + level * 2) mana, and restoring endurance. 90 second cooldown",
-        icon = "/builds/icons/rb-todo.png"
+        icon = "/builds/icons/rb-shm-cannibalize.png"
     ))
 
     shd.set(39, new Build(
         title = "Ruin 2: Purity of Death",
         description = "Cures yourself of disease, poison and curses. 3 minute cooldown",
-        icon = "/builds/icons/rb-todo.png"
+        icon = "/builds/icons/rb-shd-zevfeersfeast.png"
     ))
 
     shd.set(42, new Build(
         title = "Ruin 3: Veil of Undeath",
         description = "Grants your group perfected invisibility to undead",
-        icon = "/builds/icons/rb-todo.png"
+        icon = "/builds/icons/rb-shd-cloakofshadows.png"
     ))
 
     shd.set(45, new Build(
         title = "Ruin 4: Death Peace",
         description = "Feign death with a 98% chance to succeed with no cast time. 18 second cooldown",
-        icon = "/builds/icons/rb-todo.png"
+        icon = "/builds/icons/rb-shd-nightmare.png"
     ))
 
     shd.set(48, new Build(
         title = "Ruin 5: Visage of Decay",
         description = "Transforms you into a visage of decay, increasing your spell damage by 50% for 1 minute. 5 minute cooldown",
-        icon = "/builds/icons/rb-todo.png"
+        icon = "/builds/icons/rb-shd-reapersstrike.png"
     ))
 
     shd.set(51, new Build(
         title = "Ruin 6: Thought Leech",
         description = "Taps your target, dealing (80 + level * 4) damage and restoring mana equal to 200% of the damage dealt. 3 minute cooldown",
-        icon = "/builds/icons/rb-todo.png"
+        icon = "/builds/icons/rb-shd-empatheticsoul.png"
     ))
 
     shd.set(54, new Build(
@@ -4412,37 +4412,37 @@ function initBuilds() {
     shm.set(0, new Build(
         title = "Feral 1: Spiritveil",
         description = "Grants 2% evasion per rank",
-        icon = "/builds/icons/rb-todo.png"
+        icon = "/builds/icons/rb-shm-ancientwrath.png"
     ))
 
     shm.set(3, new Build(
         title = "Feral 2: Group Shrink",
         description = "Shrinks you and your group",
-        icon = "/builds/icons/rb-todo.png"
+        icon = "/builds/icons/rb-shm-covenantofspirit.png"
     ))
 
     shm.set(6, new Build(
         title = "Feral 3: Fortitude",
         description = "Increases maximum health by 1% per rank",
-        icon = "/builds/icons/rb-todo.png"
+        icon = "/builds/icons/rb-shm-extendedhaste.png"
     ))
 
     shm.set(9, new Build(
         title = "Feral 4: Spirit Guardian",
         description = "Places your target under protection of a Spirit Guardian, triggering a 50 hp/tick regen for 6 ticks",
-        icon = "/builds/icons/rb-todo.png"
+        icon = "/builds/icons/rb-shm-spiritualhealing.png"
     ))
 
     shm.set(12, new Build(
         title = "Feral 5: Feral Infusion",
         description = "All melee attacks gain a 75 mod proc that deals (level * 0.75 * (rank * 0.2)) magic damage and restores (2 * rank) mana from the target",
-        icon = "/builds/icons/rb-todo.png"
+        icon = "/builds/icons/rb-shm-spiritualinfusion.png"
     ))
 
     shm.set(15, new Build(
         title = "Feral 6: Rabid Bear",
         description = "Increases Double Attack 20, Attack 25, STR 20",
-        icon = "/builds/icons/rb-todo.png"
+        icon = "/builds/icons/rb-shm-rabidbear.png"
     ))
 
     shm.set(18, new Build(
@@ -4520,37 +4520,37 @@ function initBuilds() {
     shm.set(18, new Build(
         title = "Mender 1: Spiritwell",
         description = "Increases max mana by 30 per rank",
-        icon = "/builds/icons/rb-todo.png"
+        icon = "/builds/icons/rb-shm-paragonofspirit.png"
     ))
 
     shm.set(21, new Build(
         title = "Mender 2: Ancestral Guard",
         description = "Absorb up to 5000 melee damage by 25% for 60 seconds, 10 minute reuse",
-        icon = "/builds/icons/rb-todo.png"
+        icon = "/builds/icons/rb-shm-ancestralguard.png"
     ))
 
     shm.set(24, new Build(
         title = "Mender 3: Communion of the Cheetah",
         description = "Grants you and your group 115% movement speed for 1 minute 18 seconds, 10 minute reuse",
-        icon = "/builds/icons/rb-todo.png"
+        icon = "/builds/icons/rb-shm-spiritofspeed.png"
     ))
 
     shm.set(27, new Build(
         title = "Mender 4: Call of the Ancients",
         description = "Summons a totem that causes a regeneration effect, healing for 2 hp per tick and increases per level. 20 min reuse",
-        icon = "/builds/icons/rb-todo.png"
+        icon = "/builds/icons/rb-shm-spiritcall.png"
     ))
 
     shm.set(30, new Build(
         title = "Mender 5: Spiritual Blessing",
         description = "This ability, when activated, allows all of your healing spells to land as critical heals for the next 12 seconds at a cost of greatly increased mana usage",
-        icon = "/builds/icons/rb-todo.png"
+        icon = "/builds/icons/rb-shm-spiritualchanneling.png"
     ))
 
     shm.set(33, new Build(
         title = "Mender 6: Ancestral Aid",
         description = "Grants your group a 30 STR/STA/AGI/DEX and 60 overcap of same stats, 95% chance to remove one detrimental, and 10 hp/tick for 30 seconds. 5 Minute reuse",
-        icon = "/builds/icons/rb-todo.png"
+        icon = "/builds/icons/rb-shm-ancestralaid.png"
     ))
 
     shm.set(36, new Build(
@@ -4628,37 +4628,37 @@ function initBuilds() {
     shm.set(36, new Build(
         title = "Spiritbender 1: Extended Slow",
         description = "Increases the duration of slows by 5 ticks per rank",
-        icon = "/builds/icons/rb-todo.png"
+        icon = "/builds/icons/rb-shm-virulentparalysis.png"
     ))
 
     shm.set(39, new Build(
         title = "Spiritbender 2: Call of the Wild",
         description = "This ability, when activated, calls a fallen comrade's spirit back to their corpse but does not restore any lost experience.\n Your ally can still obtain an experience resurrection after being called by this ability.\nAllies called back to their corpse suffer from Revival Sickness which leaves them unable to regain more than 20% of their mana and endurance for 2 minutes",
-        icon = "/builds/icons/rb-todo.png"
+        icon = "/builds/icons/rb-shm-calloftheancients.png"
     ))
 
     shm.set(42, new Build(
         title = "Spiritbender 3: Virulent Paralysis",
         description = "This ability, when activated, pushes your target backwards then roots them in place for up to 3 minutes with a 110 point resist modifier, 30 second cooldown",
-        icon = "/builds/icons/rb-todo.png"
+        icon = "/builds/icons/rb-dru-entrap.png"
     ))
 
     shm.set(45, new Build(
         title = "Spiritbender 4: Critical Affliction",
         description = "Grants your damage over time effects a 3% chance to critically hit per rank, dealing double damage",
-        icon = "/builds/icons/rb-todo.png"
+        icon = "/builds/icons/rb-shm-poison.png"
     ))
 
     shm.set(48, new Build(
         title = "Spiritbender 5: Cannibalization",
         description = "Sacrifices 50% of your current health to restore mana equal to half the damage taken",
-        icon = "/builds/icons/rb-todo.png"
+        icon = "/builds/icons/rb-shm-cannibalize.png"
     ))
 
     shm.set(51, new Build(
         title = "Spiritbender 6: Winds of Malaise",
         description = "Casts Malo on your target and all targets that have you on their hatelist in a radius of 50 * rank, 120 second cooldown",
-        icon = "/builds/icons/rb-todo.png"
+        icon = "/builds/icons/rb-dru-natureswhisper.png"
     ))
 
     shm.set(54, new Build(

@@ -494,6 +494,11 @@ func parseDBStrLine(line string) error {
 		if len(records) >= 3 {
 			value = strings.Join(records[2:], " ")
 		}
+	case "icon":
+		key = fmt.Sprintf("%s^7", records[1])
+		if len(records) >= 3 {
+			value = strings.Join(records[2:], " ")
+		}
 	default:
 		return nil
 	}
