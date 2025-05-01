@@ -698,7 +698,7 @@ function initBuilds() {
     classInfo.set("style0", "Warder")
     classInfo.set("style1", "Beastlord")
     classInfo.set("style2", "Animist")
-    classInfos.set(0, classInfo)
+    classInfos.set(15, classInfo)
 
     bst = new Map()
 
@@ -1025,7 +1025,7 @@ function initBuilds() {
         description = "TODO",
         icon = "/builds/icons/rb-todo.png"
     ))
-	builds.set(0, bst)
+	builds.set(15, bst)
 	classInfo = new Map()
 
     classInfo.set("name", "Cleric")
@@ -3057,7 +3057,7 @@ function initBuilds() {
     classInfo.set("style0", "Protector")
     classInfo.set("style1", "Knight")
     classInfo.set("style2", "Crusader")
-    classInfos.set(0, classInfo)
+    classInfos.set(3, classInfo)
 
     pal = new Map()
 
@@ -3384,7 +3384,7 @@ function initBuilds() {
         description = "TODO",
         icon = "/builds/icons/rb-todo.png"
     ))
-	builds.set(0, pal)
+	builds.set(3, pal)
 	classInfo = new Map()
 
     classInfo.set("name", "Ranger")

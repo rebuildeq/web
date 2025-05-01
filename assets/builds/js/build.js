@@ -7,6 +7,7 @@ let maxCharLevel = 60
 
 function setClass(classID) {
 	currentClassID = 0
+
 	let classInfo = classInfos.get(classID)
 	if (!classInfo) {
 		console.log("Invalid class ID: "+classID)
