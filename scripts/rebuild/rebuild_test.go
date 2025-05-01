@@ -57,6 +57,7 @@ var (
 			style0:      "Warder",
 			style1:      "Beastlord",
 			style2:      "Animist",
+			classIndex:  15,
 		}, {
 
 			name:        "Cleric",
@@ -127,6 +128,7 @@ var (
 			style0:      "Protector",
 			style1:      "Knight",
 			style2:      "Crusader",
+			classIndex:  3,
 		},
 		{
 			name:        "Ranger",
