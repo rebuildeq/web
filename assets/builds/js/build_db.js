@@ -1377,39 +1377,39 @@ function initBuilds() {
     dru = new Map()
 
     dru.set(0, new Build(
-        title = "TODO",
-        description = "TODO",
-        icon = "/builds/icons/rb-todo.png"
+        title = "Brambles 1: Snarebloom",
+        description = "Snares your target, applying a temporary buff to yourself that restores mana and grants a small damage shield. 60 seconds - 6 seconds per rank cooldown",
+        icon = "/builds/icons/rb-dru-entrap.png"
     ))
 
     dru.set(3, new Build(
-        title = "TODO",
-        description = "TODO",
-        icon = "/builds/icons/rb-todo.png"
+        title = "Brambles 2: Earthen Resilience",
+        description = "Passively increases maximum health by 1% per rank, and AC by 20 per rank",
+        icon = "/builds/icons/rb-clr-wardofvie.png"
     ))
 
     dru.set(6, new Build(
-        title = "TODO",
-        description = "TODO",
-        icon = "/builds/icons/rb-todo.png"
+        title = "Brambles 3: Amplify Thorns",
+        description = "Passively increases the amount of damage your existing damage shield does by (2 * rank)",
+        icon = "/builds/icons/rb-dru-teleportbind.png"
     ))
 
     dru.set(9, new Build(
-        title = "TODO",
-        description = "TODO",
-        icon = "/builds/icons/rb-todo.png"
+        title = "Brambles 4: Entanglement",
+        description = "Roots everything in a 80 radius range around your target for 2 minutes, 2 minute cooldown",
+        icon = "/builds/icons/rb-dru-deeproots.png"
     ))
 
     dru.set(12, new Build(
-        title = "TODO",
-        description = "TODO",
-        icon = "/builds/icons/rb-todo.png"
+        title = "Brambles 5: Wrath of the Wild",
+        description = "Grants your target a temporary powerful damage shield, which when hit debuffs the attackers attack power. 2 minute cooldown",
+        icon = "/builds/icons/rb-dru-direcharm.png"
     ))
 
     dru.set(15, new Build(
-        title = "TODO",
-        description = "TODO",
-        icon = "/builds/icons/rb-todo.png"
+        title = "Brambles 6: Spirit of the Grove",
+        description = "Grants your group the spirit of the grove, granting increased movement speed, mana regeneration, ultravision, attack, and thorns",
+        icon = "/builds/icons/rb-dru-onewithnature.png"
     ))
 
     dru.set(18, new Build(
@@ -1485,39 +1485,39 @@ function initBuilds() {
     ))
 
     dru.set(18, new Build(
-        title = "TODO",
-        description = "TODO",
-        icon = "/builds/icons/rb-todo.png"
+        title = "Blight 1: Noxstrike",
+        description = "Passively adds a poison damage-over-time effect proc to your melee attacks at a (50 * rank) proc mod rate",
+        icon = "/builds/icons/rb-dru-focusedswarm.png"
     ))
 
     dru.set(21, new Build(
-        title = "TODO",
-        description = "TODO",
-        icon = "/builds/icons/rb-todo.png"
+        title = "Blight 2: Critical Affliction",
+        description = "Passively increases the chance for your damage over time effects to critical hit, dealing double damage, by 2% per rank",
+        icon = "/builds/icons/rb-shd-festeringwound.png"
     ))
 
     dru.set(24, new Build(
-        title = "TODO",
-        description = "TODO",
-        icon = "/builds/icons/rb-todo.png"
+        title = "Blight 3: Verdant Ruin",
+        description = "Applies your 2 highest mana cost damage over time spells to the target at no mana cost, 3 minute (minus 12 seconds per rank) cooldown",
+        icon = "/builds/icons/rb-dru-stingingaffliction.png"
     ))
 
     dru.set(27, new Build(
-        title = "TODO",
-        description = "TODO",
+        title = "Blight 4: Spellsurge",
+        description = "Passively lets you cast spells (3% * rank) faster",
         icon = "/builds/icons/rb-todo.png"
     ))
 
     dru.set(30, new Build(
-        title = "TODO",
-        description = "TODO",
-        icon = "/builds/icons/rb-todo.png"
+        title = "Blight 5: Season's Wrath",
+        description = "Increases the damage the target takes from fire and cold based spells by 30% for 30 seconds, 2.5 minute cooldown",
+        icon = "/builds/icons/rb-dru-intensity.png"
     ))
 
     dru.set(33, new Build(
-        title = "TODO",
-        description = "TODO",
-        icon = "/builds/icons/rb-todo.png"
+        title = "Blight 6: Affinity Burst",
+        description = "Cast to nuke a target with fire or cold damage, depending on how many of each type of spell you have memorized (if you have more fire than cold spells memorized, it will be a fire nuke; if you have equal, it will choose at random). Each element will reduce resistance of the opposite type. 100 mana cost, 3 second cast time, 30 second cooldown",
+        icon = "/builds/icons/rb-wiz-weave.png"
     ))
 
     dru.set(36, new Build(
