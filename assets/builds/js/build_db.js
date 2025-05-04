@@ -1505,7 +1505,7 @@ function initBuilds() {
     dru.set(27, new Build(
         title = "Blight 4: Spellsurge",
         description = "Passively lets you cast spells (3% * rank) faster",
-        icon = "/builds/icons/rb-todo.png"
+        icon = "/builds/icons/rb-dru-convergenceofspirits.png"
     ))
 
     dru.set(30, new Build(
@@ -1515,9 +1515,9 @@ function initBuilds() {
     ))
 
     dru.set(33, new Build(
-        title = "Blight 6: Affinity Burst",
-        description = "Cast to nuke a target with fire or cold damage, depending on how many of each type of spell you have memorized (if you have more fire than cold spells memorized, it will be a fire nuke; if you have equal, it will choose at random). Each element will reduce resistance of the opposite type. 100 mana cost, 3 second cast time, 30 second cooldown",
-        icon = "/builds/icons/rb-wiz-weave.png"
+        title = "Blight 6: Nature's Judgment",
+        description = "Cast to nuke a target and also apply all non-damaging (or lightly damaging) detrimental effects from spells you have memorized. 100 mana cost, 3 second cast time, 3 minute cooldown",
+        icon = "/builds/icons/rb-shm-ancientwrath.png"
     ))
 
     dru.set(36, new Build(
@@ -1593,39 +1593,39 @@ function initBuilds() {
     ))
 
     dru.set(36, new Build(
-        title = "TODO",
-        description = "TODO",
-        icon = "/builds/icons/rb-todo.png"
+        title = "Bloom 1: Branching Life",
+        description = "Passively makes your single target heals also heal the second most injured group member for (10% * rank) healing of the original heal amount",
+        icon = "/builds/icons/rb-dru-natureswhisper.png"
     ))
 
     dru.set(39, new Build(
-        title = "TODO",
-        description = "TODO",
-        icon = "/builds/icons/rb-todo.png"
+        title = "Bloom 2: Purified Spirits",
+        description = "Cleanses yourself of poison, disease and curses, and has a 95% chance to dispel a detrimental effect. 3 minute cooldown",
+        icon = "/builds/icons/rb-pal-flamesofredemption.png"
     ))
 
     dru.set(42, new Build(
-        title = "TODO",
-        description = "TODO",
-        icon = "/builds/icons/rb-todo.png"
+        title = "Bloom 3: Exodus",
+        description = "Teleports your group to a safe point within the current zone. 3 second cast time, 5 minute cooldown",
+        icon = "/builds/icons/rb-dru-exodus.png"
     ))
 
     dru.set(45, new Build(
-        title = "TODO",
-        description = "TODO",
-        icon = "/builds/icons/rb-todo.png"
+        title = "Bloom 4: Lifebound",
+        description = "Increases the healing received by your target by 33% for 24 seconds. 3 minute cooldown",
+        icon = "/builds/icons/rb-pal-wardoftunare.png"
     ))
 
     dru.set(48, new Build(
-        title = "TODO",
-        description = "TODO",
-        icon = "/builds/icons/rb-todo.png"
+        title = "Bloom 5: Pulse of Renewal",
+        description = "Heals your entire group for (25 + level * 5) health. 90 second cooldown",
+        icon = "/builds/icons/rb-clr-exquisitebenediction.png"
     ))
 
     dru.set(51, new Build(
-        title = "TODO",
-        description = "TODO",
-        icon = "/builds/icons/rb-todo.png"
+        title = "Bloom 6: Nature's Boon",
+        description = "Summons a stationary plant that bestows nature's boon upon all nearby adventurers, restoring 30 health per tick for 60 seconds. 5 minute cooldown",
+        icon = "/builds/icons/rb-dru-naturesboon.png"
     ))
 
     dru.set(54, new Build(
