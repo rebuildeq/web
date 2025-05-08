@@ -2497,7 +2497,7 @@ function initBuilds() {
 
     mnk.set(18, new Build(
         title = "Striking 1: Chi Blast",
-        description = "A long ranged attack that deals (12 + level) damage to the target, (60 - 6 * rank) seconds cooldown",
+        description = "A long ranged attack that deals (5 + level) damage to the target, (60 - 6 * rank) seconds cooldown",
         icon = "/builds/icons/rb-pal-zealotsfervor.png"
     ))
 
@@ -3399,39 +3399,39 @@ function initBuilds() {
     rng = new Map()
 
     rng.set(0, new Build(
-        title = "TODO",
-        description = "TODO",
-        icon = "/builds/icons/rb-todo.png"
+        title = "Survivor 1: Battle Hardened",
+        description = "Passively increases both your maximum health and chance to parry by (2% * rank)",
+        icon = "/builds/icons/rb-pal-knightsadvantage.png"
     ))
 
     rng.set(3, new Build(
-        title = "TODO",
-        description = "TODO",
-        icon = "/builds/icons/rb-todo.png"
+        title = "Survivor 2: Create Campfire",
+        description = "Creates a campfire at your location for 5 minutes, that lightly heals and buffs nearby party members. (10 - rank) minute cooldown",
+        icon = "/builds/icons/rb-brd-elementalharmony.png"
     ))
 
     rng.set(6, new Build(
-        title = "TODO",
-        description = "TODO",
-        icon = "/builds/icons/rb-todo.png"
+        title = "Survivor 3: Fox's Dance",
+        description = "Activate this ability to dodge the next 4 incoming attacks. (90 - 6 * rank) second cooldown",
+        icon = "/builds/icons/rb-dru-convergenceofspirits.png"
     ))
 
     rng.set(9, new Build(
-        title = "TODO",
-        description = "TODO",
-        icon = "/builds/icons/rb-todo.png"
+        title = "Survivor 4: Chameleon's Gift",
+        description = "Grants your target a buff that if their health drops below 75%, they get a temporary buff that reduces the hate they generate by 99%. 5 minute cooldown",
+        icon = "/builds/icons/rb-dru-natureswhisper.png"
     ))
 
     rng.set(12, new Build(
-        title = "TODO",
-        description = "TODO",
-        icon = "/builds/icons/rb-todo.png"
+        title = "Survivor 5: Protection of the Spirit Wolf",
+        description = "Activate to gain the protection of the Spirit Wolf, absorbing 25% of melee and spell damage (up to 5000), and a 25% chance to resist spells for 1 minute. 5 minute cooldown",
+        icon = "/builds/icons/rb-dru-callofthewild.png"
     ))
 
     rng.set(15, new Build(
-        title = "TODO",
-        description = "TODO",
-        icon = "/builds/icons/rb-todo.png"
+        title = "Survivor 6: Empowered Blades",
+        description = "Makes your attacks deal more damage for 24 seconds (+30 for one-handed, +60 for two-handed). 3 minute cooldown",
+        icon = "/builds/icons/rb-mag-shockofswords.png"
     ))
 
     rng.set(18, new Build(
@@ -3507,39 +3507,39 @@ function initBuilds() {
     ))
 
     rng.set(18, new Build(
-        title = "TODO",
-        description = "TODO",
-        icon = "/builds/icons/rb-todo.png"
+        title = "Marksman 1: Burning Arrow",
+        description = "Fires a burning arrow at the target, dealing (7 + level * 2) damage. (70 - 5 * rank) second cooldown",
+        icon = "/builds/icons/rb-mag-servantofro.png"
     ))
 
     rng.set(21, new Build(
-        title = "TODO",
-        description = "TODO",
-        icon = "/builds/icons/rb-todo.png"
+        title = "Marksman 2: Archery Mastery",
+        description = "Passively increases the damage of your archery attacks by (40% * rank), gives your ranged attacks a chance to double attack (6% * rank), and increases the accuracy of your archery by (3% * rank)",
+        icon = "/builds/icons/rb-rng-venomousvolley.png"
     ))
 
     rng.set(24, new Build(
-        title = "TODO",
-        description = "TODO",
-        icon = "/builds/icons/rb-todo.png"
+        title = "Marksman 3: Tanglefield",
+        description = "Snares your target and all nearby NPC targets in a 60 unit radius for 2 minutes. 3 minute cooldown",
+        icon = "/builds/icons/rb-dru-deeproots.png"
     ))
 
     rng.set(27, new Build(
-        title = "TODO",
-        description = "TODO",
+        title = "Marksman 4: Endless Quiver",
+        description = "Passively gives you a (20% * rank) chance to not consume ammo when performing ranged attacks",
         icon = "/builds/icons/rb-todo.png"
     ))
 
     rng.set(30, new Build(
-        title = "TODO",
-        description = "TODO",
-        icon = "/builds/icons/rb-todo.png"
+        title = "Marksman 5: Rain of Arrows",
+        description = "Rain arrows down upon your target and nearby enemies, hitting a maximum of 16 times over 4 waves. 2 minute cooldown",
+        icon = "/builds/icons/rb-mag-quickdamage.png"
     ))
 
     rng.set(33, new Build(
-        title = "TODO",
-        description = "TODO",
-        icon = "/builds/icons/rb-todo.png"
+        title = "Marksman 6: Auspice of the Hunter",
+        description = "Grants your party the auspice of the hunter, increasing their melee, spell and heal critical chance by 30%, spell and hit damage by 25%, accuracy by 15, and attack by 100. 5 minute cooldown",
+        icon = "/builds/icons/rb-enc-direcharm.png"
     ))
 
     rng.set(36, new Build(
@@ -3615,9 +3615,9 @@ function initBuilds() {
     ))
 
     rng.set(36, new Build(
-        title = "TODO",
-        description = "TODO",
-        icon = "/builds/icons/rb-todo.png"
+        title = "Stalker 1: Biting Trap",
+        description = "Places a trap on the ground that applies a strong root (with reduced chance to break) and light damage-over-time effect to the first enemy to enter range. (90 - 6 * rank) second cooldown",
+        icon = "/builds/icons/rb-shm-cannibalize.png"
     ))
 
     rng.set(39, new Build(
@@ -4525,7 +4525,7 @@ function initBuilds() {
 
     shm.set(21, new Build(
         title = "Mender 2: Ancestral Guard",
-        description = "Absorb up to 5000 melee damage by 25% for 60 seconds, 10 minute reuse",
+        description = "Absorb up to 5000 melee damage by 25% for 18 seconds, 3 minute reuse",
         icon = "/builds/icons/rb-shm-ancestralguard.png"
     ))
 
