@@ -3527,7 +3527,7 @@ function initBuilds() {
     rng.set(27, new Build(
         title = "Marksman 4: Endless Quiver",
         description = "Passively gives you a (20% * rank) chance to not consume ammo when performing ranged attacks",
-        icon = "/builds/icons/rb-todo.png"
+        icon = "/builds/icons/rb-rng-reinforcedbowstring.png"
     ))
 
     rng.set(30, new Build(
@@ -3621,33 +3621,33 @@ function initBuilds() {
     ))
 
     rng.set(39, new Build(
-        title = "TODO",
-        description = "TODO",
-        icon = "/builds/icons/rb-todo.png"
+        title = "Stalker 2: Cover Tracks",
+        description = "Activate to drop aggro and turn yourself invisible. 5 minute cooldown",
+        icon = "/builds/icons/rb-rog-sleightdistraction.png"
     ))
 
     rng.set(42, new Build(
-        title = "TODO",
-        description = "TODO",
-        icon = "/builds/icons/rb-todo.png"
+        title = "Stalker 3: Entropy of Nature",
+        description = "Strips up to 9 beneficial effects from your target with a 95% chance each. 3 minute cooldown",
+        icon = "/builds/icons/rb-enc-energyburn.png"
     ))
 
     rng.set(45, new Build(
-        title = "TODO",
-        description = "TODO",
-        icon = "/builds/icons/rb-todo.png"
+        title = "Stalker 4: Relentless Strikes",
+        description = "Passively increases your chance to double attack and triple attack (must have existing triple attack skill)",
+        icon = "/builds/icons/rb-pal-purposeofmarr.png"
     ))
 
     rng.set(48, new Build(
-        title = "TODO",
-        description = "TODO",
-        icon = "/builds/icons/rb-todo.png"
+        title = "Stalker 5: Explosive Traps",
+        description = "Places 3 explosive traps that trigger when an enemy is nearby, dealing area explosive damage. 2 minute cooldown",
+        icon = "/builds/icons/rb-mag-servantofro.png"
     ))
 
     rng.set(51, new Build(
-        title = "TODO",
-        description = "TODO",
-        icon = "/builds/icons/rb-todo.png"
+        title = "Stalker 6: Imbued Ferocity",
+        description = "Imbues your weapons, guaranteeing non-duration procs for 18 seconds. 3 minute cooldown",
+        icon = "/builds/icons/rb-pal-elixirofmight.png"
     ))
 
     rng.set(54, new Build(
